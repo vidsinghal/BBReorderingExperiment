@@ -41,12 +41,15 @@ The llvm disassembly has the extension .ll
 For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.ll**
 
 **original.bc** -- The bitcode file compiled with opt using -O3 
+
 **reordered.bc** -- The bitcode file compiled with opt using -O3 and the random basic block permutation pass
 
 **original.stats** -- The statistics obtained compiling original.bc with llc using -O3 
+
 **reordered.stats** -- The statistics obtained compiling reordered.bc with llc using -O3
 
 **original.s** -- assembly of orignal file
+
 **reordered.s** -- assembly of reordered file
 
 for example for the source file 1. the diff of the stats is 
