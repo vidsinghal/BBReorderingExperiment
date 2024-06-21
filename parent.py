@@ -35,6 +35,10 @@ rm_stats_register = "rm " + FILE_TO_SAVE_STATS
 print(rm_stats_register)
 code_rm = subprocess.call(rm_stats_register, shell=True)
 
+def common_member(a, b):
+    result = [i for i in a if i in b]
+    return list(set(result))
+
 NUM_FILES = 1000
 for i in range(NUM_FILES):
     
