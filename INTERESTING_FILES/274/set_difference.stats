@@ -1,15 +1,15 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
+
+pass - Number of machine instrs printed: 12 asm-printer vs 13 asm-printer
+pass - Number of dag nodes combined: 5 dagcombine vs 6 dagcombine
+pass - Number of times dag isel has to try another path: 58 isel vs 44 isel
+pass - Number of interval joins performed: 3 regalloc vs 4 regalloc
+
+Print remaning unique stats...
+
+Print any remaning lines in original that are not present in reordered:
 
 1 branch-folder - Number of branches optimized
-12 asm-printer - Number of machine instrs printed
-3 regalloc - Number of interval joins performed
-5 dagcombine - Number of dag nodes combined
-58 isel - Number of times dag isel has to try another path
 
-Print lines in reordered that are not present in original:
+Print any remaning lines in reordered that are not present in original:
 
-1 twoaddressinstruction - Number of two-address instructions
-13 asm-printer - Number of machine instrs printed
-4 regalloc - Number of interval joins performed
-44 isel - Number of times dag isel has to try another path
-6 dagcombine - Number of dag nodes combined

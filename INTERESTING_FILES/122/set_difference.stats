@@ -1,14 +1,16 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
 
-1 branch-folder - Number of dead blocks removed
+pass - Number of dead blocks removed: 2 tailduplication vs 1 tailduplication
+pass - Number of dead blocks removed: 2 tailduplication vs 1 tailduplication
+pass - Number of tails duplicated: 2 tailduplication vs 1 tailduplication
+
+Print remaning unique stats...
+
+Print any remaning lines in original that are not present in reordered:
+
 1 tailduplication - Number of instructions added due to tail duplication
 1 tailduplication - Number of phis added
 1 tailduplication - Number of tail duplicated blocks
-2 tailduplication - Number of dead blocks removed
-2 tailduplication - Number of tails duplicated
 
-Print lines in reordered that are not present in original:
+Print any remaning lines in reordered that are not present in original:
 
-1 tailduplication - Number of dead blocks removed
-1 tailduplication - Number of tails duplicated
-2 branch-folder - Number of dead blocks removed

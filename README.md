@@ -75,6 +75,7 @@ Print lines in reordered that are not present in original:
 
 * LLVM version with basic block reordering: https://github.com/vidsinghal/llvm-project/tree/shuffle_bb
 * The LLVM version is added as a submodule. 
+* Make sure you checkout to **shuffle_bb** branch.
 * A dataset of source files to test, we have around 1000 files in **samples**. 
 
 ### Executing program

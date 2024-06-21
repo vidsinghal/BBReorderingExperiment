@@ -1,13 +1,12 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
 
-19 asm-printer - Number of machine instrs printed
-3 dagcombine - Number of dag nodes combined
+pass - Number of machine instrs printed: 19 asm-printer vs 27 asm-printer
+pass - Number of dag nodes combined: 3 dagcombine vs 2 dagcombine
 
-Print lines in reordered that are not present in original:
+Print remaning unique stats...
 
-1 tailduplication - Number of dead blocks removed
-2 dagcombine - Number of dag nodes combined
-2 tailduplication - Number of tails duplicated
-27 asm-printer - Number of machine instrs printed
-3 tailduplication - Number of tail duplicated blocks
-7 tailduplication - Number of instructions added due to tail duplication
+Print any remaning lines in original that are not present in reordered:
+
+
+Print any remaning lines in reordered that are not present in original:
+

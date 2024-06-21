@@ -1,19 +1,16 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
 
-14 regalloc - Number of interval joins performed
-2 phi-node-elimination - Number of phis lowered
-2 tailduplication - Number of tail duplicated blocks
-3 dagcombine - Number of dag nodes combined
-3 tailduplication - Number of instructions added due to tail duplication
-3 twoaddressinstruction - Number of two-address instructions
+pass - Number of dag nodes combined: 3 dagcombine vs 7 dagcombine
+pass - Number of phis lowered: 2 phi-node-elimination vs 1 phi-node-elimination
+pass - Number of interval joins performed: 14 regalloc vs 12 regalloc
+pass - Number of instructions added due to tail duplication: 3 tailduplication vs 4 tailduplication
+pass - Number of tail duplicated blocks: 2 tailduplication vs 3 tailduplication
+pass - Number of two-address instructions: 3 twoaddressinstruction vs 4 twoaddressinstruction
 
-Print lines in reordered that are not present in original:
+Print remaning unique stats...
 
-1 machine-cse - Number of copies coalesced
-1 phi-node-elimination - Number of phis lowered
-12 regalloc - Number of interval joins performed
-2 dead-mi-elimination - Number of dead instructions deleted
-3 tailduplication - Number of tail duplicated blocks
-4 tailduplication - Number of instructions added due to tail duplication
-4 twoaddressinstruction - Number of two-address instructions
-7 dagcombine - Number of dag nodes combined
+Print any remaning lines in original that are not present in reordered:
+
+
+Print any remaning lines in reordered that are not present in original:
+

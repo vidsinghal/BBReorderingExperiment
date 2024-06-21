@@ -1,11 +1,13 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
+
+pass - Number of dag nodes combined: 5 dagcombine vs 2 dagcombine
+pass - Number of times dag isel has to try another path: 35 isel vs 31 isel
+
+Print remaning unique stats...
+
+Print any remaning lines in original that are not present in reordered:
 
 1 peephole-opt - Number of loads folded
-35 isel - Number of times dag isel has to try another path
-5 dagcombine - Number of dag nodes combined
 
-Print lines in reordered that are not present in original:
+Print any remaning lines in reordered that are not present in original:
 
-1 branch-folder - Number of branches optimized
-2 dagcombine - Number of dag nodes combined
-31 isel - Number of times dag isel has to try another path

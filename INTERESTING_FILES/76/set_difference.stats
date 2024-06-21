@@ -1,14 +1,15 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
+
+pass - Number of dag nodes combined: 9 dagcombine vs 4 dagcombine
+pass - Number of times dag isel has to try another path: 78 isel vs 93 isel
+pass - Number of interval joins performed: 4 regalloc vs 3 regalloc
+
+Print remaning unique stats...
+
+Print any remaning lines in original that are not present in reordered:
 
 1 peephole-opt - Number of compares eliminated
 1 twoaddressinstruction - Number of two-address instructions
-4 regalloc - Number of interval joins performed
-78 isel - Number of times dag isel has to try another path
-9 dagcombine - Number of dag nodes combined
 
-Print lines in reordered that are not present in original:
+Print any remaning lines in reordered that are not present in original:
 
-1 branch-folder - Number of branches optimized
-3 regalloc - Number of interval joins performed
-4 dagcombine - Number of dag nodes combined
-93 isel - Number of times dag isel has to try another path

@@ -1,7 +1,12 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
+
+
+Print remaning unique stats...
+
+Print any remaning lines in original that are not present in reordered:
 
 1 branch-folder - Number of branches optimized
 
-Print lines in reordered that are not present in original:
+Print any remaning lines in reordered that are not present in original:
 
 4 dagcombine - Number of dag nodes combined

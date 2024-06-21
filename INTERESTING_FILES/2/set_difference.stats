@@ -1,15 +1,20 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
+
+pass - Number of machine instrs printed: 3 asm-printer vs 2 asm-printer
+pass - Number of dead blocks removed: 2 branch-folder vs 1 tailduplication
+
+Print remaning unique stats...
+
+Print any remaning lines in original that are not present in reordered:
 
 1 branch-folder - Number of branches optimized
 1 regalloc - Number of cross class joins performed
 1 regalloc - Number of identity moves eliminated after rewriting
 1 regalloc - Number of interval joins performed
 1 regalloc - Number of registers assigned
-2 branch-folder - Number of dead blocks removed
-3 asm-printer - Number of machine instrs printed
 4 dagcombine - Number of dag nodes combined
 
-Print lines in reordered that are not present in original:
+Print any remaning lines in reordered that are not present in original:
 
 1 branch-folder - Number of dead blocks removed
 1 tailduplication - Number of dead blocks removed

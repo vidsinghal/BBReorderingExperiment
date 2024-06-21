@@ -1,11 +1,11 @@
-Print lines in original that are not present in reordered:
+pass - description: <before> vs. <after>
 
-9 asm-printer - Number of machine instrs printed
+pass - Number of machine instrs printed: 9 asm-printer vs 10 asm-printer
 
-Print lines in reordered that are not present in original:
+Print remaning unique stats...
 
-1 machine-cp - Number of copy uses forwarded
-1 tailduplication - Number of instructions added due to tail duplication
-1 tailduplication - Number of tail duplicated blocks
-1 tailduplication - Number of tails duplicated
-10 asm-printer - Number of machine instrs printed
+Print any remaning lines in original that are not present in reordered:
+
+
+Print any remaning lines in reordered that are not present in original:
+
