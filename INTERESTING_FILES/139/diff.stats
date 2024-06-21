@@ -1,0 +1,12 @@
+7a8
+>  1 branch-folder    - Number of branches optimized
+9c10
+<  5 dagcombine       - Number of dag nodes combined
+---
+>  2 dagcombine       - Number of dag nodes combined
+12c13
+< 35 isel             - Number of times dag isel has to try another path
+---
+> 31 isel             - Number of times dag isel has to try another path
+15d15
+<  1 peephole-opt     - Number of loads folded

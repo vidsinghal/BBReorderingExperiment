@@ -38,22 +38,28 @@ The folder contains the reduced part of the original bitcode file.
 
 For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.bc**
 
-The llvm disassembly has the extension .ll
+The llvm IR has the extension .ll
 For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.ll**
 
 **original.bc** -- The bitcode file compiled with opt using -O3 
 
 **reordered.bc** -- The bitcode file compiled with opt using -O3 and the random basic block permutation pass
 
+**original.ll** -- The corresponding llvm IR
+
+**reordered.ll** -- The corresponding llvm IR
+
 **original.stats** -- The statistics obtained compiling original.bc with llc using -O3 
 
 **reordered.stats** -- The statistics obtained compiling reordered.bc with llc using -O3
+
+**diff.stats** -- Stores the diff of the statistics 
 
 **original.s** -- assembly of orignal file
 
 **reordered.s** -- assembly of reordered file
 
-for instance the source file 1 has the following diff of the stats. 
+for instance the source file 1 has the following diff of the stats in **diff.stats**
 
 ```
 8d7

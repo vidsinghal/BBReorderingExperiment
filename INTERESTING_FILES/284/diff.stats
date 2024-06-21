@@ -1,0 +1,15 @@
+7d6
+<  1 branch-folder         - Number of dead blocks removed
+18c17
+<  2 phi-node-elimination  - Number of phis lowered
+---
+>  1 phi-node-elimination  - Number of phis lowered
+29c28
+< 11 regalloc              - Number of interval joins performed
+---
+>  9 regalloc              - Number of interval joins performed
+33a33,36
+>  1 tailduplication       - Number of dead blocks removed
+>  1 tailduplication       - Number of instructions added due to tail duplication
+>  1 tailduplication       - Number of tail duplicated blocks
+>  1 tailduplication       - Number of tails duplicated

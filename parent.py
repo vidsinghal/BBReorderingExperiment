@@ -102,13 +102,24 @@ for i in range(NUM_FILES):
             subprocess.call(compile_original_opt, shell=True)
             compile_original_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
             subprocess.call(compile_original_llc, shell=True)
+
+            #store dis-assembly
+            dis_orignal = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.ll"
+            subprocess.call(dis_orignal, shell=True)
             
             #compile reordered using opt and llc
             compile_reordered_opt = LLVM_OPT + " --passes='default<O3>,reorder-code' " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
             subprocess.call(compile_reordered_opt, shell=True)
             compile_reordered_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
             subprocess.call(compile_reordered_llc, shell=True)
-            
+
+            #store dis-assembly
+            dis_reordered = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.ll"
+            subprocess.call(dis_reordered, shell=True)
+
+            #diff stats 
+            diff_stats = "diff " + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + "&> " + INTERESTING_FILES + "/" + str(i) + "/" + "diff.stats"
+            subprocess.call(diff_stats, shell=True)
 
         #run python script to get the stats
         command_str_python_script = "python3 diff_stats.py " + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats" + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats"
