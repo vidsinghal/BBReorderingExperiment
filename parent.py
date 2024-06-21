@@ -174,9 +174,9 @@ for i in range(NUM_FILES):
                 if (f11Map[line] != f22Map[line]):
                     keys_printed.append(line)
                     diff_open.write(f11Map[line][1].ljust(30, " ") + " - ")
-                    diff_open.write(line.ljust(80, " ") + ": ".ljust(3, " "))
+                    diff_open.write(line.ljust(75, " ") + ": ".ljust(3, " "))
                     diff_open.write(f11Map[line][0].ljust(5, " "))
-                    diff_open.write(" vs ")
+                    diff_open.write(" vs".ljust(5, " "))
                     diff_open.write(f22Map[line][0].ljust(5, " "))
                     diff_open.write("\n")
     
@@ -184,9 +184,9 @@ for i in range(NUM_FILES):
                 split_line = line.split(" - ")
                 if split_line[1] not in keys_printed:
                     diff_open.write(f11Map[split_line[1]][1].ljust(30, " ") + " - ")
-                    diff_open.write(split_line[1].ljust(80, " ") + ": ".ljust(3, " "))
+                    diff_open.write(split_line[1].ljust(75, " ") + ": ".ljust(3, " "))
                     diff_open.write(f11Map[split_line[1]][0].ljust(5, " "))
-                    diff_open.write(" vs ")
+                    diff_open.write(" vs".ljust(5, " "))
                     diff_open.write("Nil".ljust(5, " "))
                     diff_open.write("\n")
 
@@ -194,9 +194,9 @@ for i in range(NUM_FILES):
                 split_line = line.split(" - ")
                 if split_line[1] not in keys_printed:
                     diff_open.write(f22Map[split_line[1]][1].ljust(30, " ") + " - ")
-                    diff_open.write(split_line[1].ljust(80, " ") + ": ".ljust(3, " "))
+                    diff_open.write(split_line[1].ljust(75, " ") + ": ".ljust(3, " "))
                     diff_open.write("Nil".ljust(5, " "))
-                    diff_open.write(" vs ")
+                    diff_open.write(" vs".ljust(5, " "))
                     diff_open.write(f22Map[split_line[1]][0].ljust(5, " "))
                     diff_open.write("\n")
 

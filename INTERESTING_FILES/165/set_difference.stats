@@ -1,10 +1,10 @@
-pass - description: <before> vs. <after>
+pass - description: <before> vs <after>
 
-asm-printer                    - Number of machine instrs printed                                                :  7     vs 9    
-dagcombine                     - Number of dag nodes combined                                                    :  4     vs 6    
-tailduplication                - Number of tails duplicated                                                      :  1     vs 2    
-machine-cse                    - Number of common subexpression eliminated                                       :  1     vs Nil  
-machine-cse                    - Number of cross-MBB physreg referencing CS eliminated                           :  1     vs Nil  
-machine-cse                    - Number of physreg referencing common subexpr eliminated                         :  1     vs Nil  
-branch-folder                  - Number of branches optimized                                                    :  2     vs Nil  
-tailduplication                - Number of tail duplicated blocks                                                :  Nil   vs 1    
+asm-printer                    - Number of machine instrs printed                                           :  7     vs  9    
+dagcombine                     - Number of dag nodes combined                                               :  4     vs  6    
+tailduplication                - Number of tails duplicated                                                 :  1     vs  2    
+machine-cse                    - Number of common subexpression eliminated                                  :  1     vs  Nil  
+machine-cse                    - Number of cross-MBB physreg referencing CS eliminated                      :  1     vs  Nil  
+machine-cse                    - Number of physreg referencing common subexpr eliminated                    :  1     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  2     vs  Nil  
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    

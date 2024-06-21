@@ -1,4 +1,4 @@
-pass - description: <before> vs. <after>
+pass - description: <before> vs <after>
 
-branch-folder                  - Number of branches optimized                                                    :  1     vs Nil  
-dagcombine                     - Number of dag nodes combined                                                    :  Nil   vs 4    
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+dagcombine                     - Number of dag nodes combined                                               :  Nil   vs  4    
