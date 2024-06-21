@@ -119,8 +119,44 @@ for i in range(NUM_FILES):
             subprocess.call(dis_reordered, shell=True)
 
             #diff stats 
-            diff_stats = "diff " + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + "&> " + INTERESTING_FILES + "/" + str(i) + "/" + "diff.stats"
-            subprocess.call(diff_stats, shell=True)
+            f1 = INTERESTING_FILES + "/" + str(i) + "/" + "original.stats"
+            f2 = INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats"
+    
+            f1_open = open(f1, "r")
+            f2_open = open(f2, "r")
+    
+            f1_lines = f1_open.readlines()
+            f11 = []
+            for line in f1_lines:
+                split_line = line.split(" - ")
+                if len(split_line) > 1:
+                    print(split_line)
+                    f11.append(split_line[0].strip() + " - " +  split_line[1].strip())
+                    
+            f2_lines = f2_open.readlines()
+            f22 = []
+            for line in f2_lines:
+                split_line = line.split(" - ")
+                if len(split_line) > 1:
+                    print(split_line)
+                    f22.append(split_line[0].strip() + " - " + split_line[1].strip())
+
+            dif1 = np.setdiff1d(f11, f22)
+            dif2 = np.setdiff1d(f22, f11)
+    
+            diff_stats = INTERESTING_FILES + "/" + str(i) + "/" + "set_difference.stats"
+            diff_open = open(diff_stats, "w")
+
+            diff_open.write("Print lines in original that are not present in reordered:\n\n")
+            for line in dif1:
+                diff_open.write(line + "\n")
+    
+            diff_open.write("\n")
+            diff_open.write("Print lines in reordered that are not present in original:\n\n")
+            for line in dif2:
+                diff_open.write(line + "\n")
+
+            diff_open.close()
 
         #run python script to get the stats
         command_str_python_script = "python3 diff_stats.py " + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats" + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats"
