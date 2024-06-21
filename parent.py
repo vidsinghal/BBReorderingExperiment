@@ -127,34 +127,68 @@ for i in range(NUM_FILES):
     
             f1_lines = f1_open.readlines()
             f11 = []
+            f11Map = {}
+            keys1 = []
             for line in f1_lines:
                 split_line = line.split(" - ")
+
                 if len(split_line) > 1:
                     print(split_line)
+                    f11Map[split_line[1].strip()] = split_line[0].strip()
+                    keys1.append(split_line[1].strip())
                     f11.append(split_line[0].strip() + " - " +  split_line[1].strip())
-                    
+                
+
             f2_lines = f2_open.readlines()
             f22 = []
+            f22Map = {}
+            keys2 = []
             for line in f2_lines:
                 split_line = line.split(" - ")
+
                 if len(split_line) > 1:
                     print(split_line)
+                    f22Map[split_line[1].strip()] = split_line[0].strip()
+                    keys2.append(split_line[1].strip())
                     f22.append(split_line[0].strip() + " - " + split_line[1].strip())
 
             dif1 = np.setdiff1d(f11, f22)
             dif2 = np.setdiff1d(f22, f11)
-    
+
+            key1_not2 = np.setdiff1d(keys1, keys2)
+            key2_not1 = np.setdiff1d(keys2, keys1)
+
+            common = common_member(keys1, keys2)
+            
             diff_stats = INTERESTING_FILES + "/" + str(i) + "/" + "set_difference.stats"
             diff_open = open(diff_stats, "w")
-
-            diff_open.write("Print lines in original that are not present in reordered:\n\n")
-            for line in dif1:
-                diff_open.write(line + "\n")
-    
+            
+            diff_open.write("pass - description: <before> vs. <after>\n\n")
+            keys_printed = []
+            for line in common:
+                if (f11Map[line] != f22Map[line]):
+                    keys_printed.append(line)
+                    diff_open.write("pass - ")
+                    diff_open.write(line + ": ")
+                    diff_open.write(f11Map[line])
+                    diff_open.write(" vs ")
+                    diff_open.write(f22Map[line])
+                    diff_open.write("\n")
+            
             diff_open.write("\n")
-            diff_open.write("Print lines in reordered that are not present in original:\n\n")
+            diff_open.write("Print remaning unique stats...") 
+            diff_open.write("\n\n")
+            diff_open.write("Print any remaning lines in original that are not present in reordered:\n\n")
+            for line in dif1:
+                split_line = line.split(" - ")
+                if split_line[1] not in keys_printed:
+                    diff_open.write(line + "\n")
+            
+            diff_open.write("\n")
+            diff_open.write("Print any remaning lines in reordered that are not present in original:\n\n")
             for line in dif2:
-                diff_open.write(line + "\n")
+                if split_line[1] not in keys_printed:
+                    diff_open.write(line + "\n")
 
             diff_open.close()
 
