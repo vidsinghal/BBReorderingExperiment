@@ -1,0 +1,11 @@
+Print lines in original that are not present in reordered:
+
+9 asm-printer - Number of machine instrs printed
+
+Print lines in reordered that are not present in original:
+
+1 machine-cp - Number of copy uses forwarded
+1 tailduplication - Number of instructions added due to tail duplication
+1 tailduplication - Number of tail duplicated blocks
+1 tailduplication - Number of tails duplicated
+10 asm-printer - Number of machine instrs printed

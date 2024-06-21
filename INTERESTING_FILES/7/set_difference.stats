@@ -1,0 +1,13 @@
+Print lines in original that are not present in reordered:
+
+19 asm-printer - Number of machine instrs printed
+3 dagcombine - Number of dag nodes combined
+
+Print lines in reordered that are not present in original:
+
+1 tailduplication - Number of dead blocks removed
+2 dagcombine - Number of dag nodes combined
+2 tailduplication - Number of tails duplicated
+27 asm-printer - Number of machine instrs printed
+3 tailduplication - Number of tail duplicated blocks
+7 tailduplication - Number of instructions added due to tail duplication

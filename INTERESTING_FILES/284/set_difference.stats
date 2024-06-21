@@ -1,0 +1,14 @@
+Print lines in original that are not present in reordered:
+
+1 branch-folder - Number of dead blocks removed
+11 regalloc - Number of interval joins performed
+2 phi-node-elimination - Number of phis lowered
+
+Print lines in reordered that are not present in original:
+
+1 phi-node-elimination - Number of phis lowered
+1 tailduplication - Number of dead blocks removed
+1 tailduplication - Number of instructions added due to tail duplication
+1 tailduplication - Number of tail duplicated blocks
+1 tailduplication - Number of tails duplicated
+9 regalloc - Number of interval joins performed

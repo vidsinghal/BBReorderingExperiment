@@ -1,0 +1,15 @@
+Print lines in original that are not present in reordered:
+
+5 dagcombine - Number of dag nodes combined
+7 asm-printer - Number of machine instrs printed
+86 isel - Number of times dag isel has to try another path
+
+Print lines in reordered that are not present in original:
+
+1 branch-folder - Number of branches optimized
+1 regalloc - Number of interval joins performed
+1 twoaddressinstruction - Number of two-address instructions
+4 post-RA-sched - Number of pipeline stalls
+6 dagcombine - Number of dag nodes combined
+65 isel - Number of times dag isel has to try another path
+8 asm-printer - Number of machine instrs printed

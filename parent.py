@@ -4,6 +4,7 @@ import hashlib
 import re
 import statistics
 import sys
+import numpy as np
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))

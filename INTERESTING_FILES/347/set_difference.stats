@@ -1,0 +1,12 @@
+Print lines in original that are not present in reordered:
+
+1 branch-folder - Number of dead blocks removed
+1 machinelicm - Number of instructions hoisted in low reg pressure situation
+2 machinelicm - Number of machine instructions hoisted out of loops
+4 dagcombine - Number of dag nodes combined
+
+Print lines in reordered that are not present in original:
+
+1 tailduplication - Number of dead blocks removed
+1 tailduplication - Number of instructions removed due to tail duplication
+1 tailduplication - Number of tails duplicated
