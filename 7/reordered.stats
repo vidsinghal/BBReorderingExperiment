@@ -1,0 +1,43 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+27 asm-printer           - Number of machine instrs printed
+47 bitcode-reader        - Number of Metadata records loaded
+ 1 bitcode-reader        - Number of MDStrings loaded
+ 2 dagcombine            - Number of dag nodes combined
+ 1 dead-mi-elimination   - Number of dead instructions deleted
+ 1 dwarf-eh-prepare      - Number of functions with nounwind
+ 4 isel                  - Number of blocks selected using DAG
+77 isel                  - Number of times dag isel has to try another path
+ 1 isel                  - Number of entry blocks encountered
+ 3 machinelicm           - Number of machine instructions hoisted out of loops
+ 1 phi-node-elimination  - Number of phis lowered
+24 prologepilog          - Number of bytes used for stack in all functions
+ 1 prologepilog          - Number of functions seen in PEI
+ 7 regalloc              - Number of registers assigned
+ 4 regalloc              - Number of copies inserted for splitting
+ 1 regalloc              - Number of instructions deleted by DCE
+ 2 regalloc              - Number of splits finished
+ 2 regalloc              - Number of split global live ranges
+ 1 regalloc              - Number of identity moves eliminated after rewriting
+ 7 regalloc              - Number of new live ranges queued
+ 1 regalloc              - Number of instructions rematerialized
+ 2 regalloc              - Number of reloads inserted
+ 1 regalloc              - Number of rematerialized defs for spilling
+ 2 regalloc              - Number of splits that were simple
+ 1 regalloc              - Number of spill slots allocated
+ 2 regalloc              - Number of spilled live ranges
+ 1 regalloc              - Number of spills inserted
+ 1 regalloc              - Number of registers unassigned
+ 4 regalloc              - Number of interval joins performed
+ 1 shrink-wrap           - Number of functions
+ 1 slotindexes           - Number of local renumberings
+ 1 stackmaps             - Number of functions skipped
+ 1 stackmaps             - Number of functions visited
+ 1 tailduplication       - Number of dead blocks removed
+ 7 tailduplication       - Number of instructions added due to tail duplication
+ 3 tailduplication       - Number of tail duplicated blocks
+ 2 tailduplication       - Number of tails duplicated
+ 2 twoaddressinstruction - Number of two-address instructions
+
