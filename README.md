@@ -19,7 +19,7 @@ different stats from the global register.
 ### A script (script.sh) that does the following job:
 
 Take a source bitcode file, call is source.bc 
-Compile it two times, with/without our reordering pass and store the statistics in both cases. 
+and compile it two times, with/without our reordering pass and store the statistics in both cases. 
 If we see a diff in the statistics (using **diff_and_check.py**), then the script returns status interesting
 (**exit 1**) for that source file otherwise (**exit 0**).
 
