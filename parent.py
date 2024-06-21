@@ -34,8 +34,8 @@ rm_stats_register = "rm " + FILE_TO_SAVE_STATS
 print(rm_stats_register)
 code_rm = subprocess.call(rm_stats_register, shell=True)
 
-
-for i in range(1000):
+NUM_FILES = 1000
+for i in range(NUM_FILES):
     
     input_to_reduce = INPUTS + str(i) + ".bc"
 
