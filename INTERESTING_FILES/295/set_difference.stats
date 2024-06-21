@@ -1,21 +1,11 @@
 pass - description: <before> vs. <after>
 
-pass - Number of dead blocks removed: 1 branch-folder vs 1 tailduplication
-pass - Number of instructions rematerialized: 2 regalloc vs 1 regalloc
-
-Print remaning unique stats...
-
-Print any remaning lines in original that are not present in reordered:
-
-1 machinelicm - Number of machine instructions hoisted out of loops
-1 regalloc - Number of rematerialized defs for spilling
-1 regalloc - Number of spilled live ranges
-2 regalloc - Number of new live ranges queued
-4 dagcombine - Number of dag nodes combined
-
-Print any remaning lines in reordered that are not present in original:
-
-1 regalloc - Number of instructions rematerialized
-1 tailduplication - Number of dead blocks removed
-1 tailduplication - Number of instructions removed due to tail duplication
-1 tailduplication - Number of tails duplicated
+branch-folder - Number of dead blocks removed: 1 vs 1
+regalloc - Number of instructions rematerialized: 2 vs 1
+machinelicm - Number of machine instructions hoisted out of loops: 1 vs Nil
+regalloc - Number of rematerialized defs for spilling: 1 vs Nil
+regalloc - Number of spilled live ranges: 1 vs Nil
+regalloc - Number of new live ranges queued: 2 vs Nil
+dagcombine - Number of dag nodes combined: 4 vs Nil
+tailduplication - Number of instructions removed due to tail duplication: Nil vs 1
+tailduplication - Number of tails duplicated: Nil vs 1

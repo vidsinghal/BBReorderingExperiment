@@ -1,18 +1,10 @@
 pass - description: <before> vs. <after>
 
-pass - Number of dag nodes combined: 4 dagcombine vs 9 dagcombine
-pass - Number of times dag isel has to try another path: 46 isel vs 61 isel
-pass - Number of interval joins performed: 2 regalloc vs 1 regalloc
-
-Print remaning unique stats...
-
-Print any remaning lines in original that are not present in reordered:
-
-1 branch-folder - Number of branches optimized
-1 peephole-opt - Number of compares eliminated
-1 twoaddressinstruction - Number of instructions aggressively commuted
-1 twoaddressinstruction - Number of instructions commuted to coalesce
-1 twoaddressinstruction - Number of two-address instructions
-
-Print any remaning lines in reordered that are not present in original:
-
+dagcombine - Number of dag nodes combined: 4 vs 9
+isel - Number of times dag isel has to try another path: 46 vs 61
+regalloc - Number of interval joins performed: 2 vs 1
+branch-folder - Number of branches optimized: 1 vs Nil
+peephole-opt - Number of compares eliminated: 1 vs Nil
+twoaddressinstruction - Number of instructions aggressively commuted: 1 vs Nil
+twoaddressinstruction - Number of instructions commuted to coalesce: 1 vs Nil
+twoaddressinstruction - Number of two-address instructions: 1 vs Nil

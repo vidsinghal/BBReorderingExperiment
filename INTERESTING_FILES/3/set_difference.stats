@@ -1,16 +1,8 @@
 pass - description: <before> vs. <after>
 
-pass - Number of machine instrs printed: 8 asm-printer vs 7 asm-printer
-pass - Number of dag nodes combined: 6 dagcombine vs 5 dagcombine
-pass - Number of times dag isel has to try another path: 43 isel vs 57 isel
-pass - Number of interval joins performed: 2 regalloc vs 1 regalloc
-
-Print remaning unique stats...
-
-Print any remaning lines in original that are not present in reordered:
-
-1 branch-folder - Number of branches optimized
-1 twoaddressinstruction - Number of two-address instructions
-
-Print any remaning lines in reordered that are not present in original:
-
+asm-printer - Number of machine instrs printed: 8 vs 7
+dagcombine - Number of dag nodes combined: 6 vs 5
+isel - Number of times dag isel has to try another path: 43 vs 57
+regalloc - Number of interval joins performed: 2 vs 1
+branch-folder - Number of branches optimized: 1 vs Nil
+twoaddressinstruction - Number of two-address instructions: 1 vs Nil

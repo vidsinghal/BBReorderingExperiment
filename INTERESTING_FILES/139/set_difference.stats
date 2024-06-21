@@ -1,13 +1,6 @@
 pass - description: <before> vs. <after>
 
-pass - Number of dag nodes combined: 5 dagcombine vs 2 dagcombine
-pass - Number of times dag isel has to try another path: 35 isel vs 31 isel
-
-Print remaning unique stats...
-
-Print any remaning lines in original that are not present in reordered:
-
-1 peephole-opt - Number of loads folded
-
-Print any remaning lines in reordered that are not present in original:
-
+dagcombine - Number of dag nodes combined: 5 vs 2
+isel - Number of times dag isel has to try another path: 35 vs 31
+peephole-opt - Number of loads folded: 1 vs Nil
+branch-folder - Number of branches optimized: Nil vs 1

@@ -134,7 +134,9 @@ for i in range(NUM_FILES):
 
                 if len(split_line) > 1:
                     print(split_line)
-                    f11Map[split_line[1].strip()] = split_line[0].strip()
+                    left = split_line[0].strip()
+                    left_pr = left.split(" ")
+                    f11Map[split_line[1].strip()] = (left_pr[0], left_pr[1])
                     keys1.append(split_line[1].strip())
                     f11.append(split_line[0].strip() + " - " +  split_line[1].strip())
                 
@@ -148,7 +150,9 @@ for i in range(NUM_FILES):
 
                 if len(split_line) > 1:
                     print(split_line)
-                    f22Map[split_line[1].strip()] = split_line[0].strip()
+                    left = split_line[0].strip()
+                    left_pr = left.split(" ")
+                    f22Map[split_line[1].strip()] = (left_pr[0], left_pr[1])
                     keys2.append(split_line[1].strip())
                     f22.append(split_line[0].strip() + " - " + split_line[1].strip())
 
@@ -165,30 +169,36 @@ for i in range(NUM_FILES):
             
             diff_open.write("pass - description: <before> vs. <after>\n\n")
             keys_printed = []
+
             for line in common:
                 if (f11Map[line] != f22Map[line]):
                     keys_printed.append(line)
-                    diff_open.write("pass - ")
+                    diff_open.write(f11Map[line][1] + " - ")
                     diff_open.write(line + ": ")
-                    diff_open.write(f11Map[line])
+                    diff_open.write(f11Map[line][0])
                     diff_open.write(" vs ")
-                    diff_open.write(f22Map[line])
+                    diff_open.write(f22Map[line][0])
                     diff_open.write("\n")
-            
-            diff_open.write("\n")
-            diff_open.write("Print remaning unique stats...") 
-            diff_open.write("\n\n")
-            diff_open.write("Print any remaning lines in original that are not present in reordered:\n\n")
+    
             for line in dif1:
                 split_line = line.split(" - ")
                 if split_line[1] not in keys_printed:
-                    diff_open.write(line + "\n")
-            
-            diff_open.write("\n")
-            diff_open.write("Print any remaning lines in reordered that are not present in original:\n\n")
+                    diff_open.write(f11Map[split_line[1]][1] + " - ")
+                    diff_open.write(split_line[1] + ": ")
+                    diff_open.write(f11Map[split_line[1]][0])
+                    diff_open.write(" vs ")
+                    diff_open.write("Nil")
+                    diff_open.write("\n")
+
             for line in dif2:
+                split_line = line.split(" - ")
                 if split_line[1] not in keys_printed:
-                    diff_open.write(line + "\n")
+                    diff_open.write(f22Map[split_line[1]][1] + " - ")
+                    diff_open.write(split_line[1] + ": ")
+                    diff_open.write("Nil")
+                    diff_open.write(" vs ")
+                    diff_open.write(f22Map[split_line[1]][0])
+                    diff_open.write("\n")
 
             diff_open.close()
 

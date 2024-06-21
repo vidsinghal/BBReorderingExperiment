@@ -1,12 +1,8 @@
 pass - description: <before> vs. <after>
 
-pass - Number of machine instrs printed: 19 asm-printer vs 27 asm-printer
-pass - Number of dag nodes combined: 3 dagcombine vs 2 dagcombine
-
-Print remaning unique stats...
-
-Print any remaning lines in original that are not present in reordered:
-
-
-Print any remaning lines in reordered that are not present in original:
-
+asm-printer - Number of machine instrs printed: 19 vs 27
+dagcombine - Number of dag nodes combined: 3 vs 2
+tailduplication - Number of dead blocks removed: Nil vs 1
+tailduplication - Number of tails duplicated: Nil vs 2
+tailduplication - Number of tail duplicated blocks: Nil vs 3
+tailduplication - Number of instructions added due to tail duplication: Nil vs 7
