@@ -1,0 +1,38 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+22 asm-printer           - Number of machine instrs printed
+42 bitcode-reader        - Number of Metadata records loaded
+ 7 dagcombine            - Number of dag nodes combined
+ 2 dead-mi-elimination   - Number of dead instructions deleted
+ 1 dwarf-eh-prepare      - Number of functions with nounwind
+ 6 isel                  - Number of blocks selected using DAG
+86 isel                  - Number of times dag isel has to try another path
+ 1 isel                  - Number of entry blocks encountered
+ 1 machine-cse           - Number of copies coalesced
+ 1 machine-scheduler     - Number of instr pairs fused
+ 1 machine-sink          - Number of critical edges split
+ 2 machine-sink          - Number of machine instructions sunk
+ 1 peephole-opt          - Number of compares eliminated
+ 1 peephole-opt          - Number of move immediate folded
+ 1 phi-node-elimination  - Number of phis lowered
+ 2 pre-RA-sched          - Number of times a  single predecessor was added
+ 1 pre-RA-sched          - Number of times the topological order has been recomputed
+ 1 prologepilog          - Number of functions seen in PEI
+ 7 regalloc              - Number of registers assigned
+ 1 regalloc              - Number of interferences evicted
+ 5 regalloc              - Number of identity moves eliminated after rewriting
+ 1 regalloc              - Number of new live ranges queued
+ 1 regalloc              - Number of registers unassigned
+ 8 regalloc              - Number of cross class joins performed
+12 regalloc              - Number of interval joins performed
+ 1 shrink-wrap           - Number of functions
+ 1 stackmaps             - Number of functions skipped
+ 1 stackmaps             - Number of functions visited
+ 2 tailduplication       - Number of dead blocks removed
+ 4 tailduplication       - Number of instructions added due to tail duplication
+ 3 tailduplication       - Number of tail duplicated blocks
+ 2 tailduplication       - Number of tails duplicated
+ 4 twoaddressinstruction - Number of two-address instructions
+
