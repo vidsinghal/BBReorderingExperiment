@@ -9,7 +9,7 @@ The experiment is as follows
 
 ### We keep a global register (across different source files) of unique statistics seen so far
 
-This is in stats_seen_so_far.txt
+This is in **stats_seen_so_far.txt**
 
 ### A script to diff stats and check if unique stats exist (diff_and_check.py)
 
@@ -25,7 +25,7 @@ If we see a diff in the statistics (using **diff_and_check.py**), then the scrip
 
 ### A script that invokes llvm-reduce to reduce the input file
 
-The parent.py script invokes llvm-reduce with script.sh to check if the input is interesting.
+The **parent.py** script invokes **llvm-reduce** with **script.sh** to check if the input is interesting.
 If so, we save it. We also update the global register with new statistics that were seen 
 and continue for all source files. 
 In out experiment, the source files were named with integer values, for instance, **0.bc**, **1.bc** ...
