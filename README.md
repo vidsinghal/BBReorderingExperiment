@@ -65,12 +65,12 @@ for instance the source file 1 has the following diff of the stats.
 ### Dependencies
 
 * LLVM version with basic block reordering: https://github.com/vidsinghal/llvm-project/tree/shuffle_bb
-* A dataset of source files to test. 
+* The LLVM version is added as a submodule. 
+* A dataset of source files to test, we have around 1000 files in **samples**. 
 
 ### Executing program
 
-* Python3 parent.py to execute the script. 
-* The hardcoded paths may need to be changed. 
+* **Python3 parent.py** to run the experiment. 
 
 ## Authors
 
