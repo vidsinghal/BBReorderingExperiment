@@ -53,7 +53,7 @@ For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b1
 
 **reordered.s** -- assembly of reordered file
 
-for instance the source file 1 has the following diff.
+for instance the source file 1 has the following diff of the stats. 
 
 ```
 8d7
