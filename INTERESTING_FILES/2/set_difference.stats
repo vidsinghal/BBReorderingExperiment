@@ -1,13 +1,13 @@
 pass - description: <before> vs. <after>
 
-asm-printer - Number of machine instrs printed: 3 vs 2
-branch-folder - Number of dead blocks removed: 2 vs 1
-branch-folder - Number of branches optimized: 1 vs Nil
-regalloc - Number of cross class joins performed: 1 vs Nil
-regalloc - Number of identity moves eliminated after rewriting: 1 vs Nil
-regalloc - Number of interval joins performed: 1 vs Nil
-regalloc - Number of registers assigned: 1 vs Nil
-dagcombine - Number of dag nodes combined: 4 vs Nil
-tailduplication - Number of instructions removed due to tail duplication: Nil vs 1
-tailduplication - Number of tails duplicated: Nil vs 1
-dead-mi-elimination - Number of dead instructions deleted: Nil vs 3
+asm-printer                    - Number of machine instrs printed                                                :  3     vs 2    
+branch-folder                  - Number of dead blocks removed                                                   :  2     vs 1    
+branch-folder                  - Number of branches optimized                                                    :  1     vs Nil  
+regalloc                       - Number of cross class joins performed                                           :  1     vs Nil  
+regalloc                       - Number of identity moves eliminated after rewriting                             :  1     vs Nil  
+regalloc                       - Number of interval joins performed                                              :  1     vs Nil  
+regalloc                       - Number of registers assigned                                                    :  1     vs Nil  
+dagcombine                     - Number of dag nodes combined                                                    :  4     vs Nil  
+tailduplication                - Number of instructions removed due to tail duplication                          :  Nil   vs 1    
+tailduplication                - Number of tails duplicated                                                      :  Nil   vs 1    
+dead-mi-elimination            - Number of dead instructions deleted                                             :  Nil   vs 3    

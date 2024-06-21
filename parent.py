@@ -167,37 +167,37 @@ for i in range(NUM_FILES):
             diff_stats = INTERESTING_FILES + "/" + str(i) + "/" + "set_difference.stats"
             diff_open = open(diff_stats, "w")
             
-            diff_open.write("pass - description: <before> vs. <after>\n\n")
+            diff_open.write("pass - description: <before> vs <after>\n\n")
             keys_printed = []
 
             for line in common:
                 if (f11Map[line] != f22Map[line]):
                     keys_printed.append(line)
-                    diff_open.write(f11Map[line][1] + " - ")
-                    diff_open.write(line + ": ")
-                    diff_open.write(f11Map[line][0])
+                    diff_open.write(f11Map[line][1].ljust(30, " ") + " - ")
+                    diff_open.write(line.ljust(80, " ") + ": ".ljust(3, " "))
+                    diff_open.write(f11Map[line][0].ljust(5, " "))
                     diff_open.write(" vs ")
-                    diff_open.write(f22Map[line][0])
+                    diff_open.write(f22Map[line][0].ljust(5, " "))
                     diff_open.write("\n")
     
             for line in dif1:
                 split_line = line.split(" - ")
                 if split_line[1] not in keys_printed:
-                    diff_open.write(f11Map[split_line[1]][1] + " - ")
-                    diff_open.write(split_line[1] + ": ")
-                    diff_open.write(f11Map[split_line[1]][0])
+                    diff_open.write(f11Map[split_line[1]][1].ljust(30, " ") + " - ")
+                    diff_open.write(split_line[1].ljust(80, " ") + ": ".ljust(3, " "))
+                    diff_open.write(f11Map[split_line[1]][0].ljust(5, " "))
                     diff_open.write(" vs ")
-                    diff_open.write("Nil")
+                    diff_open.write("Nil".ljust(5, " "))
                     diff_open.write("\n")
 
             for line in dif2:
                 split_line = line.split(" - ")
                 if split_line[1] not in keys_printed:
-                    diff_open.write(f22Map[split_line[1]][1] + " - ")
-                    diff_open.write(split_line[1] + ": ")
-                    diff_open.write("Nil")
+                    diff_open.write(f22Map[split_line[1]][1].ljust(30, " ") + " - ")
+                    diff_open.write(split_line[1].ljust(80, " ") + ": ".ljust(3, " "))
+                    diff_open.write("Nil".ljust(5, " "))
                     diff_open.write(" vs ")
-                    diff_open.write(f22Map[split_line[1]][0])
+                    diff_open.write(f22Map[split_line[1]][0].ljust(5, " "))
                     diff_open.write("\n")
 
             diff_open.close()
