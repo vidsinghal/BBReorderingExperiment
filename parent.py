@@ -9,11 +9,11 @@ import sys
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 INPUTS = dir_path + "/samples/"
-REDUCED_FILES = dir_path + "/REDUCED_FILES/"
+INTERESTING_FILES = dir_path + "/INTERESTING_FILES/"
 SRC = dir_path + "/samples/"
 
-if not os.path.exists(REDUCED_FILES):
-    os.mkdir(REDUCED_FILES)
+if not os.path.exists(INTERESTING_FILES):
+    os.mkdir(INTERESTING_FILES)
 
 LLVM_CLANG= dir_path + "/llvm-project/build/bin/clang"
 LLVM_OPT= dir_path + "/llvm-project/build/bin/opt"
@@ -82,15 +82,15 @@ for i in range(1000):
             print("Found reasonable size file, continuing...")
 
             # Make a directory for the reduced files to be stored     
-            if not os.path.exists(REDUCED_FILES + "/" + str(i) + "/"):
-                os.mkdir(REDUCED_FILES + "/" + str(i) + "/")
+            if not os.path.exists(INTERESTING_FILES + "/" + str(i) + "/"):
+                os.mkdir(INTERESTING_FILES + "/" + str(i) + "/")
 
             HASHES.append(file_hash)
-            gen_cpy = "cp " + "reduced.bc " + REDUCED_FILES + "/" + str(i) + "/" + file_hash + ".bc"
+            gen_cpy = "cp " + "reduced.bc " + INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc"
             print(gen_cpy)
             code_cp = subprocess.call(gen_cpy, shell=True)
 
-            gen_cpy_ll = "cp " + "reduced.ll " + REDUCED_FILES + "/" + str(i) + "/" + file_hash + ".ll"
+            gen_cpy_ll = "cp " + "reduced.ll " + INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".ll"
             print(gen_cpy_ll)
             code_cp = subprocess.call(gen_cpy_ll, shell=True)
 
@@ -98,20 +98,20 @@ for i in range(1000):
             #diff the update register here
 
             #compile original using opt and llc 
-            compile_original_opt = LLVM_OPT + " -O3 " +  REDUCED_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + REDUCED_FILES + "/" + str(i) + "/" + "original.bc"
+            compile_original_opt = LLVM_OPT + " -O3 " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
             subprocess.call(compile_original_opt, shell=True)
-            compile_original_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + REDUCED_FILES + "/" + str(i) + "/" + "original.stats " + REDUCED_FILES + "/" + str(i) + "/" + "original.bc"
+            compile_original_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
             subprocess.call(compile_original_llc, shell=True)
             
             #compile reordered using opt and llc
-            compile_reordered_opt = LLVM_OPT + " --passes='default<O3>,reorder-code' " +  REDUCED_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + REDUCED_FILES + "/" + str(i) + "/" + "reordered.bc"
+            compile_reordered_opt = LLVM_OPT + " --passes='default<O3>,reorder-code' " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
             subprocess.call(compile_reordered_opt, shell=True)
-            compile_reordered_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + REDUCED_FILES + "/" + str(i) + "/" + "reordered.stats " + REDUCED_FILES + "/" + str(i) + "/" + "reordered.bc"
+            compile_reordered_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
             subprocess.call(compile_reordered_llc, shell=True)
             
 
         #run python script to get the stats
-        command_str_python_script = "python3 diff_stats.py " + REDUCED_FILES + "/" + str(i) + "/" + "original.stats" + " " + REDUCED_FILES + "/" + str(i) + "/" + "reordered.stats"
+        command_str_python_script = "python3 diff_stats.py " + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats" + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats"
         print(command_str_python_script)
         code_python_script = subprocess.call(command_str_python_script, shell=True)
         print(code_python_script)

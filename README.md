@@ -33,8 +33,9 @@ There is a dataset in **samples**
 
 ### Structure description 
 
-Each numbered folder in the repository is a unique source file. 
-The folder contains the reduced part of the original bitcode file. 
+Each numbered folder in **INTERESTING_FILES** is a unique source file. 
+The folder contains the reduced part of the original bitcode file.
+
 For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.bc**
 
 The llvm disassembly has the extension .ll
