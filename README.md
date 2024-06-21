@@ -20,33 +20,34 @@ different stats from the global register.
 
 Take a source bitcode file, call is source.bc 
 Compile it two times, with/without our reordering pass and store the statistics in both cases. 
-If we see a diff in the statistics (using diff_and_check.py), then the script returns status interesting
-(exit 1) for that source file otherwise (exit 0).
+If we see a diff in the statistics (using **diff_and_check.py**), then the script returns status interesting
+(**exit 1**) for that source file otherwise (**exit 0**).
 
 ### A script that invokes llvm-reduce to reduce the input file
 
 The parent.py script invokes llvm-reduce with script.sh to check if the input is interesting.
 If so, we save it. We also update the global register with new statistics that were seen 
 and continue for all source files. 
-In out experiment, the source files were named with integer values, for instance, 0.bc, 1.bc ...
+In out experiment, the source files were named with integer values, for instance, **0.bc**, **1.bc** ...
+There is a dataset in **samples**
 
 ### Structure description 
 
 Each numbered folder in the repository is a unique source file. 
 The folder contains the reduced part of the original bitcode file. 
-For instance, 1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.bc
+For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.bc**
 
 The llvm disassembly has the extension .ll
-For instance, 1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.ll
+For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b16f.ll**
 
-original.bc -- The bitcode file compiled with opt using -O3 
-reordered.bc -- The bitcode file compiled with opt using -O3 and the random basic block permutation pass
+**original.bc** -- The bitcode file compiled with opt using -O3 
+**reordered.bc** -- The bitcode file compiled with opt using -O3 and the random basic block permutation pass
 
-original.stats -- The statistics obtained compiling original.bc with llc using -O3 
-reordered.stats -- The statistics obtained compiling reordered.bc with llc using -O3
+**original.stats** -- The statistics obtained compiling original.bc with llc using -O3 
+**reordered.stats** -- The statistics obtained compiling reordered.bc with llc using -O3
 
-original.s -- assembly of orignal file
-reordered.s -- assembly of reordered file
+**original.s** -- assembly of orignal file
+**reordered.s** -- assembly of reordered file
 
 for example for the source file 1. the diff of the stats is 
 
