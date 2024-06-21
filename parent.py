@@ -5,27 +5,30 @@ import re
 import statistics
 import sys
 
-INPUTS="/g/g91/singhal2/samples/"
-REDUCED_FILES = "/g/g91/singhal2/REDUCED_FILES/"
-SRC="/g/g91/singhal2/samples/"
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+INPUTS = dir_path + "/samples/"
+REDUCED_FILES = dir_path + "/REDUCED_FILES/"
+SRC = dir_path + "/samples/"
 
 if not os.path.exists(REDUCED_FILES):
     os.mkdir(REDUCED_FILES)
 
-LLVM_CLANG="/g/g91/singhal2/llvm-project/build/bin/clang"
-LLVM_OPT="/g/g91/singhal2/llvm-project/build/bin/opt"
-LLVM_LLC="/g/g91/singhal2/llvm-project/build/bin/llc"
+LLVM_CLANG= dir_path + "/llvm-project/build/bin/clang"
+LLVM_OPT= dir_path + "/llvm-project/build/bin/opt"
+LLVM_LLC= dir_path + "/llvm-project/build/bin/llc"
 
-LLVM_REDUCE="/g/g91/singhal2/llvm-project/build/bin/llvm-reduce"
+LLVM_REDUCE= dir_path + "/llvm-project/build/bin/llvm-reduce"
 
-LLVM_DIS="/g/g91/singhal2/llvm-project/build/bin/llvm-dis"
+LLVM_DIS=dir_path + "/llvm-project/build/bin/llvm-dis"
 
 
 num_iterations = 200
 
 HASHES = []
 
-FILE_TO_SAVE_STATS = "/g/g91/singhal2/stats_seen_so_far.txt" 
+FILE_TO_SAVE_STATS = dir_path + "/stats_seen_so_far.txt" 
 
 rm_stats_register = "rm " + FILE_TO_SAVE_STATS
 print(rm_stats_register)

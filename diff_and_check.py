@@ -3,10 +3,13 @@ import sys
 import numpy as np
 
 #helper script to diff stats as we reduce new files. 
-FILE1 = "1.st"
-FILE2 = "2.st" 
 
-FILE_TO_SAVE_STATS = "/g/g91/singhal2/stats_seen_so_far.txt" 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+FILE1 = dir_path + "/1.st"
+FILE2 = dir_path + "/2.st" 
+
+FILE_TO_SAVE_STATS = dir_path + "/stats_seen_so_far.txt" 
 
 seen_stats = []
 if (os.path.isfile(FILE_TO_SAVE_STATS)):

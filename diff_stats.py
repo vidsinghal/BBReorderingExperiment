@@ -2,8 +2,10 @@ import os
 import sys
 import numpy as np
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
 #Save newly seen stats to the register.
-FILE_TO_SAVE_STATS = "/g/g91/singhal2/stats_seen_so_far.txt" 
+FILE_TO_SAVE_STATS = dir_path + "/stats_seen_so_far.txt" 
 
 FILE1 = str(sys.argv[1])
 FILE2 = str(sys.argv[2])
