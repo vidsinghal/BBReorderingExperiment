@@ -1,0 +1,61 @@
+Number of functions visited
+Number of two-address instructions
+Number of phis added
+Number of Metadata records loaded
+Number of Queries into an assume assume bundles
+Number of rematerialized defs for spilling
+Number of tail duplicated blocks
+Number of functions with nounwind
+Number of tail calls
+Number of instructions deleted by DCE
+Number of dag nodes combined
+Number of pipeline stalls
+Number of cross class joins performed
+Number of loads folded
+Number of instr pairs fused
+Number of bytes used for stack in all functions
+Number of tails duplicated
+Number of spilled live ranges
+Number of dead instructions deleted
+Number of entry blocks encountered
+Number of instructions hoisted in low reg pressure situation
+Number of new live ranges queued
+Number of critical edges split
+Number of times a  single predecessor was added
+Number of branches optimized
+Number of instructions rematerialized
+Number of shrinkToUses called
+Number of return instructions duplicated
+Number of machine instructions hoisted out of loops
+Number of copy uses forwarded
+Number of instructions re-materialized
+Number of identity moves eliminated after rewriting
+Number of functions
+Number of instructions commuted to coalesce
+Number of block tails merged
+Number of registers assigned
+Number of machine instrs printed
+Number of machine instructions sunk
+Number of copies coalesced
+Number of times dag isel has to try another path
+Number of cross-MBB physreg referencing CS eliminated
+Number of common subexpression eliminated
+Number of dead blocks removed
+Number of move immediate folded
+Number of shrink-wrapping candidates
+Number of functions skipped
+Number of copies sunk after RA
+Number of blocks selected using DAG
+Number of interferences evicted
+Number of instructions removed due to tail duplication
+Number of functions seen in PEI
+Number of instructions added due to tail duplication
+Number of compares eliminated
+Number of times the topological order has been recomputed
+Number of physreg referencing common subexpr eliminated
+Number of dead copies deleted
+Number of interval joins performed
+Number of phis lowered
+Number of instructions aggressively commuted
+Number of registers unassigned
+Number of functions with unwind
