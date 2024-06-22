@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of cross class joins performed                                      :  2     vs  1    
+isel                           - Number of times dag isel has to try another path                           :  80    vs  45   
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

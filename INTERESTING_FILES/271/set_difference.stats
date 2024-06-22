@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+asm-printer                    - Number of machine instrs printed                                           :  19    vs  20   
+dagcombine                     - Number of dag nodes combined                                               :  10    vs  9    
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+branch-folder                  - Number of tail calls optimized                                             :  1     vs  Nil  
