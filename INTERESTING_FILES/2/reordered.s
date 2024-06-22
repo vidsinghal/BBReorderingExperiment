@@ -5,6 +5,13 @@
 	.type	ossl_blake2s_update,@function
 ossl_blake2s_update:                    # @ossl_blake2s_update
 # %bb.0:                                # %entry
+	testq	%rsi, %rsi
+	je	.LBB0_1
+# %bb.2:                                # %common.ret
+	xorl	%eax, %eax
+	retq
+.LBB0_1:                                # %if.end15
+	movq	$0, (%rdi)
 	xorl	%eax, %eax
 	retq
 .Lfunc_end0:

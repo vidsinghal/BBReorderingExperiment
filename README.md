@@ -73,6 +73,7 @@ dagcombine                     - Number of dag nodes combined                   
 * LLVM version with basic block reordering: https://github.com/vidsinghal/llvm-project/tree/shuffle_bb
 * The LLVM version is added as a submodule. 
 * Make sure you checkout to **shuffle_bb** branch.
+* Build LLVM with -stats enabled.
 * A dataset of source files to test, we have around 1000 files in **samples**. 
 
 ### Executing program

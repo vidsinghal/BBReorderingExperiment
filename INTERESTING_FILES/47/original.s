@@ -5,20 +5,13 @@
 	.type	cholmod_postorder,@function
 cholmod_postorder:                      # @cholmod_postorder
 # %bb.0:                                # %entry
-	testl	%ecx, %ecx
-	setg	%al
-	andb	%r9b, %al
-	cmpb	$1, %al
-	jne	.LBB0_3
-# %bb.1:                                # %for.cond.preheader
-	movq	8(%rsp), %rax
-	movl	$0, (%rax)
-	.p2align	4, 0x90
-.LBB0_2:                                # %for.cond
-                                        # =>This Inner Loop Header: Depth=1
-	jmp	.LBB0_2
-.LBB0_3:                                # %common.ret
+	movl	$1, %eax
+	testb	$1, %dil
+	jne	.LBB0_2
+# %bb.1:                                # %if.end
+	movl	0, %eax
 	xorl	%eax, %eax
+.LBB0_2:                                # %common.ret
 	retq
 .Lfunc_end0:
 	.size	cholmod_postorder, .Lfunc_end0-cholmod_postorder

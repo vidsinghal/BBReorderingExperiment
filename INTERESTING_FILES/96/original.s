@@ -5,13 +5,14 @@
 	.type	chbgvx_,@function
 chbgvx_:                                # @chbgvx_
 # %bb.0:                                # %entry
-	testl	%r8d, %r8d
+	testl	%edi, %edi
 	sete	%al
-	testb	%al, 8(%rsp)
+	andb	%sil, %al
+	cmpb	$1, %al
 	jne	.LBB0_2
-# %bb.1:                                # %if.then107
-	movl	$0, (%rdi)
-.LBB0_2:                                # %if.end108
+# %bb.1:                                # %lor.lhs.false31
+	movl	0, %eax
+.LBB0_2:                                # %if.end99
 	xorl	%eax, %eax
 	retq
 .Lfunc_end0:

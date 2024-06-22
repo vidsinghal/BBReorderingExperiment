@@ -2,30 +2,27 @@
                           ... Statistics Collected ...
 ===-------------------------------------------------------------------------===
 
- 9 asm-printer          - Number of machine instrs printed
- 2 assume-queries       - Number of Queries into an assume assume bundles
-47 bitcode-reader       - Number of Metadata records loaded
- 1 bitcode-reader       - Number of MDStrings loaded
- 2 branch-folder        - Number of branches optimized
- 1 branch-folder        - Number of dead blocks removed
- 1 codegenprepare       - Number of uses of Cmp expressions replaced with uses of sunken Cmps
- 5 dagcombine           - Number of dag nodes combined
- 1 dwarf-eh-prepare     - Number of functions with nounwind
- 7 isel                 - Number of blocks selected using DAG
-41 isel                 - Number of times dag isel has to try another path
- 1 isel                 - Number of entry blocks encountered
- 1 phi-node-elimination - Number of phis lowered
- 1 prologepilog         - Number of functions seen in PEI
- 3 regalloc             - Number of registers assigned
- 2 regalloc             - Number of identity moves eliminated after rewriting
- 3 regalloc             - Number of interval joins performed
- 1 shrink-wrap          - Number of functions
- 1 stackmaps            - Number of functions skipped
- 1 stackmaps            - Number of functions visited
- 1 tailduplication      - Number of phis added
- 2 tailduplication      - Number of dead blocks removed
- 1 tailduplication      - Number of instructions added due to tail duplication
- 1 tailduplication      - Number of instructions removed due to tail duplication
- 1 tailduplication      - Number of tail duplicated blocks
- 2 tailduplication      - Number of tails duplicated
+ 6 asm-printer      - Number of machine instrs printed
+ 2 assume-queries   - Number of Queries into an assume assume bundles
+42 bitcode-reader   - Number of Metadata records loaded
+ 2 branch-folder    - Number of branches optimized
+ 2 branch-folder    - Number of dead blocks removed
+ 1 branch-folder    - Number of block tails merged
+ 1 codegenprepare   - Number of blocks eliminated
+ 5 dagcombine       - Number of dag nodes combined
+ 1 dwarf-eh-prepare - Number of functions with nounwind
+ 5 isel             - Number of blocks selected using DAG
+31 isel             - Number of times dag isel has to try another path
+ 1 isel             - Number of entry blocks encountered
+ 1 prologepilog     - Number of functions seen in PEI
+ 2 regalloc         - Number of registers assigned
+ 2 regalloc         - Number of identity moves eliminated after rewriting
+ 1 shrink-wrap      - Number of functions
+ 1 stackmaps        - Number of functions skipped
+ 1 stackmaps        - Number of functions visited
+ 2 tailduplication  - Number of dead blocks removed
+ 1 tailduplication  - Number of instructions added due to tail duplication
+ 1 tailduplication  - Number of instructions removed due to tail duplication
+ 1 tailduplication  - Number of tail duplicated blocks
+ 2 tailduplication  - Number of tails duplicated
 

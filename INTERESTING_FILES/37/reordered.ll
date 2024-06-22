@@ -1,20 +1,18 @@
-; ModuleID = '/g/g91/singhal2/BBReorderingExperiment/INTERESTING_FILES//37/reordered.bc'
+; ModuleID = '/local/scratch/a/singhav/BBReorderingExperiment/INTERESTING_FILES//37/reordered.bc'
 target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-i128:128-f80:128-n8:16:32:64-S128"
 target triple = "x86_64-unknown-linux-gnu"
 
-; Function Attrs: mustprogress nofree norecurse nosync nounwind willreturn memory(argmem: write)
-define noundef i32 @hwloc_set_membind_by_nodeset(i32 %policy, ptr nocapture writeonly %call1, i1 %tobool.not.not) local_unnamed_addr #0 {
+define noundef i32 @quo_internal_hwloc_get_cpubind(ptr nocapture readonly %topology, i32 %flags) local_unnamed_addr {
 entry:
-  %cmp = icmp slt i32 %policy, 0
-  %or.cond = select i1 %tobool.not.not, i1 %cmp, i1 false
-  br i1 %or.cond, label %if.then, label %common.ret
+  %and1 = and i32 %flags, 1
+  %tobool2.not = icmp eq i32 %and1, 0
+  br i1 %tobool2.not, label %common.ret, label %if.then3
 
-if.then:                                          ; preds = %entry
-  store i32 0, ptr %call1, align 4
+if.then3:                                         ; preds = %entry
+  %0 = load ptr, ptr %topology, align 8
+  %call8 = tail call i32 %0(ptr null, ptr null, i32 0)
   br label %common.ret
 
-common.ret:                                       ; preds = %if.then, %entry
+common.ret:                                       ; preds = %if.then3, %entry
   ret i32 0
 }
-
-attributes #0 = { mustprogress nofree norecurse nosync nounwind willreturn memory(argmem: write) }

@@ -1,0 +1,44 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+26 asm-printer         - Number of machine instrs printed
+ 1 assume-queries      - Number of Queries into an assume assume bundles
+48 bitcode-reader      - Number of Metadata records loaded
+ 1 bitcode-reader      - Number of MDStrings loaded
+ 2 codegenprepare      - Number of blocks eliminated
+11 dagcombine          - Number of dag nodes combined
+ 3 dead-mi-elimination - Number of dead instructions deleted
+ 1 dwarf-eh-prepare    - Number of functions with unwind
+ 7 isel                - Number of blocks selected using DAG
+54 isel                - Number of times dag isel has to try another path
+ 1 isel                - Number of entry blocks encountered
+ 2 machine-cse         - Number of common subexpression eliminated
+ 1 machine-latecleanup - Number of redundant instructions removed.
+24 prologepilog        - Number of bytes used for stack in all functions
+ 1 prologepilog        - Number of functions seen in PEI
+ 8 regalloc            - Number of registers assigned
+ 3 regalloc            - Number of copies inserted for splitting
+ 2 regalloc            - Number of instructions deleted by DCE
+ 2 regalloc            - Number of interferences evicted
+ 5 regalloc            - Number of splits finished
+ 4 regalloc            - Number of split global live ranges
+ 3 regalloc            - Number of identity moves eliminated after rewriting
+15 regalloc            - Number of new live ranges queued
+ 3 regalloc            - Number of instructions rematerialized
+ 1 regalloc            - Number of instructions re-materialized
+ 2 regalloc            - Number of reloads inserted
+ 2 regalloc            - Number of rematerialized defs for splitting
+ 1 regalloc            - Number of shrinkToUses called
+ 4 regalloc            - Number of splits that were simple
+ 2 regalloc            - Number of spill slots allocated
+ 2 regalloc            - Number of spilled live ranges
+ 2 regalloc            - Number of spills inserted
+ 2 regalloc            - Number of registers unassigned
+ 1 shrink-wrap         - Number of functions
+ 1 stackmaps           - Number of functions skipped
+ 1 stackmaps           - Number of functions visited
+ 3 tailduplication     - Number of instructions added due to tail duplication
+ 1 tailduplication     - Number of tail duplicated blocks
+ 1 tailduplication     - Number of tails duplicated
+

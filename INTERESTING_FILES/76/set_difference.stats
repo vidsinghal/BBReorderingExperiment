@@ -1,8 +1,0 @@
-pass - description: <before> vs <after>
-
-isel                           - Number of times dag isel has to try another path                           :  78    vs  93   
-regalloc                       - Number of interval joins performed                                         :  4     vs  3    
-dagcombine                     - Number of dag nodes combined                                               :  9     vs  4    
-peephole-opt                   - Number of compares eliminated                                              :  1     vs  Nil  
-twoaddressinstruction          - Number of two-address instructions                                         :  1     vs  Nil  
-branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

@@ -1,8 +1,0 @@
-pass - description: <before> vs <after>
-
-branch-folder                  - Number of dead blocks removed                                              :  1     vs  1    
-regalloc                       - Number of interval joins performed                                         :  11    vs  9    
-phi-node-elimination           - Number of phis lowered                                                     :  2     vs  1    
-tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  1    
-tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
-tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
