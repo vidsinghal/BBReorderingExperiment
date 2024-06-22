@@ -62,13 +62,10 @@ For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b1
 for instance the source file 1 has the following diff of the stats in **set_difference.stats**
 
 ```
-Print lines in original that are not present in reordered:
+pass - description: <before> vs <after>
 
-1 branch-folder - Number of branches optimized
-
-Print lines in reordered that are not present in original:
-
-4 dagcombine - Number of dag nodes combined
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+dagcombine                     - Number of dag nodes combined                                               :  Nil   vs  4
 ```
 
 ### Dependencies
