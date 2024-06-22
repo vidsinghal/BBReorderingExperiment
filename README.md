@@ -28,7 +28,7 @@ If we see a diff in the statistics (using **diff_and_check.py**), then the scrip
 The **parent.py** script invokes **llvm-reduce** with **script.sh** to check if the input is interesting.
 If so, we save it. We also update the global register with new statistics that were seen 
 and continue for all source files. 
-In out experiment, the source files were named with integer values, for instance, **0.bc**, **1.bc** ...
+In our experiment, the source files were named with integer values, for instance, **0.bc**, **1.bc** ...
 There is a dataset in **samples**
 
 ### Structure description 
@@ -49,9 +49,9 @@ For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b1
 
 **reordered.ll** -- The corresponding llvm IR
 
-**original.stats** -- The statistics obtained compiling original.bc with llc using -O3 
+**original.stats** -- The statistics by obtained compiling original.bc with llc using -O3 
 
-**reordered.stats** -- The statistics obtained compiling reordered.bc with llc using -O3
+**reordered.stats** -- The statistics obtained by compiling reordered.bc with llc using -O3
 
 **set_difference.stats** -- Stores the diff of the statistics 
 
@@ -59,13 +59,13 @@ For instance, **1/59489066aba24d4321ea37e2bf9882233ce9374c83ffc490b09bbf23eda4b1
 
 **reordered.s** -- assembly of reordered file
 
-for instance the source file 1 has the following diff of the stats in **set_difference.stats**
+For example, the source file 1 has the following diff in **set_difference.stats**
 
 ```
 pass - description: <before> vs <after>
 
-branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
-dagcombine                     - Number of dag nodes combined                                               :  Nil   vs  4
+branch-folder       - Number of branches optimized      :  1   vs Nil  
+dagcombine          - Number of dag nodes combined      :  Nil vs 4
 ```
 
 ### Dependencies
@@ -78,7 +78,7 @@ dagcombine                     - Number of dag nodes combined                   
 
 ### Executing program
 
-* **Python3 parent.py** to run the experiment. 
+* **Python3 parent.py** runs the experiment. 
 
 ## Authors
 
