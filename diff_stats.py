@@ -22,19 +22,35 @@ print("End.\n")
 F1 = open(FILE1, "r")
 F2 = open(FILE2, "r")
 
-F1_lines = F1.readlines() 
-F2_lines = F2.readlines() 
+f1_lines = F1.readlines() 
+f2_lines = F2.readlines() 
 
+f11 = [] 
+f22 = []
 
-print("Print the difference in statistics:\n")
-dif1 = np.setdiff1d(F1_lines, F2_lines)
-dif2 = np.setdiff1d(F2_lines, F1_lines)
+for line in f1_lines:
+    split_line = line.split(" - ")
+    
+    if len(split_line) > 1:
+        print(split_line)
+        f11.append(split_line[0].strip() + " - " +  split_line[1].strip() + "\n")
+                
+
+for line in f2_lines:
+    split_line = line.split(" - ")
+    
+    if len(split_line) > 1:
+        print(split_line)
+        f22.append(split_line[0].strip() + " - " + split_line[1].strip() + "\n")
+
+dif1 = np.setdiff1d(f11, f22)
+dif2 = np.setdiff1d(f22, f11)
 temp3 = np.concatenate((dif1, dif2))
+print("Print the difference in statistics:\n")
 print(list(temp3))
 
 for line in temp3:
-    split_line = line.split(" - ")
-    seen_stats.append(split_line[1])
+    seen_stats.append(line)
 
 seen_stats = set(seen_stats)
 #write the stats to the file:
