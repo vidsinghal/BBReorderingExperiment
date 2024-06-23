@@ -1,0 +1,12 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  10    vs  5    
+isel                           - Number of times dag isel has to try another path                           :  91    vs  76   
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+machine-scheduler              - Number of instr pairs fused                                                :  1     vs  Nil  
+pre-RA-sched                   - Number of times the topological order has been recomputed                  :  1     vs  Nil  
+peephole-opt                   - Number of compares eliminated                                              :  Nil   vs  1    
+regalloc                       - Number of interval joins performed                                         :  Nil   vs  1    
+twoaddressinstruction          - Number of instructions aggressively commuted                               :  Nil   vs  1    
+twoaddressinstruction          - Number of instructions commuted to coalesce                                :  Nil   vs  1    
+twoaddressinstruction          - Number of two-address instructions                                         :  Nil   vs  1    
