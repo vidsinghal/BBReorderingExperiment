@@ -1,0 +1,5 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  2     vs  5    
+isel                           - Number of times dag isel has to try another path                           :  31    vs  35   
+peephole-opt                   - Number of loads folded                                                     :  Nil   vs  1    
