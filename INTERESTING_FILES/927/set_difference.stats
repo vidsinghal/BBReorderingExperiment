@@ -1,0 +1,8 @@
+pass - description: <before> vs <after>
+
+asm-printer                    - Number of machine instrs printed                                           :  24    vs  23   
+regalloc                       - Number of interval joins performed                                         :  5     vs  4    
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  5    
+isel                           - Number of times dag isel has to try another path                           :  76    vs  90   
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+twoaddressinstruction          - Number of two-address instructions                                         :  1     vs  Nil  
