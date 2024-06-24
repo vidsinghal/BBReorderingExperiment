@@ -1,0 +1,12 @@
+pass - description: <before> vs <after>
+
+asm-printer                    - Number of machine instrs printed                                           :  1     vs  4    
+dead-mi-elimination            - Number of dead instructions deleted                                        :  7     vs  2    
+dagcombine                     - Number of dag nodes combined                                               :  4     vs  3    
+tailduplication                - Number of dead blocks removed                                              :  1     vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  1     vs  Nil  
+regalloc                       - Number of cross class joins performed                                      :  Nil   vs  1    
+regalloc                       - Number of interval joins performed                                         :  Nil   vs  1    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  Nil   vs  2    
+regalloc                       - Number of registers assigned                                               :  Nil   vs  3    
