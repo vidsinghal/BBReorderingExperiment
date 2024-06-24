@@ -1,7 +1,7 @@
 pass - description: <before> vs <after>
 
-asm-printer                    - Number of machine instrs printed                                           :  10    vs  9    
 dagcombine                     - Number of dag nodes combined                                               :  7     vs  6    
+asm-printer                    - Number of machine instrs printed                                           :  10    vs  9    
 isel                           - Number of times dag isel has to try another path                           :  74    vs  76   
 branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
 peephole-opt                   - Number of compares eliminated                                              :  Nil   vs  1    

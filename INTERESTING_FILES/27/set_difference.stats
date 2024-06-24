@@ -1,5 +1,5 @@
 pass - description: <before> vs <after>
 
 tailduplication                - Number of instructions removed due to tail duplication                     :  2     vs  1    
-tailduplication                - Number of tails duplicated                                                 :  2     vs  1    
 tailduplication                - Number of dead blocks removed                                              :  2     vs  1    
+tailduplication                - Number of tails duplicated                                                 :  2     vs  1    

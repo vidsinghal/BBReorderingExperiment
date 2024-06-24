@@ -1,5 +1,5 @@
 pass - description: <before> vs <after>
 
 regalloc                       - Number of cross class joins performed                                      :  6     vs  4    
-branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    
 dagcombine                     - Number of dag nodes combined                                               :  Nil   vs  4    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

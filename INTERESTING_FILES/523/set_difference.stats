@@ -2,7 +2,7 @@ pass - description: <before> vs <after>
 
 dagcombine                     - Number of dag nodes combined                                               :  9     vs  4    
 isel                           - Number of times dag isel has to try another path                           :  66    vs  51   
-branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    
-peephole-opt                   - Number of compares eliminated                                              :  Nil   vs  1    
 regalloc                       - Number of interval joins performed                                         :  Nil   vs  1    
+peephole-opt                   - Number of compares eliminated                                              :  Nil   vs  1    
 twoaddressinstruction          - Number of two-address instructions                                         :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

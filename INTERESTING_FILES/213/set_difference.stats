@@ -1,8 +1,8 @@
 pass - description: <before> vs <after>
 
 dagcombine                     - Number of dag nodes combined                                               :  5     vs  1    
-machine-sink                   - Number of machine instructions sunk                                        :  1     vs  Nil  
 shrink-wrap                    - Number of shrink-wrapping candidates                                       :  1     vs  Nil  
-tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    
+machine-sink                   - Number of machine instructions sunk                                        :  1     vs  Nil  
 tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    
 tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    

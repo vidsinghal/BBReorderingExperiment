@@ -2,5 +2,5 @@ pass - description: <before> vs <after>
 
 asm-printer                    - Number of machine instrs printed                                           :  5     vs  4    
 dagcombine                     - Number of dag nodes combined                                               :  4     vs  Nil  
-branch-folder                  - Number of dead blocks removed                                              :  Nil   vs  1    
 branch-folder                  - Number of tail calls optimized                                             :  Nil   vs  1    
+branch-folder                  - Number of dead blocks removed                                              :  Nil   vs  1    
