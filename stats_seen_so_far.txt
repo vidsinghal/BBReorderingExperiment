@@ -1,211 +1,245 @@
-12 dagcombine - Number of dag nodes combined
-13 isel - Number of times dag isel has to try another path
-6 isel - Number of times dag isel has to try another path
-6 asm-printer - Number of machine instrs printed
-8 dagcombine - Number of dag nodes combined
-11 dagcombine - Number of dag nodes combined
-14 dagcombine - Number of dag nodes combined
-2 regalloc - Number of identity moves eliminated after rewriting
-65 isel - Number of times dag isel has to try another path
-1 regalloc - Number of interval joins performed
-4 dagcombine - Number of dag nodes combined
-6 regalloc - Number of interval joins performed
-37 isel - Number of times dag isel has to try another path
-4 tailduplication - Number of dead blocks removed
-4 branch-folder - Number of branches optimized
-4 regalloc - Number of interval joins performed
-1 peephole-opt - Number of compares eliminated
-83 isel - Number of times dag isel has to try another path
-21 isel - Number of times dag isel has to try another path
-56 isel - Number of times dag isel has to try another path
-52 isel - Number of times dag isel has to try another path
-95 isel - Number of times dag isel has to try another path
-79 isel - Number of times dag isel has to try another path
-17 dagcombine - Number of dag nodes combined
-107 isel - Number of times dag isel has to try another path
-15 dagcombine - Number of dag nodes combined
-3 tailduplication - Number of tails duplicated
-1 twoaddressinstruction - Number of two-address instructions
-44 isel - Number of times dag isel has to try another path
-89 isel - Number of times dag isel has to try another path
-2 tailduplication - Number of tail duplicated blocks
-73 isel - Number of times dag isel has to try another path
-1 regalloc - Number of identity moves eliminated after rewriting
-1 branch-folder - Number of branches optimized
-6 regalloc - Number of cross class joins performed
-57 isel - Number of times dag isel has to try another path
-60 isel - Number of times dag isel has to try another path
-23 asm-printer - Number of machine instrs printed
-12 isel - Number of times dag isel has to try another path
-98 isel - Number of times dag isel has to try another path
-1 asm-printer - Number of machine instrs printed
-8 asm-printer - Number of machine instrs printed
-85 isel - Number of times dag isel has to try another path
-78 isel - Number of times dag isel has to try another path
-1 tailduplication - Number of instructions removed due to tail duplication
-116 isel - Number of times dag isel has to try another path
-13 dagcombine - Number of dag nodes combined
-31 isel - Number of times dag isel has to try another path
-63 isel - Number of times dag isel has to try another path
-26 asm-printer - Number of machine instrs printed
-110 isel - Number of times dag isel has to try another path
-39 isel - Number of times dag isel has to try another path
-3 dead-mi-elimination - Number of dead instructions deleted
-30 isel - Number of times dag isel has to try another path
-7 dagcombine - Number of dag nodes combined
-47 isel - Number of times dag isel has to try another path
-34 isel - Number of times dag isel has to try another path
-41 isel - Number of times dag isel has to try another path
-5 regalloc - Number of cross class joins performed
-58 isel - Number of times dag isel has to try another path
-91 isel - Number of times dag isel has to try another path
-1 twoaddressinstruction - Number of instructions commuted to coalesce
-1 shrink-wrap - Number of shrink-wrapping candidates
-1 tailduplication - Number of tails duplicated
-48 isel - Number of times dag isel has to try another path
-1 pre-RA-sched - Number of times the topological order has been recomputed
-2 machinelicm - Number of machine instructions hoisted out of loops
-5 dagcombine - Number of dag nodes combined
-124 isel - Number of times dag isel has to try another path
-7 isel - Number of times dag isel has to try another path
-7 asm-printer - Number of machine instrs printed
-1 dagcombine - Number of dag nodes combined
-66 isel - Number of times dag isel has to try another path
-1 tailduplication - Number of dead blocks removed
-1 phi-node-elimination - Number of phis lowered
-3 dagcombine - Number of dag nodes combined
-75 isel - Number of times dag isel has to try another path
-5 asm-printer - Number of machine instrs printed
-2 tailduplication - Number of tails duplicated
-2 dagcombine - Number of dag nodes combined
-5 regalloc - Number of interval joins performed
-74 isel - Number of times dag isel has to try another path
-111 isel - Number of times dag isel has to try another path
 15 isel - Number of times dag isel has to try another path
-20 asm-printer - Number of machine instrs printed
-16 asm-printer - Number of machine instrs printed
-3 isel - Number of times dag isel has to try another path
-2 phi-node-elimination - Number of phis lowered
-4 isel - Number of times dag isel has to try another path
-62 isel - Number of times dag isel has to try another path
-1 machine-combiner - Number of machineinst combined
-32 isel - Number of times dag isel has to try another path
-14 asm-printer - Number of machine instrs printed
-1 regalloc - Number of cross class joins performed
-3 tailduplication - Number of tail duplicated blocks
-19 asm-printer - Number of machine instrs printed
-61 isel - Number of times dag isel has to try another path
-59 isel - Number of times dag isel has to try another path
-1 tailduplication - Number of tail duplicated blocks
-72 isel - Number of times dag isel has to try another path
-82 isel - Number of times dag isel has to try another path
-67 isel - Number of times dag isel has to try another path
-1 tailduplication - Number of instructions added due to tail duplication
-2 branch-folder - Number of branches optimized
-71 isel - Number of times dag isel has to try another path
-11 asm-printer - Number of machine instrs printed
-2 branch-folder - Number of dead blocks removed
-92 isel - Number of times dag isel has to try another path
-109 isel - Number of times dag isel has to try another path
-96 isel - Number of times dag isel has to try another path
-4 machine-cp - Number of dead copies deleted
-1 branch-folder - Number of tail calls optimized
-7 regalloc - Number of cross class joins performed
-4 dead-mi-elimination - Number of dead instructions deleted
-9 dagcombine - Number of dag nodes combined
-99 isel - Number of times dag isel has to try another path
-13 asm-printer - Number of machine instrs printed
-43 isel - Number of times dag isel has to try another path
-46 isel - Number of times dag isel has to try another path
-1 twoaddressinstruction - Number of instructions aggressively commuted
-87 isel - Number of times dag isel has to try another path
-10 asm-printer - Number of machine instrs printed
-13 regalloc - Number of interval joins performed
-113 isel - Number of times dag isel has to try another path
-55 isel - Number of times dag isel has to try another path
-38 isel - Number of times dag isel has to try another path
-4 regalloc - Number of cross class joins performed
-97 isel - Number of times dag isel has to try another path
-3 asm-printer - Number of machine instrs printed
-1 machine-scheduler - Number of instr pairs fused
-20 dagcombine - Number of dag nodes combined
-14 isel - Number of times dag isel has to try another path
-45 isel - Number of times dag isel has to try another path
-19 dagcombine - Number of dag nodes combined
-4 tailduplication - Number of tails duplicated
-54 isel - Number of times dag isel has to try another path
-4 tailduplication - Number of instructions removed due to tail duplication
-3 regalloc - Number of registers assigned
-33 isel - Number of times dag isel has to try another path
-64 isel - Number of times dag isel has to try another path
-2 asm-printer - Number of machine instrs printed
-88 isel - Number of times dag isel has to try another path
-1 machine-sink - Number of machine instructions sunk
-16 dagcombine - Number of dag nodes combined
-51 isel - Number of times dag isel has to try another path
-15 asm-printer - Number of machine instrs printed
-1 machine-cse - Number of copies coalesced
-100 isel - Number of times dag isel has to try another path
-3 tailduplication - Number of instructions removed due to tail duplication
-86 isel - Number of times dag isel has to try another path
-5 branch-folder - Number of branches optimized
-49 isel - Number of times dag isel has to try another path
-4 twoaddressinstruction - Number of two-address instructions
-3 tailduplication - Number of instructions added due to tail duplication
-1 phi-node-elimination - Number of critical edges split
-5 dead-mi-elimination - Number of dead instructions deleted
-93 isel - Number of times dag isel has to try another path
-12 asm-printer - Number of machine instrs printed
-23 dagcombine - Number of dag nodes combined
-1 peephole-opt - Number of loads folded
-22 asm-printer - Number of machine instrs printed
-35 isel - Number of times dag isel has to try another path
-1 tailduplication - Number of phis added
-7 regalloc - Number of interval joins performed
-1 machinelicm - Number of instructions hoisted in low reg pressure situation
-3 regalloc - Number of cross class joins performed
-84 isel - Number of times dag isel has to try another path
-17 asm-printer - Number of machine instrs printed
-30 dagcombine - Number of dag nodes combined
-42 isel - Number of times dag isel has to try another path
-15 regalloc - Number of interval joins performed
-68 isel - Number of times dag isel has to try another path
-76 isel - Number of times dag isel has to try another path
-30 asm-printer - Number of machine instrs printed
-3 branch-folder - Number of branches optimized
-1 slotindexes - Number of local renumberings
-2 isel - Number of times dag isel has to try another path
-1 regalloc - Number of registers assigned
-3 branch-folder - Number of dead blocks removed
-7 dead-mi-elimination - Number of dead instructions deleted
-1 dead-mi-elimination - Number of dead instructions deleted
-3 tailduplication - Number of dead blocks removed
-2 tailduplication - Number of instructions added due to tail duplication
-36 isel - Number of times dag isel has to try another path
-1 branch-folder - Number of dead blocks removed
-103 isel - Number of times dag isel has to try another path
-80 isel - Number of times dag isel has to try another path
-2 twoaddressinstruction - Number of two-address instructions
-1 machine-cp - Number of copy uses forwarded
+1 regalloc - Number of instructions re-materialized
 3 regalloc - Number of interval joins performed
-18 asm-printer - Number of machine instrs printed
-2 tailduplication - Number of instructions removed due to tail duplication
-2 regalloc - Number of cross class joins performed
-94 isel - Number of times dag isel has to try another path
-2 slotindexes - Number of local renumberings
-10 dagcombine - Number of dag nodes combined
-2 regalloc - Number of interval joins performed
-6 dagcombine - Number of dag nodes combined
-8 regalloc - Number of interval joins performed
-2 dead-mi-elimination - Number of dead instructions deleted
-26 dagcombine - Number of dag nodes combined
-18 dagcombine - Number of dag nodes combined
+1 machine-combiner - Number of machineinst combined
+1 tailduplication - Number of instructions removed due to tail duplication
+27 asm-printer - Number of machine instrs printed
+2 tailduplication - Number of tail duplicated blocks
+3 branch-folder - Number of branches optimized
+4 dead-mi-elimination - Number of dead instructions deleted
+2 tailduplication - Number of phis added
+1 tailduplication - Number of instructions added due to tail duplication
+89 isel - Number of times dag isel has to try another path
+4 branch-folder - Number of branches optimized
 77 isel - Number of times dag isel has to try another path
-4 asm-printer - Number of machine instrs printed
-3 twoaddressinstruction - Number of two-address instructions
-2 regalloc - Number of registers assigned
-108 isel - Number of times dag isel has to try another path
-2 tailduplication - Number of dead blocks removed
+2 regalloc - Number of identity moves eliminated after rewriting
+16 asm-printer - Number of machine instrs printed
+5 tailduplication - Number of instructions added due to tail duplication
+38 isel - Number of times dag isel has to try another path
+19 asm-printer - Number of machine instrs printed
+30 isel - Number of times dag isel has to try another path
+20 dagcombine - Number of dag nodes combined
+4 post-RA-sched - Number of pipeline stalls
+6 regalloc - Number of interval joins performed
+7 regalloc - Number of cross class joins performed
+5 regalloc - Number of cross class joins performed
+92 isel - Number of times dag isel has to try another path
+2 twoaddressinstruction - Number of two-address instructions
+2 regalloc - Number of cross class joins performed
+3 dead-mi-elimination - Number of dead instructions deleted
+2 tailduplication - Number of instructions added due to tail duplication
+3 tailduplication - Number of instructions removed due to tail duplication
+32 isel - Number of times dag isel has to try another path
+1 peephole-opt - Number of move immediate folded
+6 isel - Number of times dag isel has to try another path
+1 machine-cse - Number of copies coalesced
+90 isel - Number of times dag isel has to try another path
+96 isel - Number of times dag isel has to try another path
+91 isel - Number of times dag isel has to try another path
+88 isel - Number of times dag isel has to try another path
+4 isel - Number of times dag isel has to try another path
+12 asm-printer - Number of machine instrs printed
+75 isel - Number of times dag isel has to try another path
+1 regalloc - Number of instructions rematerialized
+2 branch-folder - Number of dead blocks removed
+42 isel - Number of times dag isel has to try another path
+85 isel - Number of times dag isel has to try another path
+1 machine-scheduler - Number of instr pairs fused
+2 machine-cp - Number of copy defs backward propagated
+2 asm-printer - Number of machine instrs printed
+1 machine-sink - Number of copies sunk after RA
+111 isel - Number of times dag isel has to try another path
+1 phi-node-elimination - Number of phis lowered
+1 machine-cp - Number of dead copies deleted
+4 regalloc - Number of instructions re-materialized
+66 isel - Number of times dag isel has to try another path
+94 isel - Number of times dag isel has to try another path
+100 isel - Number of times dag isel has to try another path
+36 isel - Number of times dag isel has to try another path
+93 isel - Number of times dag isel has to try another path
+40 isel - Number of times dag isel has to try another path
+119 isel - Number of times dag isel has to try another path
+8 regalloc - Number of interval joins performed
+18 dagcombine - Number of dag nodes combined
+1 branch-folder - Number of dead blocks removed
+78 isel - Number of times dag isel has to try another path
+74 isel - Number of times dag isel has to try another path
+20 asm-printer - Number of machine instrs printed
+33 dagcombine - Number of dag nodes combined
 81 isel - Number of times dag isel has to try another path
-9 asm-printer - Number of machine instrs printed
+1 peephole-opt - Number of compares eliminated
+123 isel - Number of times dag isel has to try another path
+30 dagcombine - Number of dag nodes combined
+3 regalloc - Number of instructions deleted by DCE
+4 regalloc - Number of interval joins performed
+10 asm-printer - Number of machine instrs printed
+3 tailduplication - Number of instructions added due to tail duplication
+18 asm-printer - Number of machine instrs printed
+5 regalloc - Number of interval joins performed
+46 isel - Number of times dag isel has to try another path
+135 isel - Number of times dag isel has to try another path
+97 isel - Number of times dag isel has to try another path
+1 machinelicm - Number of instructions hoisted in low reg pressure situation
+76 isel - Number of times dag isel has to try another path
+1 branch-folder - Number of branches optimized
+13 regalloc - Number of interval joins performed
+13 dagcombine - Number of dag nodes combined
+1 regalloc - Number of instructions deleted by DCE
+113 isel - Number of times dag isel has to try another path
+84 isel - Number of times dag isel has to try another path
 1 branch-folder - Number of block tails merged
+2 phi-node-elimination - Number of phis lowered
+1 tailduplication - Number of tail duplicated blocks
+29 dagcombine - Number of dag nodes combined
+12 isel - Number of times dag isel has to try another path
+5 asm-printer - Number of machine instrs printed
+51 isel - Number of times dag isel has to try another path
+71 isel - Number of times dag isel has to try another path
+47 isel - Number of times dag isel has to try another path
+68 isel - Number of times dag isel has to try another path
+1 tailduplication - Number of dead blocks removed
+7 tailduplication - Number of instructions added due to tail duplication
+19 dagcombine - Number of dag nodes combined
+1 machinelicm - Number of hoisted machine instructions CSEed
+61 isel - Number of times dag isel has to try another path
+9 dagcombine - Number of dag nodes combined
+2 tailduplication - Number of dead blocks removed
+1 dagcombine - Number of dag nodes combined
+37 isel - Number of times dag isel has to try another path
+4 twoaddressinstruction - Number of two-address instructions
+14 dagcombine - Number of dag nodes combined
+83 isel - Number of times dag isel has to try another path
+4 dagcombine - Number of dag nodes combined
+1 asm-printer - Number of machine instrs printed
+1 shrink-wrap - Number of shrink-wrapping candidates
+14 asm-printer - Number of machine instrs printed
+1 machine-cp - Number of copy defs backward propagated
+3 twoaddressinstruction - Number of two-address instructions
+107 isel - Number of times dag isel has to try another path
+80 isel - Number of times dag isel has to try another path
+7 regalloc - Number of interval joins performed
+87 isel - Number of times dag isel has to try another path
+3 isel - Number of times dag isel has to try another path
+10 dagcombine - Number of dag nodes combined
+73 isel - Number of times dag isel has to try another path
+13 isel - Number of times dag isel has to try another path
+99 isel - Number of times dag isel has to try another path
+2 regalloc - Number of interval joins performed
+6 regalloc - Number of cross class joins performed
+4 machine-cp - Number of dead copies deleted
+6 machinelicm - Number of machine instructions hoisted out of loops
+45 isel - Number of times dag isel has to try another path
+30 asm-printer - Number of machine instrs printed
+4 regalloc - Number of shrinkToUses called
+1 tailduplication - Number of tails duplicated
+4 tailduplication - Number of tails duplicated
+41 isel - Number of times dag isel has to try another path
+15 asm-printer - Number of machine instrs printed
+105 isel - Number of times dag isel has to try another path
+3 regalloc - Number of registers assigned
+4 regalloc - Number of instructions rematerialized
+124 isel - Number of times dag isel has to try another path
+7 dead-mi-elimination - Number of dead instructions deleted
+2 tailduplication - Number of tails duplicated
+3 tailduplication - Number of tail duplicated blocks
+2 dagcombine - Number of dag nodes combined
+1 pre-RA-sched - Number of times the topological order has been recomputed
+44 isel - Number of times dag isel has to try another path
+2 peephole-opt - Number of compares eliminated
+1 regalloc - Number of interval joins performed
+5 dagcombine - Number of dag nodes combined
+23 asm-printer - Number of machine instrs printed
+1 twoaddressinstruction - Number of instructions commuted to coalesce
+4 regalloc - Number of cross class joins performed
+4 tailduplication - Number of instructions removed due to tail duplication
+7 dagcombine - Number of dag nodes combined
+11 asm-printer - Number of machine instrs printed
+1 machine-cp - Number of copy uses forwarded
+58 isel - Number of times dag isel has to try another path
+1 phi-node-elimination - Number of critical edges split
+3 asm-printer - Number of machine instrs printed
+15 dagcombine - Number of dag nodes combined
+1 dead-mi-elimination - Number of dead instructions deleted
+5 dead-mi-elimination - Number of dead instructions deleted
+3 branch-folder - Number of dead blocks removed
+65 isel - Number of times dag isel has to try another path
+3 tailduplication - Number of dead blocks removed
+48 isel - Number of times dag isel has to try another path
+8 dagcombine - Number of dag nodes combined
+21 isel - Number of times dag isel has to try another path
+28 asm-printer - Number of machine instrs printed
+86 isel - Number of times dag isel has to try another path
+54 isel - Number of times dag isel has to try another path
+79 isel - Number of times dag isel has to try another path
+59 isel - Number of times dag isel has to try another path
+3 regalloc - Number of cross class joins performed
+11 dagcombine - Number of dag nodes combined
+63 isel - Number of times dag isel has to try another path
+43 isel - Number of times dag isel has to try another path
+108 isel - Number of times dag isel has to try another path
+2 regalloc - Number of registers assigned
+72 isel - Number of times dag isel has to try another path
+33 isel - Number of times dag isel has to try another path
+26 asm-printer - Number of machine instrs printed
+98 isel - Number of times dag isel has to try another path
+56 isel - Number of times dag isel has to try another path
+4 asm-printer - Number of machine instrs printed
+110 isel - Number of times dag isel has to try another path
+1 twoaddressinstruction - Number of instructions aggressively commuted
+60 isel - Number of times dag isel has to try another path
+1 branch-folder - Number of tail calls optimized
+64 isel - Number of times dag isel has to try another path
+103 isel - Number of times dag isel has to try another path
+49 isel - Number of times dag isel has to try another path
+9 asm-printer - Number of machine instrs printed
+6 dagcombine - Number of dag nodes combined
+1 twoaddressinstruction - Number of two-address instructions
+50 isel - Number of times dag isel has to try another path
+31 isel - Number of times dag isel has to try another path
+3 tailduplication - Number of tails duplicated
+34 isel - Number of times dag isel has to try another path
+116 isel - Number of times dag isel has to try another path
+1 regalloc - Number of identity moves eliminated after rewriting
+22 asm-printer - Number of machine instrs printed
+1 slotindexes - Number of local renumberings
+14 isel - Number of times dag isel has to try another path
+17 dagcombine - Number of dag nodes combined
+67 isel - Number of times dag isel has to try another path
+16 dagcombine - Number of dag nodes combined
+15 regalloc - Number of interval joins performed
+2 slotindexes - Number of local renumberings
+1 machine-sink - Number of machine instructions sunk
+5 branch-folder - Number of branches optimized
+1 regalloc - Number of shrinkToUses called
+1 regalloc - Number of cross class joins performed
+7 asm-printer - Number of machine instrs printed
+7 isel - Number of times dag isel has to try another path
+2 dead-mi-elimination - Number of dead instructions deleted
+2 machine-cp - Number of dead copies deleted
+4 peephole-opt - Number of move immediate folded
+17 asm-printer - Number of machine instrs printed
+12 dagcombine - Number of dag nodes combined
+1 regalloc - Number of registers assigned
+2 isel - Number of times dag isel has to try another path
+2 tailduplication - Number of instructions removed due to tail duplication
+55 isel - Number of times dag isel has to try another path
+1 tailduplication - Number of phis added
+6 asm-printer - Number of machine instrs printed
+23 dagcombine - Number of dag nodes combined
+62 isel - Number of times dag isel has to try another path
+35 isel - Number of times dag isel has to try another path
+2 branch-folder - Number of branches optimized
+13 asm-printer - Number of machine instrs printed
+52 isel - Number of times dag isel has to try another path
+57 isel - Number of times dag isel has to try another path
+3 dagcombine - Number of dag nodes combined
+4 tailduplication - Number of dead blocks removed
+39 isel - Number of times dag isel has to try another path
+8 asm-printer - Number of machine instrs printed
+2 machinelicm - Number of machine instructions hoisted out of loops
+95 isel - Number of times dag isel has to try another path
+82 isel - Number of times dag isel has to try another path
+26 dagcombine - Number of dag nodes combined
+9 regalloc - Number of interval joins performed
+1 peephole-opt - Number of loads folded
+109 isel - Number of times dag isel has to try another path
