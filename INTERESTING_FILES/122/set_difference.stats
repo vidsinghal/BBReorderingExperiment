@@ -1,6 +1,6 @@
 pass - description: <before> vs <after>
 
-branch-folder                  - Number of dead blocks removed                                              :  2     vs  1    
-tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  2    
 tailduplication                - Number of dead blocks removed                                              :  2     vs  3    
+branch-folder                  - Number of dead blocks removed                                              :  2     vs  1    
 tailduplication                - Number of tails duplicated                                                 :  2     vs  3    
+tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  2    

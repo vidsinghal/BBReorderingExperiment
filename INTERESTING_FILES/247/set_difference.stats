@@ -1,9 +1,9 @@
 pass - description: <before> vs <after>
 
 branch-folder                  - Number of dead blocks removed                                              :  2     vs  1    
-machinelicm                    - Number of instructions hoisted in low reg pressure situation               :  1     vs  Nil  
-machinelicm                    - Number of machine instructions hoisted out of loops                        :  2     vs  Nil  
 branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+machinelicm                    - Number of machine instructions hoisted out of loops                        :  2     vs  Nil  
+machinelicm                    - Number of instructions hoisted in low reg pressure situation               :  1     vs  Nil  
 tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
 tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    
 tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    

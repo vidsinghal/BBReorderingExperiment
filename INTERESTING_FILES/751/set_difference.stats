@@ -1,15 +1,15 @@
 pass - description: <before> vs <after>
 
-branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
 regalloc                       - Number of identity moves eliminated after rewriting                        :  1     vs  2    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
 regalloc                       - Number of registers assigned                                               :  1     vs  2    
 asm-printer                    - Number of machine instrs printed                                           :  2     vs  3    
-machine-sink                   - Number of copies sunk after RA                                             :  1     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  1     vs  Nil  
+dead-mi-elimination            - Number of dead instructions deleted                                        :  3     vs  Nil  
 tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  Nil  
 tailduplication                - Number of dead blocks removed                                              :  1     vs  Nil  
 dagcombine                     - Number of dag nodes combined                                               :  4     vs  Nil  
-tailduplication                - Number of tails duplicated                                                 :  1     vs  Nil  
-dead-mi-elimination            - Number of dead instructions deleted                                        :  3     vs  Nil  
-regalloc                       - Number of cross class joins performed                                      :  Nil   vs  1    
+machine-sink                   - Number of copies sunk after RA                                             :  1     vs  Nil  
 regalloc                       - Number of interval joins performed                                         :  Nil   vs  1    
+regalloc                       - Number of cross class joins performed                                      :  Nil   vs  1    
 branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

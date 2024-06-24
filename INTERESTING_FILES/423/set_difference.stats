@@ -1,8 +1,8 @@
 pass - description: <before> vs <after>
 
+isel                           - Number of times dag isel has to try another path                           :  46    vs  60   
 regalloc                       - Number of interval joins performed                                         :  2     vs  1    
 dagcombine                     - Number of dag nodes combined                                               :  6     vs  5    
-isel                           - Number of times dag isel has to try another path                           :  46    vs  60   
 asm-printer                    - Number of machine instrs printed                                           :  9     vs  8    
 twoaddressinstruction          - Number of two-address instructions                                         :  1     vs  Nil  
 branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  

@@ -1,12 +1,12 @@
 pass - description: <before> vs <after>
 
+isel                           - Number of times dag isel has to try another path                           :  99    vs  113  
 regalloc                       - Number of interval joins performed                                         :  4     vs  3    
+regalloc                       - Number of cross class joins performed                                      :  4     vs  2    
 twoaddressinstruction          - Number of two-address instructions                                         :  2     vs  1    
 dagcombine                     - Number of dag nodes combined                                               :  6     vs  5    
 asm-printer                    - Number of machine instrs printed                                           :  9     vs  8    
-isel                           - Number of times dag isel has to try another path                           :  99    vs  113  
-regalloc                       - Number of cross class joins performed                                      :  4     vs  2    
 twoaddressinstruction          - Number of instructions aggressively commuted                               :  1     vs  Nil  
-twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  Nil  
 machine-combiner               - Number of machineinst combined                                             :  1     vs  Nil  
 branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  Nil  

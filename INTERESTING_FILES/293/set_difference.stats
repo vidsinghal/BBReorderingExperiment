@@ -1,7 +1,7 @@
 pass - description: <before> vs <after>
 
-dagcombine                     - Number of dag nodes combined                                               :  6     vs  5    
 isel                           - Number of times dag isel has to try another path                           :  21    vs  35   
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  5    
 asm-printer                    - Number of machine instrs printed                                           :  7     vs  6    
 regalloc                       - Number of interval joins performed                                         :  1     vs  Nil  
 twoaddressinstruction          - Number of two-address instructions                                         :  1     vs  Nil  

@@ -1,10 +1,10 @@
 pass - description: <before> vs <after>
 
-dagcombine                     - Number of dag nodes combined                                               :  3     vs  7    
-tailduplication                - Number of tail duplicated blocks                                           :  2     vs  3    
 phi-node-elimination           - Number of phis lowered                                                     :  2     vs  1    
+dagcombine                     - Number of dag nodes combined                                               :  3     vs  7    
 regalloc                       - Number of interval joins performed                                         :  15    vs  13   
-tailduplication                - Number of instructions added due to tail duplication                       :  1     vs  2    
 twoaddressinstruction          - Number of two-address instructions                                         :  3     vs  4    
+tailduplication                - Number of instructions added due to tail duplication                       :  1     vs  2    
+tailduplication                - Number of tail duplicated blocks                                           :  2     vs  3    
 machine-cse                    - Number of copies coalesced                                                 :  Nil   vs  1    
 dead-mi-elimination            - Number of dead instructions deleted                                        :  Nil   vs  2    

@@ -1,9 +1,9 @@
 pass - description: <before> vs <after>
 
-branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
 tailduplication                - Number of dead blocks removed                                              :  2     vs  1    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
 regalloc                       - Number of interval joins performed                                         :  9     vs  7    
 tailduplication                - Number of tails duplicated                                                 :  2     vs  1    
+tailduplication                - Number of phis added                                                       :  2     vs  Nil  
 tailduplication                - Number of tail duplicated blocks                                           :  1     vs  Nil  
 tailduplication                - Number of instructions added due to tail duplication                       :  2     vs  Nil  
-tailduplication                - Number of phis added                                                       :  2     vs  Nil  

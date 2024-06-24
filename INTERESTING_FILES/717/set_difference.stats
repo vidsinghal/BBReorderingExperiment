@@ -1,5 +1,5 @@
 pass - description: <before> vs <after>
 
-dagcombine                     - Number of dag nodes combined                                               :  2     vs  4    
 isel                           - Number of times dag isel has to try another path                           :  88    vs  98   
+dagcombine                     - Number of dag nodes combined                                               :  2     vs  4    
 branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

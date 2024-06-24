@@ -1,13 +1,13 @@
 pass - description: <before> vs <after>
 
-dagcombine                     - Number of dag nodes combined                                               :  10    vs  9    
 isel                           - Number of times dag isel has to try another path                           :  61    vs  75   
+dagcombine                     - Number of dag nodes combined                                               :  10    vs  9    
 asm-printer                    - Number of machine instrs printed                                           :  11    vs  10   
 regalloc                       - Number of interval joins performed                                         :  1     vs  Nil  
-twoaddressinstruction          - Number of instructions aggressively commuted                               :  1     vs  Nil  
 twoaddressinstruction          - Number of two-address instructions                                         :  1     vs  Nil  
+twoaddressinstruction          - Number of instructions aggressively commuted                               :  1     vs  Nil  
 twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  Nil  
 tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
 tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    
-tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
 branch-folder                  - Number of branches optimized                                               :  Nil   vs  3    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    

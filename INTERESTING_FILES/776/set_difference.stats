@@ -1,8 +1,8 @@
 pass - description: <before> vs <after>
 
 dagcombine                     - Number of dag nodes combined                                               :  6     vs  3    
+machine-cp                     - Number of dead copies deleted                                              :  1     vs  2    
 machine-cp                     - Number of copy defs backward propagated                                    :  1     vs  2    
 tailduplication                - Number of tails duplicated                                                 :  2     vs  1    
 asm-printer                    - Number of machine instrs printed                                           :  15    vs  14   
-machine-cp                     - Number of dead copies deleted                                              :  1     vs  2    
 branch-folder                  - Number of branches optimized                                               :  2     vs  Nil  
