@@ -9,8 +9,18 @@ import numpy as np
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
+use_opt = True
+
 INPUTS = dir_path + "/samples/"
-INTERESTING_FILES = dir_path + "/INTERESTING_FILES/"
+
+INTERESTING_FILES = ""
+if use_opt:
+    INTERESTING_FILES = dir_path + "/INTERESTING_FILES_OPT/"
+
+if (not use_opt):
+    INTERESTING_FILES = dir_path + "/INTERESTING_FILES_DISABLE_STATS/"
+
+
 SRC = dir_path + "/samples/"
 
 if not os.path.exists(INTERESTING_FILES):
@@ -57,9 +67,16 @@ for i in range(NUM_FILES):
     code_rm = subprocess.call(rm_command_before_new_file, shell=True)
 
     #run llvm reduce
-    command_str_llvm_reduce = LLVM_REDUCE + " " + "--test " + "script.sh " + input_to_reduce
-    print(command_str_llvm_reduce)
-    code_llvm_reduce = subprocess.call(command_str_llvm_reduce, shell=True)
+    if (not use_opt):
+        command_str_llvm_reduce = LLVM_REDUCE + " " + "--test " + "script.sh " + input_to_reduce
+        print(command_str_llvm_reduce)
+        code_llvm_reduce = subprocess.call(command_str_llvm_reduce, shell=True)
+
+    if (use_opt):
+        command_str_llvm_reduce = LLVM_REDUCE + " " + "--test " + "script2.sh " + input_to_reduce
+        print(command_str_llvm_reduce)
+        code_llvm_reduce = subprocess.call(command_str_llvm_reduce, shell=True)
+
 
     print(code_llvm_reduce)
 
@@ -85,7 +102,7 @@ for i in range(NUM_FILES):
             print("End data length\n")
 
             #give up if file is more than 20 lines long. 
-            if len(data2) > 20:
+            if len(data2) > 50:
                 continue
 
             print("Found reasonable size file, continuing...")
@@ -103,28 +120,49 @@ for i in range(NUM_FILES):
             print(gen_cpy_ll)
             code_cp = subprocess.call(gen_cpy_ll, shell=True)
 
+            # --stop-before=block-placement-stats
+            # --disable-block-placement
+            if (not use_opt):
 
-            #diff the update register here
+                #compile original using opt and llc 
+                compile_original_opt = LLVM_OPT + " -O3 " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
+                subprocess.call(compile_original_opt, shell=True)
+                compile_original_llc = LLVM_LLC + " -O3 --disable-block-placement --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
+                subprocess.call(compile_original_llc, shell=True)
 
-            #compile original using opt and llc 
-            compile_original_opt = LLVM_OPT + " -O3 " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
-            subprocess.call(compile_original_opt, shell=True)
-            compile_original_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
-            subprocess.call(compile_original_llc, shell=True)
-
-            #store dis-assembly
-            dis_orignal = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.ll"
-            subprocess.call(dis_orignal, shell=True)
+                #store dis-assembly
+                dis_orignal = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.ll"
+                subprocess.call(dis_orignal, shell=True)
             
-            #compile reordered using opt and llc
-            compile_reordered_opt = LLVM_OPT + " --passes='default<O3>,reorder-code' " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
-            subprocess.call(compile_reordered_opt, shell=True)
-            compile_reordered_llc = LLVM_LLC + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
-            subprocess.call(compile_reordered_llc, shell=True)
+                #compile reordered using opt and llc
+                compile_reordered_opt = LLVM_OPT + " --passes='default<O3>,reorder-code' " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
+                subprocess.call(compile_reordered_opt, shell=True)
+                compile_reordered_llc = LLVM_LLC + " -O3 --disable-block-placement --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
+                subprocess.call(compile_reordered_llc, shell=True)
 
-            #store dis-assembly
-            dis_reordered = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.ll"
-            subprocess.call(dis_reordered, shell=True)
+                #store dis-assembly
+                dis_reordered = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.ll"
+                subprocess.call(dis_reordered, shell=True)
+
+
+            if use_opt:
+
+                #compile original using opt and llc 
+                compile_original_opt = LLVM_OPT + " -O3 --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "original.stats " +  INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc"
+                subprocess.call(compile_original_opt, shell=True)
+
+                #store dis-assembly
+                dis_orignal = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "original.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "original.ll"
+                subprocess.call(dis_orignal, shell=True)
+            
+                #compile reordered using opt and llc
+                compile_reordered_opt = LLVM_OPT + " --passes='default<O3>,reorder-code' --stats --info-output-file=" + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.stats " + INTERESTING_FILES + "/" + str(i) + "/" + file_hash + ".bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc"
+                subprocess.call(compile_reordered_opt, shell=True)
+
+                #store dis-assembly
+                dis_reordered = LLVM_DIS + " " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.bc" + " -o " + INTERESTING_FILES + "/" + str(i) + "/" + "reordered.ll"
+                subprocess.call(dis_reordered, shell=True)
+
 
             #diff stats 
             f1 = INTERESTING_FILES + "/" + str(i) + "/" + "original.stats"
