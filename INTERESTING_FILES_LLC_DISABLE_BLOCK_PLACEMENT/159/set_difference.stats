@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  5     vs  4    
+machine-sink                   - Number of machine instructions sunk                                        :  1     vs  2    
+branch-folder                  - Number of branches optimized                                               :  2     vs  1    
+shrink-wrap                    - Number of shrink-wrapping candidates                                       :  Nil   vs  1    

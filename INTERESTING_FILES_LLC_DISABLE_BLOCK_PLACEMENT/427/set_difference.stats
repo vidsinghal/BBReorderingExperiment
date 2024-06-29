@@ -1,0 +1,8 @@
+pass - description: <before> vs <after>
+
+asm-printer                    - Number of machine instrs printed                                           :  10    vs  11   
+isel                           - Number of times dag isel has to try another path                           :  102   vs  113  
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

@@ -1,0 +1,39 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+18 asm-printer         - Number of machine instrs printed
+42 bitcode-reader      - Number of Metadata records loaded
+ 3 branch-folder       - Number of branches optimized
+ 2 branch-folder       - Number of dead blocks removed
+ 5 dagcombine          - Number of dag nodes combined
+ 3 dead-mi-elimination - Number of dead instructions deleted
+ 1 dwarf-eh-prepare    - Number of functions with unwind
+ 7 isel                - Number of blocks selected using DAG
+31 isel                - Number of times dag isel has to try another path
+ 1 isel                - Number of entry blocks encountered
+ 1 machine-sink        - Number of copies sunk after RA
+ 1 machine-sink        - Number of machine instructions sunk
+24 prologepilog        - Number of bytes used for stack in all functions
+ 1 prologepilog        - Number of functions seen in PEI
+ 4 regalloc            - Number of registers assigned
+ 6 regalloc            - Number of copies inserted for splitting
+ 1 regalloc            - Number of instructions deleted by DCE
+ 1 regalloc            - Number of splits finished
+ 1 regalloc            - Number of split global live ranges
+ 4 regalloc            - Number of identity moves eliminated after rewriting
+ 6 regalloc            - Number of new live ranges queued
+ 2 regalloc            - Number of reloads inserted
+ 1 regalloc            - Number of reloads removed
+ 1 regalloc            - Number of spill slots allocated
+ 2 regalloc            - Number of spilled live ranges
+ 1 regalloc            - Number of spills inserted
+ 2 regalloc            - Number of cross class joins performed
+ 2 regalloc            - Number of interval joins performed
+ 1 shrink-wrap         - Number of functions
+ 1 stackmaps           - Number of functions skipped
+ 1 stackmaps           - Number of functions visited
+ 2 tailduplication     - Number of dead blocks removed
+ 2 tailduplication     - Number of instructions removed due to tail duplication
+ 2 tailduplication     - Number of tails duplicated
+

@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of cross class joins performed                                      :  11    vs  10   
+branch-folder                  - Number of branches optimized                                               :  3     vs  1    

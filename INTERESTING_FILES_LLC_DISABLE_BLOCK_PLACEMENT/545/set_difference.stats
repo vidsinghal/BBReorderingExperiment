@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+asm-printer                    - Number of machine instrs printed                                           :  16    vs  17   
+regalloc                       - Number of instruction commuting performed                                  :  1     vs  Nil  
+dagcombine                     - Number of dag nodes combined                                               :  4     vs  Nil  
+post-RA-sched                  - Number of fixed anti-dependencies                                          :  1     vs  Nil  

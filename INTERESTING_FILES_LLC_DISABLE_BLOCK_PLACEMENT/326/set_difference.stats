@@ -1,0 +1,27 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of split global live ranges                                         :  1     vs  2    
+dead-mi-elimination            - Number of dead instructions deleted                                        :  1     vs  3    
+regalloc                       - Number of splits that were simple                                          :  1     vs  2    
+dagcombine                     - Number of dag nodes combined                                               :  1     vs  5    
+regalloc                       - Number of instructions re-materialized                                     :  2     vs  1    
+regalloc                       - Number of interval joins performed                                         :  6     vs  4    
+regalloc                       - Number of new live ranges queued                                           :  3     vs  5    
+regalloc                       - Number of splits finished                                                  :  1     vs  2    
+regalloc                       - Number of instructions rematerialized                                      :  2     vs  1    
+prologepilog                   - Number of bytes used for stack in all functions                            :  8     vs  24   
+regalloc                       - Number of copies inserted for splitting                                    :  1     vs  2    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  4     vs  5    
+regalloc                       - Number of shrinkToUses called                                              :  2     vs  1    
+asm-printer                    - Number of machine instrs printed                                           :  17    vs  23   
+regalloc                       - Number of registers assigned                                               :  6     vs  8    
+machine-sink                   - Number of copies sunk after RA                                             :  1     vs  Nil  
+phi-node-elimination           - Number of phis lowered                                                     :  1     vs  Nil  
+regalloc                       - Number of dead lane conflicts tested                                       :  1     vs  Nil  
+regalloc                       - Number of instructions deleted by DCE                                      :  1     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  2    
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  3    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  4    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  2    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

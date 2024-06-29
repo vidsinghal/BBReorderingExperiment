@@ -1,0 +1,40 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 63 asm-printer         - Number of machine instrs printed
+ 42 bitcode-reader      - Number of Metadata records loaded
+  1 branch-folder       - Number of branches optimized
+ 13 dagcombine          - Number of dag nodes combined
+ 10 dead-mi-elimination - Number of dead instructions deleted
+  1 dwarf-eh-prepare    - Number of functions with unwind
+  3 isel                - Number of blocks selected using DAG
+296 isel                - Number of times dag isel has to try another path
+  1 isel                - Number of entry blocks encountered
+  3 machine-cp          - Number of copy uses forwarded
+  2 machine-cse         - Number of common subexpression eliminated
+ 56 prologepilog        - Number of bytes used for stack in all functions
+  1 prologepilog        - Number of functions seen in PEI
+ 10 regalloc            - Number of registers assigned
+  1 regalloc            - Number of copies inserted for splitting
+  3 regalloc            - Number of instructions deleted by DCE
+  1 regalloc            - Number of interferences evicted
+  1 regalloc            - Number of splits finished
+  1 regalloc            - Number of split global live ranges
+  1 regalloc            - Number of identity moves eliminated after rewriting
+  5 regalloc            - Number of new live ranges queued
+ 17 regalloc            - Number of instructions rematerialized
+ 17 regalloc            - Number of instructions re-materialized
+  1 regalloc            - Number of reloads inserted
+ 17 regalloc            - Number of shrinkToUses called
+  1 regalloc            - Number of splits that were simple
+  1 regalloc            - Number of spill slots allocated
+  1 regalloc            - Number of spilled live ranges
+  1 regalloc            - Number of spills inserted
+  2 regalloc            - Number of registers unassigned
+  3 regalloc            - Number of cross class joins performed
+  3 regalloc            - Number of interval joins performed
+  1 shrink-wrap         - Number of functions
+  1 stackmaps           - Number of functions skipped
+  1 stackmaps           - Number of functions visited
+

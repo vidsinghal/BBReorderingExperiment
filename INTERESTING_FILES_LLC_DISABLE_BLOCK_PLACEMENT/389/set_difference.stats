@@ -1,0 +1,14 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  8     vs  5    
+regalloc                       - Number of cross class joins performed                                      :  6     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  11    vs  13   
+regalloc                       - Number of registers assigned                                               :  4     vs  5    
+phi-node-elimination           - Number of phis lowered                                                     :  1     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  2    
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  3    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  4    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    
+dead-mi-elimination            - Number of dead instructions deleted                                        :  Nil   vs  2    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  2    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

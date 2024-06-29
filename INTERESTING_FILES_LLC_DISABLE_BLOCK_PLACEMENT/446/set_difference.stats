@@ -1,0 +1,13 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of split global live ranges                                         :  2     vs  1    
+regalloc                       - Number of splits that were simple                                          :  2     vs  1    
+dagcombine                     - Number of dag nodes combined                                               :  13    vs  14   
+regalloc                       - Number of registers unassigned                                             :  5     vs  3    
+regalloc                       - Number of new live ranges queued                                           :  10    vs  6    
+regalloc                       - Number of splits finished                                                  :  2     vs  1    
+regalloc                       - Number of copies inserted for splitting                                    :  2     vs  1    
+regalloc                       - Number of interferences evicted                                            :  3     vs  2    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  2     vs  1    
+regalloc                       - Number of registers assigned                                               :  22    vs  19   
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  

@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  14    vs  2    
+asm-printer                    - Number of machine instrs printed                                           :  11    vs  15   
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    

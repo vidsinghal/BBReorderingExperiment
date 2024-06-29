@@ -1,0 +1,28 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+12 asm-printer         - Number of machine instrs printed
+42 bitcode-reader      - Number of Metadata records loaded
+ 1 branch-folder       - Number of dead blocks removed
+ 1 codegenprepare      - Number of blocks eliminated
+ 3 dead-mi-elimination - Number of dead instructions deleted
+ 6 dwarf-eh-prepare    - Number of functions with nounwind
+ 8 isel                - Number of blocks selected using DAG
+11 isel                - Number of times dag isel has to try another path
+ 6 isel                - Number of entry blocks encountered
+ 1 peephole-opt        - Number of move immediate folded
+ 6 prologepilog        - Number of functions seen in PEI
+ 5 regalloc            - Number of instructions deleted by DCE
+ 5 regalloc            - Number of instructions rematerialized
+ 5 regalloc            - Number of instructions re-materialized
+ 5 regalloc            - Number of shrinkToUses called
+ 5 regalloc            - Number of cross class joins performed
+ 5 regalloc            - Number of interval joins performed
+ 6 shrink-wrap         - Number of functions
+ 6 stackmaps           - Number of functions skipped
+ 6 stackmaps           - Number of functions visited
+ 1 tailduplication     - Number of dead blocks removed
+ 1 tailduplication     - Number of instructions removed due to tail duplication
+ 1 tailduplication     - Number of tails duplicated
+

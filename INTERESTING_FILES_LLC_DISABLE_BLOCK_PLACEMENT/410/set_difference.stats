@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  14    vs  13   
+machine-cp                     - Number of copy uses forwarded                                              :  2     vs  3    

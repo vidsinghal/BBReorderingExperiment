@@ -1,0 +1,35 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 29 asm-printer           - Number of machine instrs printed
+  1 assume-queries        - Number of Queries into an assume assume bundles
+ 48 bitcode-reader        - Number of Metadata records loaded
+  1 bitcode-reader        - Number of MDStrings loaded
+  1 codegenprepare        - Number of blocks eliminated
+  1 codegenprepare        - Number of uses of Cmp expressions replaced with uses of sunken Cmps
+ 10 dagcombine            - Number of dag nodes combined
+  1 dead-mi-elimination   - Number of dead instructions deleted
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  1 dwarf-eh-prepare      - Number of functions with unwind
+  5 isel                  - Number of blocks selected using DAG
+141 isel                  - Number of times dag isel has to try another path
+  2 isel                  - Number of entry blocks encountered
+  6 peephole-opt          - Number of move immediate folded
+  8 prologepilog          - Number of bytes used for stack in all functions
+  2 prologepilog          - Number of functions seen in PEI
+  7 regalloc              - Number of registers assigned
+  1 regalloc              - Number of instructions deleted by DCE
+  2 regalloc              - Number of identity moves eliminated after rewriting
+  2 regalloc              - Number of instructions rematerialized
+  2 regalloc              - Number of instructions re-materialized
+  2 regalloc              - Number of shrinkToUses called
+  2 regalloc              - Number of cross class joins performed
+  4 regalloc              - Number of interval joins performed
+  2 shrink-wrap           - Number of functions
+  2 stackmaps             - Number of functions skipped
+  2 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of instructions aggressively commuted
+  1 twoaddressinstruction - Number of instructions commuted to coalesce
+  2 twoaddressinstruction - Number of two-address instructions
+

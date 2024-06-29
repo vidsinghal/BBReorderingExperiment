@@ -1,0 +1,40 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  1 aa                    - Number of MayAlias results
+ 23 asm-printer           - Number of machine instrs printed
+  1 assume-queries        - Number of Queries into an assume assume bundles
+ 46 bitcode-reader        - Number of Metadata records loaded
+  1 bitcode-reader        - Number of MDStrings loaded
+  1 branch-folder         - Number of branches optimized
+  1 codegenprepare        - Number of blocks eliminated
+  2 codegenprepare        - Number of uses of Cmp expressions replaced with uses of sunken Cmps
+ 11 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  5 ir                    - Number of renumberings across all blocks
+  9 isel                  - Number of blocks selected using DAG
+172 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  2 machine-scheduler     - Number of instr pairs fused
+  1 machinelicm           - Number of machine instructions hoisted out of loops
+  3 phi-node-elimination  - Number of phis lowered
+  1 pre-RA-sched          - Number of times a  single predecessor was added
+  1 pre-RA-sched          - Number of times the topological order has been recomputed
+  1 prologepilog          - Number of functions seen in PEI
+  9 regalloc              - Number of registers assigned
+  1 regalloc              - Number of instructions deleted by DCE
+  3 regalloc              - Number of identity moves eliminated after rewriting
+  1 regalloc              - Number of instructions rematerialized
+  1 regalloc              - Number of instructions re-materialized
+  1 regalloc              - Number of shrinkToUses called
+  4 regalloc              - Number of cross class joins performed
+ 13 regalloc              - Number of interval joins performed
+  1 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 scalar-evolution      - Number of loop exits without predictable exit counts
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of instructions promoted to 3-address
+  8 twoaddressinstruction - Number of two-address instructions
+

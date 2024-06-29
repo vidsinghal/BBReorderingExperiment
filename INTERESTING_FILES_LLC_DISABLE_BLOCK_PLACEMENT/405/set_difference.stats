@@ -1,0 +1,13 @@
+pass - description: <before> vs <after>
+
+asm-printer                    - Number of machine instrs printed                                           :  11    vs  12   
+tailduplication                - Number of phis added                                                       :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+regalloc                       - Number of shrinkToUses called                                              :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  2    
+regalloc                       - Number of instructions re-materialized                                     :  Nil   vs  1    
+regalloc                       - Number of instructions rematerialized                                      :  Nil   vs  1    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  3    
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  2    
+machine-cse                    - Number of common subexpression eliminated                                  :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

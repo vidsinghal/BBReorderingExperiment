@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  7     vs  6    
+asm-printer                    - Number of machine instrs printed                                           :  10    vs  11   
+branch-folder                  - Number of dead blocks removed                                              :  2     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  2     vs  Nil  
+phi-node-elimination           - Number of critical edges split                                             :  1     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    
+phi-node-elimination           - Number of reused lowered phis                                              :  Nil   vs  1    

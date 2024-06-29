@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  9    
+tailduplication                - Number of tail duplicated blocks                                           :  3     vs  4    

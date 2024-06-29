@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  8     vs  10   
+regalloc                       - Number of cross class joins performed                                      :  8     vs  9    
+asm-printer                    - Number of machine instrs printed                                           :  28    vs  30   
+isel                           - Number of times dag isel has to try another path                           :  98    vs  106  
+twoaddressinstruction          - Number of two-address instructions                                         :  Nil   vs  2    

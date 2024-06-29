@@ -1,0 +1,8 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  12    vs  13   
+regalloc                       - Number of registers unassigned                                             :  2     vs  1    
+regalloc                       - Number of new live ranges queued                                           :  8     vs  7    
+regalloc                       - Number of registers assigned                                               :  14    vs  13   
+regalloc                       - Number of interferences evicted                                            :  1     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  

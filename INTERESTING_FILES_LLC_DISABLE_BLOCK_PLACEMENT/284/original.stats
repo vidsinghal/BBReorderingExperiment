@@ -1,0 +1,22 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 5 asm-printer      - Number of machine instrs printed
+42 bitcode-reader   - Number of Metadata records loaded
+ 2 branch-folder    - Number of branches optimized
+ 4 branch-folder    - Number of dead blocks removed
+ 1 branch-folder    - Number of block tails merged
+ 1 codegenprepare   - Number of return instructions duplicated
+ 5 dagcombine       - Number of dag nodes combined
+ 2 dwarf-eh-prepare - Number of functions with nounwind
+ 6 isel             - Number of blocks selected using DAG
+50 isel             - Number of times dag isel has to try another path
+ 2 isel             - Number of entry blocks encountered
+ 2 prologepilog     - Number of functions seen in PEI
+ 3 regalloc         - Number of registers assigned
+ 3 regalloc         - Number of identity moves eliminated after rewriting
+ 2 shrink-wrap      - Number of functions
+ 2 stackmaps        - Number of functions skipped
+ 2 stackmaps        - Number of functions visited
+

@@ -1,0 +1,12 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  4    
+regalloc                       - Number of interval joins performed                                         :  6     vs  5    
+asm-printer                    - Number of machine instrs printed                                           :  9     vs  11   
+regalloc                       - Number of registers assigned                                               :  2     vs  3    
+regalloc                       - Number of copies extended                                                  :  1     vs  Nil  
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+tailduplication                - Number of tail duplicated blocks                                           :  1     vs  Nil  
+regalloc                       - Number of shrinkToUses called                                              :  Nil   vs  2    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

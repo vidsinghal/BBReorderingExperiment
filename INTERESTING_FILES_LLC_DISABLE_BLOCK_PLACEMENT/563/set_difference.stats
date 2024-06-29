@@ -1,0 +1,19 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  14    vs  18   
+branch-folder                  - Number of dead blocks removed                                              :  3     vs  2    
+branch-folder                  - Number of branches optimized                                               :  2     vs  3    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  1     vs  2    
+asm-printer                    - Number of machine instrs printed                                           :  20    vs  23   
+branch-folder                  - Number of block tails merged                                               :  2     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  1     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  Nil  
+tailduplication                - Number of dead blocks removed                                              :  1     vs  Nil  
+shrink-wrap                    - Number of shrink-wrapping candidates                                       :  Nil   vs  1    
+regalloc                       - Number of new live ranges queued                                           :  Nil   vs  1    
+regalloc                       - Number of split global live ranges                                         :  Nil   vs  1    
+regalloc                       - Number of splits finished                                                  :  Nil   vs  1    
+regalloc                       - Number of instructions rematerialized                                      :  Nil   vs  2    
+regalloc                       - Number of instructions deleted by DCE                                      :  Nil   vs  1    
+regalloc                       - Number of rematerialized defs for splitting                                :  Nil   vs  2    
+machine-cp                     - Number of copy uses forwarded                                              :  Nil   vs  1    

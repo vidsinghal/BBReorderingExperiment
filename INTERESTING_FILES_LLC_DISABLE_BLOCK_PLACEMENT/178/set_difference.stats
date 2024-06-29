@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  3     vs  2    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+tailduplication                - Number of phis added                                                       :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  2    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

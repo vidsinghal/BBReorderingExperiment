@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  3     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  10    vs  9    
+regalloc                       - Number of registers assigned                                               :  3     vs  2    
+machine-sink                   - Number of critical edges split                                             :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

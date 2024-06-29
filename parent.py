@@ -9,7 +9,7 @@ import numpy as np
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-use_opt = True
+use_opt = False
 
 INPUTS = dir_path + "/samples/"
 
@@ -18,7 +18,7 @@ if use_opt:
     INTERESTING_FILES = dir_path + "/INTERESTING_FILES_OPT/"
 
 if (not use_opt):
-    INTERESTING_FILES = dir_path + "/INTERESTING_FILES_DISABLE_STATS/"
+    INTERESTING_FILES = dir_path + "/INTERESTING_FILES_LLC_DISABLE_BLOCK_PLACEMENT/"
 
 
 SRC = dir_path + "/samples/"

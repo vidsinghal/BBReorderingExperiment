@@ -1,0 +1,16 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  4     vs  3    
+regalloc                       - Number of cross class joins performed                                      :  4     vs  3    
+branch-folder                  - Number of dead blocks removed                                              :  2     vs  1    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  4     vs  3    
+asm-printer                    - Number of machine instrs printed                                           :  15    vs  14   
+regalloc                       - Number of registers assigned                                               :  4     vs  3    
+pre-RA-sched                   - Number of times the topological order has been recomputed                  :  1     vs  Nil  
+machine-scheduler              - Number of instr pairs fused                                                :  1     vs  Nil  
+pre-RA-sched                   - Number of times a  single predecessor was added                            :  2     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+machine-sink                   - Number of copies sunk after RA                                             :  Nil   vs  4    
+dead-mi-elimination            - Number of dead instructions deleted                                        :  Nil   vs  3    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

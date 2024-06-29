@@ -1,0 +1,14 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of registers unassigned                                             :  1     vs  5    
+regalloc                       - Number of new live ranges queued                                           :  5     vs  15   
+regalloc                       - Number of interferences evicted                                            :  1     vs  5    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  2     vs  4    
+regalloc                       - Number of registers assigned                                               :  22    vs  28   
+tailduplication                - Number of tails duplicated                                                 :  1     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  Nil  
+tailduplication                - Number of dead blocks removed                                              :  1     vs  Nil  
+regalloc                       - Number of splits finished                                                  :  Nil   vs  2    
+regalloc                       - Number of splits that were simple                                          :  Nil   vs  2    
+regalloc                       - Number of copies inserted for splitting                                    :  Nil   vs  2    
+regalloc                       - Number of split global live ranges                                         :  Nil   vs  2    

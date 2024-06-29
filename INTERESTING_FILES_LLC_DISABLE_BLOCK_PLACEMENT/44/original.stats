@@ -1,0 +1,37 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 76 asm-printer         - Number of machine instrs printed
+ 42 bitcode-reader      - Number of Metadata records loaded
+  6 dead-mi-elimination - Number of dead instructions deleted
+  2 dwarf-eh-prepare    - Number of functions with unwind
+  6 isel                - Number of blocks selected using DAG
+529 isel                - Number of times dag isel has to try another path
+  2 isel                - Number of entry blocks encountered
+  2 machine-sink        - Number of machine instructions sunk
+  1 peephole-opt        - Number of move immediate folded
+  6 pre-RA-sched        - Number of loads clustered together
+160 prologepilog        - Number of bytes used for stack in all functions
+  2 prologepilog        - Number of functions seen in PEI
+ 22 regalloc            - Number of registers assigned
+  1 regalloc            - Number of instructions deleted by DCE
+  1 regalloc            - Number of interferences evicted
+  2 regalloc            - Number of identity moves eliminated after rewriting
+  5 regalloc            - Number of new live ranges queued
+  3 regalloc            - Number of instructions rematerialized
+  1 regalloc            - Number of instructions re-materialized
+  2 regalloc            - Number of rematerialized defs for spilling
+  1 regalloc            - Number of shrinkToUses called
+  2 regalloc            - Number of spilled live ranges
+  1 regalloc            - Number of registers unassigned
+  2 regalloc            - Number of cross class joins performed
+  7 regalloc            - Number of interval joins performed
+  2 shrink-wrap         - Number of functions
+  2 stackmaps           - Number of functions skipped
+  2 stackmaps           - Number of functions visited
+  1 tailduplication     - Number of dead blocks removed
+  1 tailduplication     - Number of instructions removed due to tail duplication
+  1 tailduplication     - Number of tails duplicated
+  3 x86-vzeroupper      - Number of vzeroupper instructions inserted
+

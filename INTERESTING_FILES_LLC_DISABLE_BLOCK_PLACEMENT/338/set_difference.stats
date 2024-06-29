@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  4     vs  3    
+asm-printer                    - Number of machine instrs printed                                           :  1     vs  4    
+dead-mi-elimination            - Number of dead instructions deleted                                        :  6     vs  3    
+tailduplication                - Number of tails duplicated                                                 :  1     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  1     vs  Nil  
+tailduplication                - Number of dead blocks removed                                              :  1     vs  Nil  
+regalloc                       - Number of registers assigned                                               :  Nil   vs  2    
+branch-folder                  - Number of dead blocks removed                                              :  Nil   vs  1    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  Nil   vs  1    

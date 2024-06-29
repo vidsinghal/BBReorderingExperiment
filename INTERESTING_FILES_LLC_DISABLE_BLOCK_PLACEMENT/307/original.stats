@@ -1,0 +1,34 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 60 asm-printer           - Number of machine instrs printed
+ 53 bitcode-reader        - Number of Metadata records loaded
+  3 bitcode-reader        - Number of MDStrings loaded
+  2 codegenprepare        - Number of blocks eliminated
+ 30 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+ 26 ir                    - Number of renumberings across all blocks
+ 13 isel                  - Number of blocks selected using DAG
+751 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  1 lcssa                 - Number of live out of a loop variables
+  7 machine-scheduler     - Number of instr pairs fused
+  2 machine-sink          - Number of critical edges split
+ 10 machine-sink          - Number of machine instructions sunk
+  6 phi-node-elimination  - Number of phis lowered
+  2 pre-RA-sched          - Number of loads clustered together
+  1 pre-RA-sched          - Number of times a  single predecessor was added
+  2 pre-RA-sched          - Number of times the topological order has been recomputed
+  1 prologepilog          - Number of functions seen in PEI
+ 22 regalloc              - Number of registers assigned
+  3 regalloc              - Number of identity moves eliminated after rewriting
+  9 regalloc              - Number of cross class joins performed
+ 22 regalloc              - Number of interval joins performed
+  3 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of instructions commuted to coalesce
+  8 twoaddressinstruction - Number of two-address instructions
+

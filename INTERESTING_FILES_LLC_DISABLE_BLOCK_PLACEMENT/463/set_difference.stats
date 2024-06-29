@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+branch-folder                  - Number of tail calls optimized                                             :  1     vs  2    
+dagcombine                     - Number of dag nodes combined                                               :  7     vs  6    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    

@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  28    vs  27   
+regalloc                       - Number of cross class joins performed                                      :  15    vs  14   
+asm-printer                    - Number of machine instrs printed                                           :  64    vs  65   
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

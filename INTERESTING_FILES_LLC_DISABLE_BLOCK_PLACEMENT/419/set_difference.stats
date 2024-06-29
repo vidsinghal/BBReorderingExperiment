@@ -1,0 +1,8 @@
+pass - description: <before> vs <after>
+
+tailduplication                - Number of tail duplicated blocks                                           :  2     vs  1    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
+branch-folder                  - Number of branches optimized                                               :  2     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  23    vs  20   
+tailduplication                - Number of instructions added due to tail duplication                       :  4     vs  2    
+branch-folder                  - Number of block tails merged                                               :  Nil   vs  1    

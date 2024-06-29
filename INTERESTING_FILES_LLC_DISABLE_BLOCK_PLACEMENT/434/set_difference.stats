@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  62    vs  58   
+asm-printer                    - Number of machine instrs printed                                           :  41    vs  42   

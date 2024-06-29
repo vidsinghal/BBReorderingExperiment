@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  5     vs  3    
+isel                           - Number of times dag isel has to try another path                           :  117   vs  109  
+twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  Nil  
+twoaddressinstruction          - Number of instructions aggressively commuted                               :  1     vs  Nil  
+twoaddressinstruction          - Number of two-address instructions                                         :  2     vs  Nil  
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  3    

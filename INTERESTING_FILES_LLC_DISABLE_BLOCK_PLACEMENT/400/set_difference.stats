@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  119   vs  81   
+branch-folder                  - Number of branches optimized                                               :  1     vs  37   

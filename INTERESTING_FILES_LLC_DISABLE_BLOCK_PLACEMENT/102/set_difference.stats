@@ -1,0 +1,5 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  7     vs  3    
+branch-folder                  - Number of branches optimized                                               :  3     vs  5    
+machine-sink                   - Number of copies sunk after RA                                             :  3     vs  2    

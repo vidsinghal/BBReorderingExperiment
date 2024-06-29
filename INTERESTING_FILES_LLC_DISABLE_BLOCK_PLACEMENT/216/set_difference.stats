@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  2    
+codegenprepare                 - Number of uses of Cast expressions replaced with uses of sunken Casts      :  1     vs  Nil  
+codegenprepare                 - Number of memory instructions whose address computations were sunk         :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  13    vs  9    
+machine-sink                   - Number of copies sunk after RA                                             :  6     vs  4    

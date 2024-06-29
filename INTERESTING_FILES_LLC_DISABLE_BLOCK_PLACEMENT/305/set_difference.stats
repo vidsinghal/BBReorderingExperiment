@@ -1,0 +1,5 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  5     vs  4    
+machine-sink                   - Number of critical edges split                                             :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

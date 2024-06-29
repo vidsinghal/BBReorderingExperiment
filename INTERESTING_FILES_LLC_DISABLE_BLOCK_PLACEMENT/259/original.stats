@@ -1,0 +1,36 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 33 asm-printer           - Number of machine instrs printed
+ 57 bitcode-reader        - Number of Metadata records loaded
+  3 bitcode-reader        - Number of MDStrings loaded
+  2 branch-folder         - Number of branches optimized
+  2 branch-folder         - Number of dead blocks removed
+  1 codegenprepare        - Number of blocks eliminated
+ 19 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  4 ir                    - Number of renumberings across all blocks
+  9 isel                  - Number of blocks selected using DAG
+366 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  1 machine-cse           - Number of common subexpression eliminated
+  3 machinelicm           - Number of machine instructions hoisted out of loops
+  1 machinelicm           - Number of instructions hoisted in low reg pressure situation
+  1 peephole-opt          - Number of move immediate folded
+  1 phi-node-elimination  - Number of critical edges split
+  3 phi-node-elimination  - Number of phis lowered
+  1 prologepilog          - Number of functions seen in PEI
+ 11 regalloc              - Number of registers assigned
+  3 regalloc              - Number of identity moves eliminated after rewriting
+  2 regalloc              - Number of dead lane conflicts tested
+  3 regalloc              - Number of cross class joins performed
+ 11 regalloc              - Number of interval joins performed
+  2 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  2 twoaddressinstruction - Number of instructions promoted to 3-address
+  1 twoaddressinstruction - Number of instructions re-scheduled down
+  9 twoaddressinstruction - Number of two-address instructions
+

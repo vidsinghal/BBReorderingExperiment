@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of cross class joins performed                                      :  6     vs  7    
+dagcombine                     - Number of dag nodes combined                                               :  4     vs  Nil  

@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  24    vs  22   
+regalloc                       - Number of interval joins performed                                         :  39    vs  38   
+regalloc                       - Number of cross class joins performed                                      :  5     vs  3    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  2     vs  3    
+regalloc                       - Number of registers assigned                                               :  16    vs  17   
+machine-cp                     - Number of copy uses forwarded                                              :  1     vs  Nil  
+pre-RA-sched                   - Number of times the topological order has been recomputed                  :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  2    
+pre-RA-sched                   - Number of times a  single predecessor was added                            :  Nil   vs  1    

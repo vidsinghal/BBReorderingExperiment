@@ -1,0 +1,38 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 42 asm-printer           - Number of machine instrs printed
+  3 assume-queries        - Number of Queries into an assume assume bundles
+ 42 bitcode-reader        - Number of Metadata records loaded
+  1 branch-folder         - Number of branches optimized
+ 13 dagcombine            - Number of dag nodes combined
+  2 dead-mi-elimination   - Number of dead instructions deleted
+  1 dwarf-eh-prepare      - Number of functions with unwind
+  4 isel                  - Number of blocks selected using DAG
+244 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  1 machine-sink          - Number of machine instructions sunk
+  1 peephole-opt          - Number of move immediate folded
+  2 phi-node-elimination  - Number of phis lowered
+ 56 prologepilog          - Number of bytes used for stack in all functions
+  1 prologepilog          - Number of functions seen in PEI
+ 22 regalloc              - Number of registers assigned
+  2 regalloc              - Number of copies inserted for splitting
+  3 regalloc              - Number of interferences evicted
+  2 regalloc              - Number of splits finished
+  1 regalloc              - Number of folded stack accesses
+  1 regalloc              - Number of folded loads
+  2 regalloc              - Number of split global live ranges
+  2 regalloc              - Number of identity moves eliminated after rewriting
+ 10 regalloc              - Number of new live ranges queued
+  2 regalloc              - Number of splits that were simple
+  1 regalloc              - Number of spilled live ranges
+  5 regalloc              - Number of registers unassigned
+  2 regalloc              - Number of cross class joins performed
+  7 regalloc              - Number of interval joins performed
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of two-address instructions
+

@@ -1,0 +1,33 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  4 aa               - Number of NoAlias results
+ 26 asm-printer      - Number of machine instrs printed
+  2 assume-queries   - Number of Queries into an assume assume bundles
+ 42 bitcode-reader   - Number of Metadata records loaded
+  1 branch-folder    - Number of branches optimized
+  1 branch-folder    - Number of dead blocks removed
+ 61 dagcombine       - Number of dag nodes combined
+  2 dwarf-eh-prepare - Number of functions with nounwind
+  4 isel             - Number of blocks selected using DAG
+587 isel             - Number of times dag isel has to try another path
+  2 isel             - Number of entry blocks encountered
+  1 peephole-opt     - Number of move immediate folded
+  4 pre-RA-sched     - Number of loads clustered together
+  8 prologepilog     - Number of bytes used for stack in all functions
+  2 prologepilog     - Number of functions seen in PEI
+ 12 regalloc         - Number of registers assigned
+  1 regalloc         - Number of instructions deleted by DCE
+  4 regalloc         - Number of identity moves eliminated after rewriting
+  1 regalloc         - Number of instructions rematerialized
+  1 regalloc         - Number of instructions re-materialized
+  1 regalloc         - Number of shrinkToUses called
+  2 regalloc         - Number of cross class joins performed
+  2 regalloc         - Number of interval joins performed
+  1 shrink-wrap      - Number of shrink-wrapping candidates
+  2 shrink-wrap      - Number of functions
+  1 stack-coloring   - Number of lifetime markers found.
+  2 stackmaps        - Number of functions skipped
+  2 stackmaps        - Number of functions visited
+

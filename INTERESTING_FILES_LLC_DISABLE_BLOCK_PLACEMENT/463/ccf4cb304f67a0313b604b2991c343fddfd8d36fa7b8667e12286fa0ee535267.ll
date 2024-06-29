@@ -1,0 +1,31 @@
+; ModuleID = 'reduced.bc'
+target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-i128:128-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-gnu"
+
+define void @print_json_aux(i32 %0) {
+entry:
+  switch i32 %0, label %sw.epilog [
+    i32 0, label %sw.bb7
+    i32 1, label %sw.bb6
+    i32 5, label %sw.bb5
+  ]
+
+sw.bb5:                                           ; preds = %entry
+  call void @print_json_true()
+  br label %sw.epilog
+
+sw.bb6:                                           ; preds = %entry
+  store volatile i32 0, ptr null, align 4
+  br label %sw.epilog
+
+sw.bb7:                                           ; preds = %entry
+  call void @print_json_null()
+  br label %sw.epilog
+
+sw.epilog:                                        ; preds = %sw.bb7, %sw.bb6, %sw.bb5, %entry
+  ret void
+}
+
+declare void @print_json_true()
+
+declare void @print_json_null()

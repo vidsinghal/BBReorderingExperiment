@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  8     vs  9    
+tailduplication                - Number of tails duplicated                                                 :  3     vs  6    
+tailduplication                - Number of instructions removed due to tail duplication                     :  3     vs  6    
+branch-folder                  - Number of branches optimized                                               :  6     vs  7    
+tailduplication                - Number of dead blocks removed                                              :  3     vs  6    

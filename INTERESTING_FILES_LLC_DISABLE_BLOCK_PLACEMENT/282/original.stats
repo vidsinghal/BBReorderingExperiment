@@ -1,0 +1,39 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 40 asm-printer           - Number of machine instrs printed
+  1 assume-queries        - Number of Queries into an assume assume bundles
+ 56 bitcode-reader        - Number of Metadata records loaded
+  3 bitcode-reader        - Number of MDStrings loaded
+  1 branch-folder         - Number of branches optimized
+  2 branch-folder         - Number of dead blocks removed
+  2 codegenprepare        - Number of blocks eliminated
+ 18 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  7 ir                    - Number of renumberings across all blocks
+  8 isel                  - Number of blocks selected using DAG
+336 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  3 machine-sink          - Number of critical edges split
+  5 machine-sink          - Number of machine instructions sunk
+  1 peephole-opt          - Number of compares eliminated
+  1 phi-node-elimination  - Number of critical edges split
+  5 phi-node-elimination  - Number of phis lowered
+  1 prologepilog          - Number of functions seen in PEI
+ 14 regalloc              - Number of registers assigned
+  4 regalloc              - Number of identity moves eliminated after rewriting
+  9 regalloc              - Number of cross class joins performed
+ 25 regalloc              - Number of interval joins performed
+  2 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 shrink-wrap           - Number of shrink-wrapping candidates
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of instructions aggressively commuted
+  1 twoaddressinstruction - Number of instructions commuted to coalesce
+  2 twoaddressinstruction - Number of instructions promoted to 3-address
+  1 twoaddressinstruction - Number of instructions re-scheduled up
+ 13 twoaddressinstruction - Number of two-address instructions
+  1 x86-cmov-conversion   - Number of CMOV-group candidates
+

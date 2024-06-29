@@ -1,0 +1,49 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 63 asm-printer           - Number of machine instrs printed
+  6 assume-queries        - Number of Queries into an assume assume bundles
+ 47 bitcode-reader        - Number of Metadata records loaded
+  1 bitcode-reader        - Number of MDStrings loaded
+  1 branch-folder         - Number of branches optimized
+ 50 dagcombine            - Number of dag nodes combined
+  4 dead-mi-elimination   - Number of dead instructions deleted
+  1 dwarf-eh-prepare      - Number of functions with unwind
+  4 isel                  - Number of blocks selected using DAG
+797 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  1 machine-cp            - Number of copy uses forwarded
+  1 machine-scheduler     - Number of instr pairs fused
+  2 machine-sink          - Number of copies sunk after RA
+  3 machinelicm           - Number of hoisted machine instructions CSEed
+  3 machinelicm           - Number of machine instructions hoisted out of loops
+  3 peephole-opt          - Number of move immediate folded
+  2 pre-RA-sched          - Number of times a  single predecessor was added
+  1 pre-RA-sched          - Number of times the topological order has been recomputed
+ 88 prologepilog          - Number of bytes used for stack in all functions
+  1 prologepilog          - Number of functions seen in PEI
+ 13 regalloc              - Number of registers assigned
+  1 regalloc              - Number of copies inserted for splitting
+  5 regalloc              - Number of instructions deleted by DCE
+  3 regalloc              - Number of splits finished
+  1 regalloc              - Number of identity moves eliminated after rewriting
+  1 regalloc              - Number of split local live ranges
+ 11 regalloc              - Number of new live ranges queued
+ 15 regalloc              - Number of instructions rematerialized
+  9 regalloc              - Number of instructions re-materialized
+  1 regalloc              - Number of reloads inserted
+  6 regalloc              - Number of rematerialized defs for splitting
+  9 regalloc              - Number of shrinkToUses called
+  1 regalloc              - Number of splits that were simple
+  1 regalloc              - Number of spill slots allocated
+  1 regalloc              - Number of spilled live ranges
+  1 regalloc              - Number of spills inserted
+  3 regalloc              - Number of cross class joins performed
+  9 regalloc              - Number of interval joins performed
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of instructions commuted to coalesce
+  4 twoaddressinstruction - Number of two-address instructions
+

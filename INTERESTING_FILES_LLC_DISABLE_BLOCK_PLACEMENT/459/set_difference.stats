@@ -1,0 +1,20 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of split global live ranges                                         :  1     vs  2    
+dagcombine                     - Number of dag nodes combined                                               :  5     vs  4    
+regalloc                       - Number of new live ranges queued                                           :  3     vs  5    
+regalloc                       - Number of splits finished                                                  :  1     vs  2    
+regalloc                       - Number of copies inserted for splitting                                    :  2     vs  4    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  3     vs  2    
+asm-printer                    - Number of machine instrs printed                                           :  12    vs  15   
+regalloc                       - Number of registers assigned                                               :  4     vs  5    
+branch-folder                  - Number of block tails merged                                               :  1     vs  Nil  
+phi-node-elimination           - Number of critical edges split                                             :  Nil   vs  2    
+regalloc                       - Number of splits that were simple                                          :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  2    
+machine-sink                   - Number of copies sunk after RA                                             :  Nil   vs  1    
+machine-cp                     - Number of dead copies deleted                                              :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  2    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  2    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  2    
+machine-cp                     - Number of copy uses forwarded                                              :  Nil   vs  2    

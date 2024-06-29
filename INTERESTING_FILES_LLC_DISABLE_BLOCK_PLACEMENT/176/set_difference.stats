@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  8     vs  9    
+branch-folder                  - Number of branches optimized                                               :  2     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+machine-cse                    - Number of cross-MBB physreg referencing CS eliminated                      :  Nil   vs  1    
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  1    
+machine-cse                    - Number of physreg referencing common subexpr eliminated                    :  Nil   vs  1    
+machine-cse                    - Number of common subexpression eliminated                                  :  Nil   vs  1    

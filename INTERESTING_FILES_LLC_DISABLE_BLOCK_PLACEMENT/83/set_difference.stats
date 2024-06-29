@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+tailduplication                - Number of tails duplicated                                                 :  1     vs  2    
+isel                           - Number of times dag isel has to try another path                           :  13    vs  17   
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

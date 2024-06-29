@@ -1,0 +1,4 @@
+pass - description: <before> vs <after>
+
+machine-sink                   - Number of machine instructions sunk                                        :  3     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  14    vs  12   

@@ -1,0 +1,36 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 22 asm-printer           - Number of machine instrs printed
+ 42 bitcode-reader        - Number of Metadata records loaded
+  9 dagcombine            - Number of dag nodes combined
+  1 dead-mi-elimination   - Number of dead instructions deleted
+  1 dwarf-eh-prepare      - Number of functions with unwind
+  4 isel                  - Number of blocks selected using DAG
+124 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  1 machine-sink          - Number of copies sunk after RA
+  1 machine-sink          - Number of machine instructions sunk
+  1 peephole-opt          - Number of move immediate folded
+  1 phi-node-elimination  - Number of phis lowered
+  6 post-RA-sched         - Number of pipeline stalls
+ 24 prologepilog          - Number of bytes used for stack in all functions
+  1 prologepilog          - Number of functions seen in PEI
+  5 regalloc              - Number of registers assigned
+  1 regalloc              - Number of copies inserted for splitting
+  1 regalloc              - Number of splits finished
+  1 regalloc              - Number of split global live ranges
+  1 regalloc              - Number of identity moves eliminated after rewriting
+  5 regalloc              - Number of new live ranges queued
+  1 regalloc              - Number of reloads inserted
+  1 regalloc              - Number of splits that were simple
+  1 regalloc              - Number of spill slots allocated
+  1 regalloc              - Number of spilled live ranges
+  1 regalloc              - Number of spills inserted
+  3 regalloc              - Number of interval joins performed
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of two-address instructions
+

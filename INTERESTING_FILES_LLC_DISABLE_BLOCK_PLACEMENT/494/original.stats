@@ -1,0 +1,34 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+23 asm-printer         - Number of machine instrs printed
+ 6 assume-queries      - Number of Queries into an assume assume bundles
+42 bitcode-reader      - Number of Metadata records loaded
+ 2 branch-folder       - Number of branches optimized
+ 9 dagcombine          - Number of dag nodes combined
+ 1 dead-mi-elimination - Number of dead instructions deleted
+ 1 dwarf-eh-prepare    - Number of functions with nounwind
+ 1 dwarf-eh-prepare    - Number of functions with unwind
+10 isel                - Number of blocks selected using DAG
+24 isel                - Number of times dag isel has to try another path
+ 2 isel                - Number of entry blocks encountered
+28 prologepilog        - Number of bytes used for stack in all functions
+ 2 prologepilog        - Number of functions seen in PEI
+ 5 regalloc            - Number of registers assigned
+ 2 regalloc            - Number of instructions deleted by DCE
+ 2 regalloc            - Number of instructions rematerialized
+ 2 regalloc            - Number of instructions re-materialized
+ 2 regalloc            - Number of shrinkToUses called
+ 3 regalloc            - Number of cross class joins performed
+ 3 regalloc            - Number of interval joins performed
+ 1 shrink-wrap         - Number of shrink-wrapping candidates
+ 2 shrink-wrap         - Number of functions
+ 3 stack-coloring      - Number of lifetime markers found.
+ 2 stackmaps           - Number of functions skipped
+ 2 stackmaps           - Number of functions visited
+ 2 tailduplication     - Number of dead blocks removed
+ 2 tailduplication     - Number of instructions added due to tail duplication
+ 2 tailduplication     - Number of tail duplicated blocks
+ 2 tailduplication     - Number of tails duplicated
+

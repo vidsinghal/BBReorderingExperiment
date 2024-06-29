@@ -1,0 +1,14 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of reloads inserted                                                 :  3     vs  2    
+regalloc                       - Number of registers unassigned                                             :  3     vs  4    
+regalloc                       - Number of new live ranges queued                                           :  7     vs  8    
+regalloc                       - Number of interferences evicted                                            :  1     vs  2    
+regalloc                       - Number of instructions deleted by DCE                                      :  5     vs  4    
+regalloc                       - Number of identity moves eliminated after rewriting                        :  7     vs  8    
+regalloc                       - Number of registers assigned                                               :  10    vs  11   
+regalloc                       - Number of live ranges fractured by DCE                                     :  1     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

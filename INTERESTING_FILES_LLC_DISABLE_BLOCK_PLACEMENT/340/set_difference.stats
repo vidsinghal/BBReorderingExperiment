@@ -1,0 +1,9 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of cross class joins performed                                      :  5     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  11    vs  12   
+isel                           - Number of times dag isel has to try another path                           :  125   vs  124  
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

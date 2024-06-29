@@ -1,0 +1,9 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  6     vs  5    
+regalloc                       - Number of cross class joins performed                                      :  4     vs  3    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
+isel                           - Number of times dag isel has to try another path                           :  10    vs  Nil  
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  3    
+phi-node-elimination           - Number of critical edges split                                             :  Nil   vs  1    

@@ -1,0 +1,40 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 29 asm-printer         - Number of machine instrs printed
+  1 assume-queries      - Number of Queries into an assume assume bundles
+ 48 bitcode-reader      - Number of Metadata records loaded
+  1 bitcode-reader      - Number of MDStrings loaded
+  1 branch-folder       - Number of branches optimized
+  1 branch-folder       - Number of dead blocks removed
+  1 branch-folder       - Number of tail calls optimized
+  2 codegenprepare      - Number of blocks eliminated
+  1 codegenprepare      - Number of return instructions duplicated
+ 10 dagcombine          - Number of dag nodes combined
+  1 dead-mi-elimination - Number of dead instructions deleted
+  1 dwarf-eh-prepare    - Number of functions with nounwind
+  1 dwarf-eh-prepare    - Number of functions with unwind
+  8 isel                - Number of blocks selected using DAG
+173 isel                - Number of times dag isel has to try another path
+  2 isel                - Number of entry blocks encountered
+  2 machine-cse         - Number of common subexpression eliminated
+  2 pre-RA-sched        - Number of loads clustered together
+ 16 prologepilog        - Number of bytes used for stack in all functions
+  2 prologepilog        - Number of functions seen in PEI
+ 10 regalloc            - Number of registers assigned
+  2 regalloc            - Number of copies inserted for splitting
+  1 regalloc            - Number of instructions deleted by DCE
+  2 regalloc            - Number of splits finished
+  2 regalloc            - Number of split global live ranges
+  4 regalloc            - Number of identity moves eliminated after rewriting
+  4 regalloc            - Number of new live ranges queued
+  2 regalloc            - Number of instructions rematerialized
+  2 regalloc            - Number of rematerialized defs for splitting
+  1 regalloc            - Number of splits that were simple
+  1 shrink-wrap         - Number of shrink-wrapping candidates
+  2 shrink-wrap         - Number of functions
+  2 stackmaps           - Number of functions skipped
+  2 stackmaps           - Number of functions visited
+  1 x86-isel            - Number of tail calls
+

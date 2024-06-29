@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  18    vs  16   
+regalloc                       - Number of cross class joins performed                                      :  5     vs  4    
+branch-folder                  - Number of branches optimized                                               :  1     vs  3    
+regalloc                       - Number of shrinkToUses called                                              :  2     vs  3    

@@ -1,0 +1,5 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  13    vs  11   
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    
+aa                             - Number of MayAlias results                                                 :  Nil   vs  1    

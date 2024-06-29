@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+tailduplication                - Number of tails duplicated                                                 :  4     vs  5    
+tailduplication                - Number of instructions removed due to tail duplication                     :  4     vs  5    
+branch-folder                  - Number of dead blocks removed                                              :  4     vs  3    
+branch-folder                  - Number of branches optimized                                               :  6     vs  7    
+tailduplication                - Number of dead blocks removed                                              :  4     vs  5    

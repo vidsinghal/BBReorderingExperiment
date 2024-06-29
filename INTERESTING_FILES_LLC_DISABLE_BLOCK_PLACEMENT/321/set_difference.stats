@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of reloads inserted                                                 :  2     vs  3    
+regalloc                       - Number of new live ranges queued                                           :  6     vs  7    
+regalloc                       - Number of spilled live ranges                                              :  2     vs  3    
+regalloc                       - Number of copies inserted for splitting                                    :  6     vs  5    
+regalloc                       - Number of instructions deleted by DCE                                      :  1     vs  4    
+branch-folder                  - Number of branches optimized                                               :  3     vs  1    
+regalloc                       - Number of registers assigned                                               :  4     vs  5    
+regalloc                       - Number of live ranges fractured by DCE                                     :  Nil   vs  1    
+regalloc                       - Number of registers unassigned                                             :  Nil   vs  1    

@@ -1,0 +1,24 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  15 asm-printer      - Number of machine instrs printed
+  43 bitcode-reader   - Number of Metadata records loaded
+   9 dagcombine       - Number of dag nodes combined
+   1 dwarf-eh-prepare - Number of functions with unwind
+   5 isel             - Number of blocks selected using DAG
+  55 isel             - Number of times dag isel has to try another path
+   1 isel             - Number of entry blocks encountered
+   1 machine-sink     - Number of machine instructions sunk
+1026 mcexpr           - Number of MCExpr evaluations
+  33 prologepilog     - Number of bytes used for stack in all functions
+   1 prologepilog     - Number of functions seen in PEI
+   1 prologepilog     - Number of leaf functions with CSRs
+   2 regalloc         - Number of registers assigned
+   2 regalloc         - Number of identity moves eliminated after rewriting
+   2 regalloc         - Number of cross class joins performed
+   2 regalloc         - Number of interval joins performed
+   1 shrink-wrap      - Number of functions
+   1 stackmaps        - Number of functions skipped
+   1 stackmaps        - Number of functions visited
+

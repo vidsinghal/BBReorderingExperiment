@@ -1,0 +1,29 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 9 asm-printer      - Number of machine instrs printed
+ 2 assume-queries   - Number of Queries into an assume assume bundles
+47 bitcode-reader   - Number of Metadata records loaded
+ 1 bitcode-reader   - Number of MDStrings loaded
+ 1 branch-folder    - Number of dead blocks removed
+ 1 branch-folder    - Number of block tails merged
+ 1 codegenprepare   - Number of blocks eliminated
+ 1 codegenprepare   - Number of memory instructions whose address computations were sunk
+ 4 dagcombine       - Number of dag nodes combined
+ 1 dwarf-eh-prepare - Number of functions with unwind
+ 5 isel             - Number of blocks selected using DAG
+ 6 isel             - Number of times dag isel has to try another path
+ 1 isel             - Number of entry blocks encountered
+ 1 machine-cp       - Number of copy uses forwarded
+ 2 peephole-opt     - Number of move immediate folded
+ 8 prologepilog     - Number of bytes used for stack in all functions
+ 1 prologepilog     - Number of functions seen in PEI
+ 1 regalloc         - Number of registers assigned
+ 1 shrink-wrap      - Number of functions
+ 1 stackmaps        - Number of functions skipped
+ 1 stackmaps        - Number of functions visited
+ 1 tailduplication  - Number of dead blocks removed
+ 1 tailduplication  - Number of instructions removed due to tail duplication
+ 1 tailduplication  - Number of tails duplicated
+

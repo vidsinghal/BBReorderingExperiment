@@ -1,0 +1,11 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of identity moves eliminated after rewriting                        :  3     vs  2    
+asm-printer                    - Number of machine instrs printed                                           :  5     vs  4    
+branch-folder                  - Number of branches optimized                                               :  2     vs  1    
+regalloc                       - Number of registers assigned                                               :  3     vs  2    
+branch-folder                  - Number of dead blocks removed                                              :  4     vs  3    
+dead-mi-elimination            - Number of dead instructions deleted                                        :  Nil   vs  2    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+tailduplication                - Number of instructions removed due to tail duplication                     :  Nil   vs  1    
+tailduplication                - Number of dead blocks removed                                              :  Nil   vs  1    

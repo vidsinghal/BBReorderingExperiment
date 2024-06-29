@@ -1,0 +1,45 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+16 asm-printer           - Number of machine instrs printed
+ 2 assume-queries        - Number of Queries into an assume assume bundles
+47 bitcode-reader        - Number of Metadata records loaded
+ 1 bitcode-reader        - Number of MDStrings loaded
+ 2 branch-folder         - Number of branches optimized
+ 2 branch-folder         - Number of dead blocks removed
+ 1 branch-folder         - Number of block tails merged
+ 3 codegenprepare        - Number of blocks eliminated
+ 2 codegenprepare        - Number of uses of Cmp expressions replaced with uses of sunken Cmps
+11 dagcombine            - Number of dag nodes combined
+ 1 dwarf-eh-prepare      - Number of functions with nounwind
+ 1 ir                    - Number of renumberings across all blocks
+ 7 isel                  - Number of blocks selected using DAG
+53 isel                  - Number of times dag isel has to try another path
+ 1 isel                  - Number of entry blocks encountered
+ 1 lcssa                 - Number of live out of a loop variables
+ 2 phi-node-elimination  - Number of critical edges split
+ 5 phi-node-elimination  - Number of phis lowered
+ 1 phi-node-elimination  - Number of reused lowered phis
+ 2 pre-RA-sched          - Number of times the topological order has been recomputed
+ 1 prologepilog          - Number of functions seen in PEI
+ 7 regalloc              - Number of registers assigned
+ 5 regalloc              - Number of identity moves eliminated after rewriting
+ 1 regalloc              - Number of dead lane conflicts tested
+ 1 regalloc              - Number of dead lane conflicts resolved
+ 1 regalloc              - Number of instructions rematerialized
+ 1 regalloc              - Number of instructions re-materialized
+ 1 regalloc              - Number of shrinkToUses called
+ 6 regalloc              - Number of cross class joins performed
+11 regalloc              - Number of interval joins performed
+ 2 scalar-evolution      - Number of loop exits without predictable exit counts
+ 1 shrink-wrap           - Number of functions
+ 1 stackmaps             - Number of functions skipped
+ 1 stackmaps             - Number of functions visited
+ 1 tailduplication       - Number of dead blocks removed
+ 1 tailduplication       - Number of instructions removed due to tail duplication
+ 1 tailduplication       - Number of tails duplicated
+ 2 twoaddressinstruction - Number of instructions promoted to 3-address
+ 3 twoaddressinstruction - Number of two-address instructions
+ 1 x86-fixup-setcc       - Number of setcc + zext pairs substituted
+

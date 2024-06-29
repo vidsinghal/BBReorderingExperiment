@@ -1,0 +1,8 @@
+pass - description: <before> vs <after>
+
+machine-scheduler              - Number of instr pairs fused                                                :  3     vs  4    
+shrink-wrap                    - Number of shrink-wrapping candidates                                       :  1     vs  Nil  
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  Nil  
+machine-sink                   - Number of critical edges split                                             :  1     vs  Nil  
+tailduplication                - Number of dead blocks removed                                              :  1     vs  Nil  
+pre-RA-sched                   - Number of times the topological order has been recomputed                  :  Nil   vs  1    

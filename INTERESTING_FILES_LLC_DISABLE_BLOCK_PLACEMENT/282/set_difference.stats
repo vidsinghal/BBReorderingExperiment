@@ -1,0 +1,13 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  18    vs  20   
+regalloc                       - Number of interval joins performed                                         :  25    vs  26   
+branch-folder                  - Number of dead blocks removed                                              :  2     vs  3    
+twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  2    
+branch-folder                  - Number of branches optimized                                               :  1     vs  3    
+twoaddressinstruction          - Number of instructions aggressively commuted                               :  1     vs  2    
+twoaddressinstruction          - Number of two-address instructions                                         :  13    vs  14   
+asm-printer                    - Number of machine instrs printed                                           :  40    vs  38   
+peephole-opt                   - Number of compares eliminated                                              :  1     vs  2    
+isel                           - Number of times dag isel has to try another path                           :  336   vs  321  
+branch-folder                  - Number of block tails merged                                               :  Nil   vs  1    

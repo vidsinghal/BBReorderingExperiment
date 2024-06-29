@@ -1,0 +1,12 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  13    vs  12   
+regalloc                       - Number of rematerialized defs for spilling                                 :  2     vs  1    
+regalloc                       - Number of instructions rematerialized                                      :  10    vs  9    
+asm-printer                    - Number of machine instrs printed                                           :  50    vs  52   
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  
+regalloc                       - Number of spills inserted                                                  :  Nil   vs  1    
+regalloc                       - Number of registers unassigned                                             :  Nil   vs  1    
+regalloc                       - Number of spill slots allocated                                            :  Nil   vs  1    
+regalloc                       - Number of interferences evicted                                            :  Nil   vs  1    
+regalloc                       - Number of reloads inserted                                                 :  Nil   vs  1    

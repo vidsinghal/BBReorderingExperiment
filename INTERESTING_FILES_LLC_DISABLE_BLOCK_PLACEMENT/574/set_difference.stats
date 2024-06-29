@@ -1,0 +1,9 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  21    vs  20   
+regalloc                       - Number of interval joins performed                                         :  21    vs  20   
+twoaddressinstruction          - Number of two-address instructions                                         :  12    vs  11   
+isel                           - Number of times dag isel has to try another path                           :  328   vs  342  
+twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  Nil  
+twoaddressinstruction          - Number of instructions aggressively commuted                               :  1     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  2    

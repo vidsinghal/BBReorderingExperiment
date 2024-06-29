@@ -1,0 +1,13 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  7     vs  4    
+regalloc                       - Number of cross class joins performed                                      :  2     vs  3    
+branch-folder                  - Number of dead blocks removed                                              :  1     vs  2    
+branch-folder                  - Number of branches optimized                                               :  2     vs  3    
+asm-printer                    - Number of machine instrs printed                                           :  18    vs  19   
+regalloc                       - Number of registers assigned                                               :  12    vs  13   
+regalloc                       - Number of instructions re-materialized                                     :  1     vs  Nil  
+regalloc                       - Number of instructions rematerialized                                      :  1     vs  Nil  
+regalloc                       - Number of instructions deleted by DCE                                      :  1     vs  Nil  
+regalloc                       - Number of shrinkToUses called                                              :  1     vs  Nil  
+regalloc                       - Number of dead lane conflicts tested                                       :  Nil   vs  1    

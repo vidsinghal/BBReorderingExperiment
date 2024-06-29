@@ -1,0 +1,36 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 26 asm-printer           - Number of machine instrs printed
+  2 assume-queries        - Number of Queries into an assume assume bundles
+ 42 bitcode-reader        - Number of Metadata records loaded
+  1 branch-folder         - Number of dead blocks removed
+  4 dagcombine            - Number of dag nodes combined
+  3 dwarf-eh-prepare      - Number of functions with nounwind
+ 11 isel                  - Number of blocks selected using DAG
+175 isel                  - Number of times dag isel has to try another path
+  3 isel                  - Number of entry blocks encountered
+  1 machine-cp            - Number of copy uses forwarded
+  2 machine-sink          - Number of copies sunk after RA
+  3 machine-sink          - Number of critical edges split
+  6 machine-sink          - Number of machine instructions sunk
+  3 phi-node-elimination  - Number of phis lowered
+  3 prologepilog          - Number of functions seen in PEI
+  6 regalloc              - Number of registers assigned
+  1 regalloc              - Number of instructions deleted by DCE
+  5 regalloc              - Number of identity moves eliminated after rewriting
+  1 regalloc              - Number of instructions rematerialized
+  1 regalloc              - Number of instructions re-materialized
+  1 regalloc              - Number of shrinkToUses called
+ 13 regalloc              - Number of cross class joins performed
+ 16 regalloc              - Number of interval joins performed
+  1 shrink-wrap           - Number of shrink-wrapping candidates
+  3 shrink-wrap           - Number of functions
+  3 stackmaps             - Number of functions skipped
+  3 stackmaps             - Number of functions visited
+  2 tailduplication       - Number of dead blocks removed
+  2 tailduplication       - Number of tail duplicated blocks
+  2 tailduplication       - Number of tails duplicated
+  1 twoaddressinstruction - Number of two-address instructions
+

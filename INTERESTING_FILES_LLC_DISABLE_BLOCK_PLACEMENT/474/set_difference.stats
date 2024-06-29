@@ -1,0 +1,12 @@
+pass - description: <before> vs <after>
+
+phi-node-elimination           - Number of phis lowered                                                     :  4     vs  3    
+dagcombine                     - Number of dag nodes combined                                               :  10    vs  8    
+regalloc                       - Number of interval joins performed                                         :  13    vs  10   
+pre-RA-sched                   - Number of times the topological order has been recomputed                  :  2     vs  1    
+twoaddressinstruction          - Number of two-address instructions                                         :  7     vs  6    
+asm-printer                    - Number of machine instrs printed                                           :  21    vs  18   
+regalloc                       - Number of registers assigned                                               :  6     vs  4    
+isel                           - Number of times dag isel has to try another path                           :  73    vs  66   
+machinelicm                    - Number of machine instructions hoisted out of loops                        :  1     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

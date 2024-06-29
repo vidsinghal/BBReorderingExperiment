@@ -1,0 +1,37 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 20 asm-printer           - Number of machine instrs printed
+ 46 bitcode-reader        - Number of Metadata records loaded
+  1 bitcode-reader        - Number of MDStrings loaded
+  4 branch-folder         - Number of branches optimized
+  2 branch-folder         - Number of dead blocks removed
+  1 codegenprepare        - Number of blocks eliminated
+ 18 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  3 ir                    - Number of renumberings across all blocks
+  9 isel                  - Number of blocks selected using DAG
+161 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  4 machine-scheduler     - Number of instr pairs fused
+  1 machine-sink          - Number of machine instructions sunk
+  1 peephole-opt          - Number of compares eliminated
+  1 phi-node-elimination  - Number of critical edges split
+  3 phi-node-elimination  - Number of phis lowered
+  1 prologepilog          - Number of functions seen in PEI
+  4 regalloc              - Number of registers assigned
+  1 regalloc              - Number of identity moves eliminated after rewriting
+  7 regalloc              - Number of cross class joins performed
+ 17 regalloc              - Number of interval joins performed
+  1 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 scalar-evolution      - Number of loop exits without predictable exit counts
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 tailduplication       - Number of dead blocks removed
+  1 tailduplication       - Number of instructions removed due to tail duplication
+  1 tailduplication       - Number of tails duplicated
+  1 twoaddressinstruction - Number of instructions promoted to 3-address
+  8 twoaddressinstruction - Number of two-address instructions
+

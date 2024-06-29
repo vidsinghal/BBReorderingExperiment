@@ -1,0 +1,10 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of interval joins performed                                         :  12    vs  13   
+twoaddressinstruction          - Number of instructions commuted to coalesce                                :  1     vs  2    
+branch-folder                  - Number of branches optimized                                               :  4     vs  3    
+twoaddressinstruction          - Number of two-address instructions                                         :  12    vs  13   
+asm-printer                    - Number of machine instrs printed                                           :  35    vs  37   
+isel                           - Number of times dag isel has to try another path                           :  323   vs  308  
+twoaddressinstruction          - Number of instructions aggressively commuted                               :  Nil   vs  1    
+peephole-opt                   - Number of compares eliminated                                              :  Nil   vs  1    

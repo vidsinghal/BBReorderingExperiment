@@ -1,0 +1,6 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  5     vs  4    
+asm-printer                    - Number of machine instrs printed                                           :  14    vs  15   
+branch-folder                  - Number of times common instructions are hoisted                            :  1     vs  Nil  
+branch-folder                  - Number of branches optimized                                               :  1     vs  Nil  

@@ -1,0 +1,23 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 15 asm-printer           - Number of machine instrs printed
+  1 assume-queries        - Number of Queries into an assume assume bundles
+ 42 bitcode-reader        - Number of Metadata records loaded
+  6 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  3 isel                  - Number of blocks selected using DAG
+203 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  3 pre-RA-sched          - Number of loads clustered together
+  1 prologepilog          - Number of functions seen in PEI
+  9 regalloc              - Number of registers assigned
+  3 regalloc              - Number of identity moves eliminated after rewriting
+  1 regalloc              - Number of cross class joins performed
+  2 regalloc              - Number of interval joins performed
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of two-address instructions
+

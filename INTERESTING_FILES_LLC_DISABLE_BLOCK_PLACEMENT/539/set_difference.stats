@@ -1,0 +1,5 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  9     vs  8    
+codegenprepare                 - Number of memory instructions whose address computations were sunk         :  2     vs  4    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

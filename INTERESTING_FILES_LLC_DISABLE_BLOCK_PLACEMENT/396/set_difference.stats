@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+regalloc                       - Number of cross class joins performed                                      :  5     vs  6    
+asm-printer                    - Number of machine instrs printed                                           :  21    vs  22   
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
+tailduplication                - Number of instructions added due to tail duplication                       :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    

@@ -1,0 +1,7 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  3     vs  4    
+branch-folder                  - Number of branches optimized                                               :  2     vs  3    
+asm-printer                    - Number of machine instrs printed                                           :  10    vs  9    
+regalloc                       - Number of registers assigned                                               :  7     vs  6    
+peephole-opt                   - Number of loads folded                                                     :  Nil   vs  1    

@@ -1,0 +1,8 @@
+pass - description: <before> vs <after>
+
+dagcombine                     - Number of dag nodes combined                                               :  9     vs  1    
+mcexpr                         - Number of MCExpr evaluations                                               :  1026  vs  2052 
+asm-printer                    - Number of machine instrs printed                                           :  15    vs  16   
+tailduplication                - Number of tail duplicated blocks                                           :  Nil   vs  1    
+tailduplication                - Number of tails duplicated                                                 :  Nil   vs  1    
+branch-folder                  - Number of branches optimized                                               :  Nil   vs  1    

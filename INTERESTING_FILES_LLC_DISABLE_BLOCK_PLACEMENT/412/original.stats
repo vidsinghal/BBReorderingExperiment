@@ -1,0 +1,32 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 34 asm-printer           - Number of machine instrs printed
+  2 assume-queries        - Number of Queries into an assume assume bundles
+ 57 bitcode-reader        - Number of Metadata records loaded
+  3 bitcode-reader        - Number of MDStrings loaded
+  4 branch-folder         - Number of branches optimized
+  3 branch-folder         - Number of dead blocks removed
+  1 codegenprepare        - Number of blocks eliminated
+ 17 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  4 ir                    - Number of renumberings across all blocks
+  9 isel                  - Number of blocks selected using DAG
+319 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  4 machine-sink          - Number of machine instructions sunk
+  2 phi-node-elimination  - Number of critical edges split
+  3 phi-node-elimination  - Number of phis lowered
+  1 prologepilog          - Number of functions seen in PEI
+ 14 regalloc              - Number of registers assigned
+  4 regalloc              - Number of identity moves eliminated after rewriting
+ 12 regalloc              - Number of interval joins performed
+  2 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  2 twoaddressinstruction - Number of instructions commuted to coalesce
+  4 twoaddressinstruction - Number of instructions promoted to 3-address
+ 12 twoaddressinstruction - Number of two-address instructions
+

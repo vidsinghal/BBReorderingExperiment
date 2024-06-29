@@ -1,0 +1,38 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 35 asm-printer           - Number of machine instrs printed
+ 50 bitcode-reader        - Number of Metadata records loaded
+  2 bitcode-reader        - Number of MDStrings loaded
+  1 branch-folder         - Number of branches optimized
+  2 branch-folder         - Number of dead blocks removed
+  1 codegenprepare        - Number of blocks eliminated
+ 18 dagcombine            - Number of dag nodes combined
+  1 dwarf-eh-prepare      - Number of functions with nounwind
+  4 ir                    - Number of renumberings across all blocks
+  8 isel                  - Number of blocks selected using DAG
+377 isel                  - Number of times dag isel has to try another path
+  1 isel                  - Number of entry blocks encountered
+  1 lrshrink              - Number of insructions hoisted to shrink live range.
+  2 machine-sink          - Number of critical edges split
+  4 machine-sink          - Number of machine instructions sunk
+  2 machinelicm           - Number of machine instructions hoisted out of loops
+  9 phi-node-elimination  - Number of phis lowered
+  1 prologepilog          - Number of functions seen in PEI
+ 11 regalloc              - Number of registers assigned
+  2 regalloc              - Number of identity moves eliminated after rewriting
+  2 regalloc              - Number of instructions rematerialized
+  2 regalloc              - Number of instructions re-materialized
+  2 regalloc              - Number of shrinkToUses called
+  5 regalloc              - Number of cross class joins performed
+ 29 regalloc              - Number of interval joins performed
+  2 scalar-evolution      - Number of loop exits with predictable exit counts
+  1 shrink-wrap           - Number of shrink-wrapping candidates
+  1 shrink-wrap           - Number of functions
+  1 stackmaps             - Number of functions skipped
+  1 stackmaps             - Number of functions visited
+  1 twoaddressinstruction - Number of instructions aggressively commuted
+  2 twoaddressinstruction - Number of instructions commuted to coalesce
+ 10 twoaddressinstruction - Number of two-address instructions
+
