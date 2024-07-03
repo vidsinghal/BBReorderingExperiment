@@ -1,0 +1,37 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 3 aa               - Number of MustAlias results
+ 7 aa               - Number of NoAlias results
+ 4 assume-queries   - Number of Queries into an assume assume bundles
+42 bitcode-reader   - Number of Metadata records loaded
+ 1 count-visits     - Max number of times we visited a function
+ 2 dse              - Number of stores remaining after DSE
+ 1 function-attrs   - Number of arguments marked nocapture
+ 1 function-attrs   - Number of functions marked as nofree
+ 1 function-attrs   - Number of functions marked as norecurse
+ 1 function-attrs   - Number of function returns marked noundef
+ 1 function-attrs   - Number of functions marked as nounwind
+ 1 function-attrs   - Number of arguments marked writeonly
+ 1 globalopt        - Number of globals deleted
+ 1 globalopt        - Number of globals marked unnamed_addr
+ 8 gvn              - Number of blocks merged
+ 1 gvn              - Number of instructions deleted
+ 5 instcombine      - Number of insts combined
+ 1 instcombine      - Number of dead inst eliminated
+ 6 instcombine      - Number of functions with one iteration
+ 2 instcombine      - Number of functions with two iterations
+ 8 instcombine      - Number of instruction combining iterations performed
+50 ipt              - Number of insts scanned while updating ibt
+ 2 ir               - Number of renumberings across all blocks
+ 1 jump-threading   - Number of terminators folded
+ 1 jump-threading   - Number of jumps threaded
+ 7 licm             - Number of instructions hoisted out of loop
+ 8 licm             - Number of promotion candidates
+ 2 loop-peel        - Number of loops peeled
+ 1 loop-vectorize   - Number of loops analyzed for vectorization
+ 5 scalar-evolution - Number of loop exits without predictable exit counts
+ 1 simplifycfg      - Number of value comparisons folded into predecessor basic blocks
+10 simplifycfg      - Number of blocks simplified
+

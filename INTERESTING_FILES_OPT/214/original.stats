@@ -1,0 +1,36 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+12 aa                   - Number of MustAlias results
+24 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 2 dse                  - Number iterations check for reads in getDomMemoryDef
+ 0 dse                  - Number of other instrs removed
+ 1 dse                  - Number of redundant stores deleted
+ 5 dse                  - Number of stores remaining after DSE
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of arguments marked writeonly
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 2 instcombine          - Number of insts combined
+ 1 instcombine          - Number of dead inst eliminated
+ 7 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+83 ipt                  - Number of insts scanned while updating ibt
+ 3 ir                   - Number of renumberings across all blocks
+ 2 licm                 - Number of instructions hoisted out of loop
+ 3 licm                 - Number of promotion candidates
+ 4 local                - Number of unreachable basic blocks removed
+ 1 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 1 loop-simplifycfg     - Number of terminators folded to unconditional branches
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+ 7 simple-loop-unswitch - Number of branches unswitched
+ 4 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+ 2 simple-loop-unswitch - Number of unswitches that are trivial
+34 simplifycfg          - Number of blocks simplified
+ 1 simplifycfg          - Number of common instruction 'blocks' sunk down to the end block
+ 1 simplifycfg          - Number of common instructions sunk down to the end block
+

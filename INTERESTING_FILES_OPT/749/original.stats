@@ -1,0 +1,28 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+21 aa                   - Number of MayAlias results
+ 5 aa                   - Number of MustAlias results
+21 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 3 dse                  - Number of stores remaining after DSE
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 function-attrs       - Number of arguments marked writeonly
+ 4 globalopt            - Number of globals deleted
+ 1 globalopt            - Number of globals marked unnamed_addr
+ 2 instcombine          - Number of insts combined
+ 6 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of instructions sunk
+ 2 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+43 ipt                  - Number of insts scanned while updating ibt
+ 7 ir                   - Number of renumberings across all blocks
+ 2 loop-vectorize       - Number of loops analyzed for vectorization
+ 3 simple-loop-unswitch - Number of branches unswitched
+ 2 simplifycfg          - Number of common instruction 'blocks' hoisted up to the begin block
+ 4 simplifycfg          - Number of common instructions hoisted up to the begin block
+15 simplifycfg          - Number of blocks simplified
+

@@ -1,0 +1,51 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 10 aa                           - Number of MayAlias results
+  3 aa                           - Number of MustAlias results
+ 12 aa                           - Number of NoAlias results
+ 42 bitcode-reader               - Number of Metadata records loaded
+  1 correlated-value-propagation - Number of no-signed-wrap deductions for add
+  1 correlated-value-propagation - Number of no-wrap deductions for add
+  1 correlated-value-propagation - Number of no-signed-wrap deductions
+  1 correlated-value-propagation - Number of no-wrap deductions
+  1 count-visits                 - Max number of times we visited a function
+  1 dse                          - Number of stores remaining after DSE
+  1 early-cse                    - Number of trivial dead stores removed
+  1 function-attrs               - Number of functions with improved memory attribute
+  2 function-attrs               - Number of arguments marked nocapture
+  1 function-attrs               - Number of functions marked as nofree
+  1 function-attrs               - Number of functions marked as norecurse
+  1 function-attrs               - Number of functions marked as nosync
+  1 function-attrs               - Number of function returns marked noundef
+  1 function-attrs               - Number of functions marked as nounwind
+  1 function-attrs               - Number of arguments marked readonly
+  1 function-attrs               - Number of arguments marked writeonly
+  1 globalopt                    - Number of globals deleted
+  4 globalopt                    - Number of globals marked unnamed_addr
+  1 gvn                          - Number of blocks speculated as available in IsValueFullyAvailableInBlock(), max
+  1 gvn                          - Number of blocks merged
+  1 gvn                          - Number of instructions deleted
+  1 gvn                          - Number of loads PRE'd
+  1 indvars                      - Number of loop exit tests replaced
+  1 inline                       - Number of functions inlined
+  1 inline-cost                  - Number of call sites analyzed
+  3 instcombine                  - Number of insts combined
+  1 instcombine                  - Number of dead inst eliminated
+ 12 instcombine                  - Number of functions with one iteration
+  4 instcombine                  - Number of functions with two iterations
+ 16 instcombine                  - Number of instruction combining iterations performed
+101 ipt                          - Number of insts scanned while updating ibt
+  5 ir                           - Number of renumberings across all blocks
+  2 licm                         - Number of instructions hoisted out of loop
+  2 loop-delete                  - Number of loops deleted
+  2 loop-rotate                  - Number of instructions cloned into loop preheader
+  1 loop-rotate                  - Number of loops rotated
+  2 loop-vectorize               - Number of loops analyzed for vectorization
+  7 memdep                       - Number of uncached non-local ptr responses
+  4 scalar-evolution             - Number of loop exits with predictable exit counts
+  1 sccp                         - Number of instructions removed
+  1 simple-loop-unswitch         - Number of branches unswitched
+ 16 simplifycfg                  - Number of blocks simplified
+

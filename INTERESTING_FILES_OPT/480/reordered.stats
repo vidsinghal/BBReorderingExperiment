@@ -1,0 +1,38 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  3 aa                   - Number of MustAlias results
+ 17 aa                   - Number of NoAlias results
+  9 assume-queries       - Number of Queries into an assume assume bundles
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  2 function-attrs       - Number of arguments marked nocapture
+  2 function-attrs       - Number of function returns marked noundef
+  1 function-attrs       - Number of arguments marked readnone
+  1 function-attrs       - Number of arguments marked readonly
+  4 globalopt            - Number of globals marked unnamed_addr
+  1 inline               - Number of functions inlined
+  1 inline-cost          - Number of call sites analyzed
+  1 instcombine          - Number of insts combined
+ 15 instcombine          - Number of functions with one iteration
+  1 instcombine          - Number of functions with two iterations
+ 16 instcombine          - Number of instruction combining iterations performed
+100 ipt                  - Number of insts scanned while updating ibt
+  2 ir                   - Number of renumberings across all blocks
+  1 lcssa                - Number of live out of a loop variables
+  3 licm                 - Number of instructions hoisted out of loop
+  2 local                - Number of unreachable basic blocks removed
+  1 loop-rotate          - Number of instructions cloned into loop preheader
+  1 loop-rotate          - Number of loops rotated
+  3 loop-vectorize       - Number of loops analyzed for vectorization
+  8 memdep               - Number of uncached non-local ptr responses
+  1 sccp                 - Number of instructions removed
+  4 simple-loop-unswitch - Number of branches unswitched
+  1 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+  2 simplifycfg          - Number of common instruction 'blocks' hoisted up to the begin block
+  2 simplifycfg          - Number of common instructions hoisted up to the begin block
+ 24 simplifycfg          - Number of blocks simplified
+  1 simplifycfg          - Number of common instruction 'blocks' sunk down to the end block
+  1 simplifycfg          - Number of common instructions sunk down to the end block
+

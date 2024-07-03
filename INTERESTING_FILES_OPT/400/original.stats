@@ -1,0 +1,39 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 99 aa                   - Number of MayAlias results
+ 17 aa                   - Number of MustAlias results
+135 aa                   - Number of NoAlias results
+ 24 assume-queries       - Number of Queries into an assume assume bundles
+ 98 basicaa              - Number of times a GEP is decomposed
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  6 dse                  - Number of stores remaining after DSE
+ 12 function-attrs       - Number of arguments marked nocapture
+  1 function-attrs       - Number of functions marked as nofree
+  1 function-attrs       - Number of functions marked as norecurse
+  1 function-attrs       - Number of function returns marked noundef
+  1 function-attrs       - Number of functions marked as nounwind
+ 11 function-attrs       - Number of arguments marked readnone
+  1 function-attrs       - Number of arguments marked writeonly
+  2 globalopt            - Number of globals deleted
+  1 globalopt            - Number of globals marked unnamed_addr
+  2 instcombine          - Number of insts combined
+  7 instcombine          - Number of functions with one iteration
+  1 instcombine          - Number of instructions sunk
+  1 instcombine          - Number of functions with two iterations
+  8 instcombine          - Number of instruction combining iterations performed
+122 ipt                  - Number of insts scanned while updating ibt
+  7 ir                   - Number of renumberings across all blocks
+  3 lcssa                - Number of live out of a loop variables
+  4 licm                 - Number of instructions hoisted out of loop
+ 44 licm                 - Number of promotion candidates
+ 14 local                - Number of unreachable basic blocks removed
+  4 loop-rotate          - Number of instructions cloned into loop preheader
+  4 loop-rotate          - Number of loops rotated
+  5 loop-vectorize       - Number of loops analyzed for vectorization
+ 10 simple-loop-unswitch - Number of branches unswitched
+  5 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+ 26 simplifycfg          - Number of blocks simplified
+

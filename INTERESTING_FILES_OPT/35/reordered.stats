@@ -1,0 +1,48 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 1 aa                   - Number of MustAlias results
+ 3 aa                   - Number of NoAlias results
+42 bitcode-reader       - Number of Metadata records loaded
+ 2 capture-tracking     - Number of pointers not captured before
+ 1 count-visits         - Max number of times we visited a function
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 function-attrs       - Number of arguments marked readonly
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 2 gvn                  - Number of blocks merged
+ 2 gvn                  - Number of equalities propagated
+ 2 gvn                  - Number of instructions deleted
+ 1 gvn                  - Number of loads deleted
+ 1 gvn                  - Number of instructions simplified
+ 2 instcombine          - Number of insts combined
+ 6 instcombine          - Number of functions with one iteration
+ 2 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+98 ipt                  - Number of insts scanned while updating ibt
+ 2 ir                   - Number of renumberings across all blocks
+ 1 licm                 - Number of instructions hoisted out of loop
+ 2 licm                 - Number of load and store promotions
+ 1 licm                 - Number of load insts hoisted or sunk
+ 2 licm                 - Number of promotion candidates
+ 1 licm                 - Number of instructions sunk out of loop
+ 2 loop-delete          - Number of loops deleted
+ 2 loop-instsimplify    - Number of redundant instructions simplified
+ 4 loop-rotate          - Number of instructions cloned into loop preheader
+ 2 loop-rotate          - Number of loops rotated
+ 2 loop-vectorize       - Number of loops analyzed for vectorization
+ 1 memdep               - Number of uncached non-local ptr responses
+ 4 scalar-evolution     - Number of loop exits with predictable exit counts
+ 2 sccp                 - Number of basic blocks unreachable
+ 5 sccp                 - Number of instructions removed
+ 3 simple-loop-unswitch - Number of branches unswitched
+ 3 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+16 simplifycfg          - Number of blocks simplified
+ 1 sroa                 - Maximum number of partitions per alloca
+ 3 sroa                 - Maximum number of uses of a partition
+ 8 sroa                 - Number of alloca partition uses rewritten
+ 4 sroa                 - Number of alloca partitions formed
+ 4 sroa                 - Number of allocas analyzed for replacement
+ 8 sroa                 - Number of instructions deleted
+

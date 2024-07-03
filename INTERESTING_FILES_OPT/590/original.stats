@@ -1,0 +1,35 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 42 bitcode-reader               - Number of Metadata records loaded
+  1 correlated-value-propagation - Number of no-signed-wrap deductions for add
+  1 correlated-value-propagation - Number of no-wrap deductions for add
+  1 correlated-value-propagation - Number of no-signed-wrap deductions
+  1 correlated-value-propagation - Number of no-wrap deductions
+  1 count-visits                 - Max number of times we visited a function
+  1 early-cse                    - Number of instructions simplified or DCE'd
+  1 function-attrs               - Number of arguments marked nocapture
+  1 function-attrs               - Number of function returns marked noundef
+  1 function-attrs               - Number of arguments marked readnone
+  2 globalopt                    - Number of globals deleted
+  2 globalopt                    - Number of globals marked unnamed_addr
+  2 gvn                          - Number of blocks merged
+  2 instcombine                  - Number of insts combined
+  6 instcombine                  - Number of functions with one iteration
+  2 instcombine                  - Number of functions with two iterations
+  8 instcombine                  - Number of instruction combining iterations performed
+100 ipt                          - Number of insts scanned while updating ibt
+  7 ir                           - Number of renumberings across all blocks
+  4 licm                         - Number of instructions hoisted out of loop
+  2 licm                         - Number of call insts hoisted or sunk
+  2 loop-delete                  - Number of loops deleted
+  2 loop-rotate                  - Number of instructions cloned into loop preheader
+  1 loop-rotate                  - Number of loops rotated
+  3 loop-vectorize               - Number of loops analyzed for vectorization
+  4 scalar-evolution             - Number of loop exits with predictable exit counts
+  2 sccp                         - Number of basic blocks unreachable
+  3 sccp                         - Number of instructions removed
+  3 simple-loop-unswitch         - Number of branches unswitched
+ 11 simplifycfg                  - Number of blocks simplified
+

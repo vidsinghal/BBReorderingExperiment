@@ -1,0 +1,30 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 4 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 dse                  - Number of stores remaining after DSE
+ 1 function-attrs       - Number of functions marked as nofree
+ 1 function-attrs       - Number of functions marked as norecurse
+ 1 function-attrs       - Number of functions marked as nounwind
+ 1 globalopt            - Number of globals marked unnamed_addr
+ 2 instcombine          - Number of dead inst eliminated
+ 7 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of instructions sunk
+ 1 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+85 ipt                  - Number of insts scanned while updating ibt
+ 3 ir                   - Number of renumberings across all blocks
+ 2 licm                 - Number of instructions hoisted out of loop
+18 licm                 - Number of promotion candidates
+15 local                - Number of unreachable basic blocks removed
+ 3 loop-rotate          - Number of instructions cloned into loop preheader
+ 3 loop-rotate          - Number of loops rotated
+ 4 loop-vectorize       - Number of loops analyzed for vectorization
+10 simple-loop-unswitch - Number of branches unswitched
+ 7 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+ 3 simple-loop-unswitch - Number of unswitches that are trivial
+34 simplifycfg          - Number of blocks simplified
+

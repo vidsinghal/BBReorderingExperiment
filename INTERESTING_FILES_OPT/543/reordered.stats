@@ -1,0 +1,31 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 7 aa                   - Number of NoAlias results
+14 basicaa              - Number of times a GEP is decomposed
+43 bitcode-reader       - Number of Metadata records loaded
+ 1 constmerge           - Number of identical global constants merged
+ 1 count-visits         - Max number of times we visited a function
+ 3 dse                  - Number of stores remaining after DSE
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of arguments marked readnone
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 1 inline               - Number of functions inlined
+ 1 inline-cost          - Number of call sites analyzed
+ 3 instcombine          - Number of insts combined
+13 instcombine          - Number of functions with one iteration
+ 3 instcombine          - Number of functions with two iterations
+16 instcombine          - Number of instruction combining iterations performed
+52 ipt                  - Number of insts scanned while updating ibt
+ 5 ir                   - Number of renumberings across all blocks
+ 3 licm                 - Number of instructions hoisted out of loop
+ 2 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+12 memdep               - Number of uncached non-local ptr responses
+ 7 scalar-evolution     - Number of loop exits without predictable exit counts
+ 1 simple-loop-unswitch - Number of branches unswitched
+ 2 simplifycfg          - Number of switch instructions turned into lookup tables
+17 simplifycfg          - Number of blocks simplified
+

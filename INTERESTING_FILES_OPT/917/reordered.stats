@@ -1,0 +1,44 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 function-attrs       - Number of functions with improved memory attribute
+ 1 function-attrs       - Number of function returns marked noalias
+ 2 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of functions marked as norecurse
+ 1 function-attrs       - Number of functions marked as nosync
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 function-attrs       - Number of functions marked as nounwind
+ 1 function-attrs       - Number of function returns marked nonnull
+ 1 function-attrs       - Number of arguments marked readnone
+ 1 function-attrs       - Number of arguments marked readonly
+ 1 globalopt            - Number of globals deleted
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 1 globalsmodref-aa     - Number of functions that do not access memory
+ 1 globalsmodref-aa     - Number of functions that only read memory
+ 1 instcombine          - Number of constant folds
+ 2 instcombine          - Number of dead inst eliminated
+ 7 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+42 ipt                  - Number of insts scanned while updating ibt
+ 1 ir                   - Number of renumberings across all blocks
+ 1 lcssa                - Number of live out of a loop variables
+ 2 licm                 - Number of instructions hoisted out of loop
+ 1 licm                 - Number of load insts hoisted or sunk
+ 1 licm                 - Number of instructions sunk out of loop
+ 3 local                - Number of unreachable basic blocks removed
+ 1 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 2 loop-simplifycfg     - Number of loop blocks deleted
+ 1 loop-simplifycfg     - Number of loop exiting edges deleted
+ 1 loop-simplifycfg     - Number of terminators folded to unconditional branches
+ 2 loop-vectorize       - Number of loops analyzed for vectorization
+ 2 sccp                 - Number of basic blocks unreachable
+ 2 sccp                 - Number of instructions removed
+ 3 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitches that are trivial
+10 simplifycfg          - Number of blocks simplified
+

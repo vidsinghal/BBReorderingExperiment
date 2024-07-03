@@ -1,0 +1,34 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+25 aa                   - Number of MayAlias results
+ 3 aa                   - Number of MustAlias results
+ 1 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 dse                  - Number iterations check for reads in getDomMemoryDef
+ 0 dse                  - Number of other instrs removed
+ 1 dse                  - Number of stores deleted
+ 1 dse                  - Number of times a valid candidate is returned from getDomMemoryDef
+ 4 dse                  - Number of stores remaining after DSE
+ 4 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of function returns marked noundef
+ 2 function-attrs       - Number of arguments marked readnone
+ 2 function-attrs       - Number of arguments marked writeonly
+ 2 globalopt            - Number of globals deleted
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 8 instcombine          - Number of functions with one iteration
+ 8 instcombine          - Number of instruction combining iterations performed
+67 ipt                  - Number of insts scanned while updating ibt
+ 1 ir                   - Number of renumberings across all blocks
+ 2 licm                 - Number of instructions hoisted out of loop
+ 1 licm                 - Number of promotion candidates
+ 3 local                - Number of unreachable basic blocks removed
+ 4 loop-rotate          - Number of instructions cloned into loop preheader
+ 2 loop-rotate          - Number of loops rotated
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+ 3 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitches that are trivial
+11 simplifycfg          - Number of blocks simplified
+

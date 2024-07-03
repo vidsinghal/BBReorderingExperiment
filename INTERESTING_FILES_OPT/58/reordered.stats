@@ -1,0 +1,39 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 34 aa                   - Number of NoAlias results
+ 11 assume-queries       - Number of Queries into an assume assume bundles
+ 68 basicaa              - Number of times a GEP is decomposed
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  2 function-attrs       - Number of arguments marked nocapture
+  1 function-attrs       - Number of function returns marked noundef
+  1 function-attrs       - Number of arguments marked readnone
+  1 function-attrs       - Number of arguments marked readonly
+  2 globalopt            - Number of globals deleted
+  1 globalopt            - Number of globals marked unnamed_addr
+  0 gvn                  - Number of blocks speculated as available in IsValueFullyAvailableInBlock(), max
+  4 gvn                  - Number of equalities propagated
+  1 gvn                  - Number of instructions deleted
+  1 gvn                  - Number of loads PRE'd
+  1 instcombine          - Number of insts combined
+  6 instcombine          - Number of functions with one iteration
+  1 instcombine          - Number of instructions sunk
+  2 instcombine          - Number of functions with two iterations
+  8 instcombine          - Number of instruction combining iterations performed
+117 ipt                  - Number of insts scanned while updating ibt
+  8 ir                   - Number of renumberings across all blocks
+  1 licm                 - Number of instructions hoisted out of loop
+  2 loop-instsimplify    - Number of redundant instructions simplified
+  1 loop-rotate          - Number of instructions cloned into loop preheader
+  1 loop-rotate          - Number of loops rotated
+  4 loop-vectorize       - Number of loops analyzed for vectorization
+ 28 memdep               - Number of fully cached non-local ptr responses
+ 38 memdep               - Number of uncached non-local ptr responses
+  4 sccp                 - Number of basic blocks unreachable
+ 20 sccp                 - Number of instructions removed
+  7 simple-loop-unswitch - Number of branches unswitched
+  7 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+ 27 simplifycfg          - Number of blocks simplified
+

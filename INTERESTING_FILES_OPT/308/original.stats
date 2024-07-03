@@ -1,0 +1,42 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+38 aa                   - Number of MayAlias results
+ 2 aa                   - Number of MustAlias results
+17 aa                   - Number of NoAlias results
+14 assume-queries       - Number of Queries into an assume assume bundles
+32 basicaa              - Number of times a GEP is decomposed
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 dse                  - Number of stores remaining after DSE
+ 1 function-attrs       - Number of functions with improved memory attribute
+ 4 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of functions marked as norecurse
+ 1 function-attrs       - Number of functions marked as nosync
+ 1 function-attrs       - Number of functions marked as nounwind
+ 2 function-attrs       - Number of arguments marked readnone
+ 2 function-attrs       - Number of arguments marked readonly
+ 1 function-attrs       - Number of functions marked as willreturn
+ 4 globalopt            - Number of globals marked unnamed_addr
+ 2 globalsmodref-aa     - Number of functions that only read memory
+ 1 gvn                  - Number of equalities propagated
+ 1 gvn                  - Number of instructions deleted
+ 1 gvn                  - Number of instructions simplified
+ 2 inline               - Number of functions inlined
+ 2 inline-cost          - Number of call sites analyzed
+ 2 instcombine          - Number of insts combined
+ 4 instcombine          - Number of dead inst eliminated
+15 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of functions with two iterations
+16 instcombine          - Number of instruction combining iterations performed
+40 ipt                  - Number of insts scanned while updating ibt
+ 7 ir                   - Number of renumberings across all blocks
+ 2 licm                 - Number of instructions hoisted out of loop
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+14 memdep               - Number of fully cached non-local ptr responses
+11 memdep               - Number of uncached non-local ptr responses
+ 2 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitches that are trivial
+12 simplifycfg          - Number of blocks simplified
+

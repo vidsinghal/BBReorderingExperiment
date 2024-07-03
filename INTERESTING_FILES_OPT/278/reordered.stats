@@ -1,0 +1,48 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  6 aa                   - Number of MustAlias results
+ 45 aa                   - Number of NoAlias results
+  7 assume-queries       - Number of Queries into an assume assume bundles
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  1 dse                  - Number of stores remaining after DSE
+  1 function-attrs       - Number of functions with improved memory attribute
+  1 function-attrs       - Number of arguments marked nocapture
+  1 function-attrs       - Number of functions marked as nofree
+  1 function-attrs       - Number of functions marked as norecurse
+  1 function-attrs       - Number of functions marked as nosync
+  1 function-attrs       - Number of function returns marked noundef
+  1 function-attrs       - Number of functions marked as nounwind
+  1 function-attrs       - Number of arguments marked writeonly
+  1 globalopt            - Number of globals deleted
+  1 globalopt            - Number of globals marked unnamed_addr
+  2 gvn                  - Number of blocks merged
+  2 gvn                  - Number of equalities propagated
+  1 gvn                  - Number of instructions deleted
+  1 gvn                  - Number of instructions simplified
+  2 indvars              - Number of exit values replaced
+  3 instcombine          - Number of insts combined
+  5 instcombine          - Number of functions with one iteration
+  3 instcombine          - Number of functions with two iterations
+  8 instcombine          - Number of instruction combining iterations performed
+124 ipt                  - Number of insts scanned while updating ibt
+  4 ir                   - Number of renumberings across all blocks
+  3 lcssa                - Number of live out of a loop variables
+  3 licm                 - Number of instructions hoisted out of loop
+ 13 licm                 - Number of promotion candidates
+  5 local                - Number of unreachable basic blocks removed
+  2 loop-delete          - Number of loops deleted
+  2 loop-rotate          - Number of instructions cloned into loop preheader
+  2 loop-rotate          - Number of loops rotated
+  3 loop-vectorize       - Number of loops analyzed for vectorization
+  2 scalar-evolution     - Number of loops with trip counts computed by force
+  4 scalar-evolution     - Number of loop exits with predictable exit counts
+  2 sccp                 - Number of basic blocks unreachable
+  5 sccp                 - Number of instructions removed
+  4 simple-loop-unswitch - Number of branches unswitched
+  2 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+  2 simple-loop-unswitch - Number of unswitches that are trivial
+ 18 simplifycfg          - Number of blocks simplified
+

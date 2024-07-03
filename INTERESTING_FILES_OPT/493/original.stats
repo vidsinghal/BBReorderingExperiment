@@ -1,0 +1,43 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  1 assume-queries               - Number of Queries into an assume assume bundles
+ 42 bitcode-reader               - Number of Metadata records loaded
+  1 correlated-value-propagation - Number of no-signed-wrap deductions for add
+  1 correlated-value-propagation - Number of no-wrap deductions for add
+  1 correlated-value-propagation - Number of no-signed-wrap deductions
+  1 correlated-value-propagation - Number of no-wrap deductions
+  1 count-visits                 - Max number of times we visited a function
+  4 early-cse                    - Number of instructions simplified or DCE'd
+  2 function-attrs               - Number of arguments marked nocapture
+  1 function-attrs               - Number of function returns marked noundef
+  1 function-attrs               - Number of arguments marked readnone
+  1 function-attrs               - Number of arguments marked readonly
+  1 globalopt                    - Number of globals marked unnamed_addr
+  1 gvn                          - Number of blocks merged
+  3 instcombine                  - Number of insts combined
+  1 instcombine                  - Number of dead inst eliminated
+  6 instcombine                  - Number of functions with one iteration
+  1 instcombine                  - Number of instructions sunk
+  2 instcombine                  - Number of functions with two iterations
+  8 instcombine                  - Number of instruction combining iterations performed
+205 ipt                          - Number of insts scanned while updating ibt
+  4 ir                           - Number of renumberings across all blocks
+  3 lcssa                        - Number of live out of a loop variables
+  4 licm                         - Number of instructions hoisted out of loop
+  1 licm                         - Number of instructions sunk out of loop
+  8 local                        - Number of unreachable basic blocks removed
+  1 loop-delete                  - Number of loops deleted
+  2 loop-instsimplify            - Number of redundant instructions simplified
+  5 loop-rotate                  - Number of instructions cloned into loop preheader
+  4 loop-rotate                  - Number of loops rotated
+  3 loop-vectorize               - Number of loops analyzed for vectorization
+  2 memdep                       - Number of fully cached non-local ptr responses
+  6 memdep                       - Number of uncached non-local ptr responses
+  2 scalar-evolution             - Number of loop exits with predictable exit counts
+  5 simple-loop-unswitch         - Number of branches unswitched
+  3 simple-loop-unswitch         - Number of unswitch candidates that had their cost multiplier skipped
+ 18 simplifycfg                  - Number of blocks simplified
+  1 sroa                         - Number of allocas analyzed for replacement
+

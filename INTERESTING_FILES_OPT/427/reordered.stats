@@ -1,0 +1,27 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+29 aa             - Number of MayAlias results
+11 aa             - Number of MustAlias results
+17 aa             - Number of NoAlias results
+ 1 assume-queries - Number of Queries into an assume assume bundles
+38 basicaa        - Number of times a GEP is decomposed
+44 bitcode-reader - Number of Metadata records loaded
+ 1 count-visits   - Max number of times we visited a function
+ 8 dse            - Number iterations check for reads in getDomMemoryDef
+ 4 dse            - Number of stores remaining after DSE
+ 2 function-attrs - Number of arguments marked nocapture
+ 2 function-attrs - Number of function returns marked noundef
+ 2 globalopt      - Number of globals marked unnamed_addr
+ 1 inline         - Number of functions inlined
+ 1 inline-cost    - Number of call sites analyzed
+16 instcombine    - Number of functions with one iteration
+16 instcombine    - Number of instruction combining iterations performed
+36 ipt            - Number of insts scanned while updating ibt
+ 1 ir             - Number of renumberings across all blocks
+ 1 licm           - Number of instructions hoisted out of loop
+ 1 loop-vectorize - Number of loops analyzed for vectorization
+20 memdep         - Number of uncached non-local ptr responses
+ 1 sccp           - Number of instructions removed
+

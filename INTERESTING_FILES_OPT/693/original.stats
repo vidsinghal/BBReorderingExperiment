@@ -1,0 +1,35 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+23 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 build-libcalls       - Number of functions inferred as nounwind
+ 1 build-libcalls       - Number of functions inferred as willreturn
+ 1 build-libcalls       - Number of functions inferred as writeonly
+ 1 count-visits         - Max number of times we visited a function
+ 1 dse                  - Number of stores remaining after DSE
+ 2 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 function-attrs       - Number of arguments marked readnone
+ 1 function-attrs       - Number of arguments marked writeonly
+ 3 globalopt            - Number of globals marked unnamed_addr
+ 2 instcombine          - Number of insts combined
+ 7 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of instructions sunk
+ 1 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+65 ipt                  - Number of insts scanned while updating ibt
+ 7 ir                   - Number of renumberings across all blocks
+ 1 libcalls-shrinkwrap  - Number of One-Condition Wrappers Inserted
+ 4 licm                 - Number of instructions hoisted out of loop
+ 1 licm                 - Number of call insts hoisted or sunk
+ 1 licm                 - Number of promotion candidates
+ 8 local                - Number of unreachable basic blocks removed
+ 4 loop-rotate          - Number of instructions cloned into loop preheader
+ 2 loop-rotate          - Number of loops rotated
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+ 4 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitches that are trivial
+11 simplifycfg          - Number of blocks simplified
+

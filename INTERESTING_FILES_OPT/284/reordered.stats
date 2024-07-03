@@ -1,0 +1,32 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+  2 aa               - Number of MustAlias results
+ 42 bitcode-reader   - Number of Metadata records loaded
+  1 count-visits     - Max number of times we visited a function
+  1 function-attrs   - Number of function returns marked noalias
+  1 function-attrs   - Number of functions marked as nofree
+  1 function-attrs   - Number of functions marked as norecurse
+  2 function-attrs   - Number of function returns marked noundef
+  1 function-attrs   - Number of functions marked as nounwind
+  1 function-attrs   - Number of function returns marked nonnull
+  3 globalopt        - Number of globals marked unnamed_addr
+  1 inline           - Number of functions inlined
+  1 inline-cost      - Number of call sites analyzed
+  1 instcombine      - Number of insts combined
+ 15 instcombine      - Number of functions with one iteration
+  1 instcombine      - Number of instructions sunk
+  1 instcombine      - Number of functions with two iterations
+ 16 instcombine      - Number of instruction combining iterations performed
+105 ipt              - Number of insts scanned while updating ibt
+  1 ir               - Number of renumberings across all blocks
+  1 licm             - Number of instructions hoisted out of loop
+  2 loop-rotate      - Number of instructions cloned into loop preheader
+  1 loop-rotate      - Number of loops rotated
+  4 loop-vectorize   - Number of loops analyzed for vectorization
+  9 scalar-evolution - Number of loop exits with predictable exit counts
+ 12 scalar-evolution - Number of loop exits without predictable exit counts
+  1 sccp             - Number of instructions removed
+ 24 simplifycfg      - Number of blocks simplified
+

@@ -1,0 +1,39 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 98 assume-queries       - Number of Queries into an assume assume bundles
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  4 dse                  - Number of stores remaining after DSE
+  1 function-attrs       - Number of functions marked as nofree
+  1 function-attrs       - Number of functions marked as norecurse
+  1 function-attrs       - Number of function returns marked noundef
+  1 function-attrs       - Number of functions marked as nounwind
+  1 globalopt            - Number of globals deleted
+  1 globalopt            - Number of globals marked unnamed_addr
+  4 gvn                  - Number of blocks merged
+  3 gvn                  - Number of equalities propagated
+  2 indvars              - Number of loop exit tests replaced
+ 13 instcombine          - Number of insts combined
+  2 instcombine          - Number of dead inst eliminated
+  6 instcombine          - Number of functions with one iteration
+  1 instcombine          - Number of instructions sunk
+  2 instcombine          - Number of functions with two iterations
+  8 instcombine          - Number of instruction combining iterations performed
+109 ipt                  - Number of insts scanned while updating ibt
+  3 ir                   - Number of renumberings across all blocks
+  2 licm                 - Number of instructions hoisted out of loop
+ 37 licm                 - Number of promotion candidates
+  2 loop-delete          - Number of loops for which we managed to break the backedge
+  3 loop-rotate          - Number of instructions cloned into loop preheader
+  2 loop-rotate          - Number of loops rotated
+  3 loop-vectorize       - Number of loops analyzed for vectorization
+  5 scalar-evolution     - Number of loop exits with predictable exit counts
+  5 sccp                 - Number of basic blocks unreachable
+ 11 sccp                 - Number of instructions removed
+  7 simple-loop-unswitch - Number of branches unswitched
+  6 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+  1 simple-loop-unswitch - Number of unswitches that are trivial
+ 31 simplifycfg          - Number of blocks simplified
+

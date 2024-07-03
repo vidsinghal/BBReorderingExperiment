@@ -1,0 +1,37 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 28 aa                   - Number of MayAlias results
+ 11 assume-queries       - Number of Queries into an assume assume bundles
+ 22 basicaa              - Number of times a GEP is decomposed
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  2 dse                  - Number of stores remaining after DSE
+  2 function-attrs       - Number of arguments marked nocapture
+  2 function-attrs       - Number of function returns marked noundef
+  1 function-attrs       - Number of arguments marked readonly
+  1 function-attrs       - Number of arguments marked writeonly
+  2 globalopt            - Number of globals marked unnamed_addr
+  1 inline               - Number of functions inlined
+  1 inline-cost          - Number of call sites analyzed
+ 16 instcombine          - Number of functions with one iteration
+ 16 instcombine          - Number of instruction combining iterations performed
+110 ipt                  - Number of insts scanned while updating ibt
+  3 licm                 - Number of instructions hoisted out of loop
+  2 licm                 - Number of promotion candidates
+ 10 local                - Number of unreachable basic blocks removed
+  2 loop-rotate          - Number of instructions cloned into loop preheader
+  1 loop-rotate          - Number of loops rotated
+  1 loop-simplify        - Number of nested loops split out
+  1 loop-simplifycfg     - Number of loop exiting edges deleted
+  1 loop-simplifycfg     - Number of terminators folded to unconditional branches
+  4 loop-vectorize       - Number of loops analyzed for vectorization
+  7 memdep               - Number of uncached non-local ptr responses
+  3 scalar-evolution     - Number of loop exits without predictable exit counts
+  1 sccp                 - Number of instructions removed
+  4 simple-loop-unswitch - Number of branches unswitched
+  1 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+  2 simple-loop-unswitch - Number of unswitches that are trivial
+ 17 simplifycfg          - Number of blocks simplified
+

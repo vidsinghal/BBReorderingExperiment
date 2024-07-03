@@ -1,0 +1,51 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+42 aa                           - Number of MayAlias results
+ 7 aa                           - Number of MustAlias results
+30 aa                           - Number of NoAlias results
+ 5 assume-queries               - Number of Queries into an assume assume bundles
+ 4 basicaa                      - Number of times a GEP is decomposed
+42 bitcode-reader               - Number of Metadata records loaded
+ 1 build-libcalls               - Number of functions inferred as argmemonly
+ 1 build-libcalls               - Number of functions inferred as inaccessiblememonly
+ 1 build-libcalls               - Number of functions inferred as inaccessiblemem_or_argmemonly
+ 2 build-libcalls               - Number of function returns inferred as noalias
+ 3 build-libcalls               - Number of arguments inferred as nocapture
+ 4 build-libcalls               - Number of function returns inferred as noundef returns
+ 3 build-libcalls               - Number of functions inferred as nounwind
+ 1 build-libcalls               - Number of functions inferred as readonly
+ 3 build-libcalls               - Number of functions inferred as willreturn
+12 capture-tracking             - Number of pointers not captured
+ 5 capture-tracking             - Number of pointers not captured before
+ 1 correlated-value-propagation - Number of function pointer arguments marked non-null
+ 1 count-visits                 - Max number of times we visited a function
+ 0 dse                          - Number of other instrs removed
+ 1 dse                          - Number of stores deleted
+ 1 function-attrs               - Number of arguments marked nocapture
+ 2 function-attrs               - Number of function returns marked noundef
+ 2 globalopt                    - Number of globals deleted
+ 6 globalopt                    - Number of globals marked unnamed_addr
+ 1 globalsmodref-aa             - Number of functions that only read memory
+ 4 gvn                          - Number of blocks merged
+ 2 inline                       - Number of functions inlined
+ 2 inline-cost                  - Number of call sites analyzed
+ 9 instcombine                  - Number of insts combined
+ 6 instcombine                  - Number of dead inst eliminated
+11 instcombine                  - Number of functions with one iteration
+ 2 instcombine                  - Number of library calls simplified
+ 5 instcombine                  - Number of functions with two iterations
+16 instcombine                  - Number of instruction combining iterations performed
+42 ipt                          - Number of insts scanned while updating ibt
+ 3 ir                           - Number of renumberings across all blocks
+ 1 jump-threading               - Number of jumps threaded
+ 2 licm                         - Number of promotion candidates
+ 1 loop-peel                    - Number of loops peeled
+ 3 loop-vectorize               - Number of loops analyzed for vectorization
+ 6 memdep                       - Number of uncached non-local ptr responses
+12 scalar-evolution             - Number of loop exits without predictable exit counts
+ 2 sccp                         - Number of instructions removed
+26 simplifycfg                  - Number of blocks simplified
+ 4 sroa                         - Number of allocas analyzed for replacement
+

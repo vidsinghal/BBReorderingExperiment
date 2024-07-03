@@ -1,0 +1,41 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+15 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+10 dse                  - Number of stores remaining after DSE
+ 1 early-cse            - Number of instructions simplified or DCE'd
+ 1 function-attrs       - Number of functions with improved memory attribute
+ 1 function-attrs       - Number of function returns marked noalias
+ 2 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of functions marked as nofree
+ 1 function-attrs       - Number of functions marked as norecurse
+ 1 function-attrs       - Number of functions marked as nosync
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 function-attrs       - Number of functions marked as nounwind
+ 1 function-attrs       - Number of functions marked as willreturn
+ 2 function-attrs       - Number of arguments marked writeonly
+ 1 globalopt            - Number of globals deleted
+ 3 globalopt            - Number of globals marked unnamed_addr
+ 1 inline               - Number of functions inlined
+ 1 inline-cost          - Number of call sites analyzed
+ 1 instcombine          - Number of insts combined
+14 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of instructions sunk
+ 2 instcombine          - Number of functions with two iterations
+16 instcombine          - Number of instruction combining iterations performed
+27 ipt                  - Number of insts scanned while updating ibt
+ 5 ir                   - Number of renumberings across all blocks
+ 1 licm                 - Number of instructions hoisted out of loop
+ 4 loop-instsimplify    - Number of redundant instructions simplified
+ 5 loop-vectorize       - Number of loops analyzed for vectorization
+ 1 sccp                 - Number of instructions removed
+ 1 simple-loop-unswitch - Number of switches unswitched
+ 1 simplifycfg          - Number of switch instructions turned into bitmaps
+ 1 simplifycfg          - Number of switch instructions turned into lookup tables
+30 simplifycfg          - Number of blocks simplified
+ 1 simplifycfg          - Number of common instruction 'blocks' sunk down to the end block
+ 1 simplifycfg          - Number of common instructions sunk down to the end block
+

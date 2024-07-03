@@ -1,0 +1,31 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 function-attrs       - Number of functions with improved memory attribute
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of functions marked as nofree
+ 1 function-attrs       - Number of functions marked as norecurse
+ 1 function-attrs       - Number of functions marked as nosync
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 function-attrs       - Number of functions marked as nounwind
+ 1 function-attrs       - Number of arguments marked readonly
+ 1 globalopt            - Number of globals deleted
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 1 instcombine          - Number of insts combined
+ 1 instcombine          - Number of dead inst eliminated
+ 7 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+51 ipt                  - Number of insts scanned while updating ibt
+ 2 ir                   - Number of renumberings across all blocks
+ 2 licm                 - Number of instructions hoisted out of loop
+ 2 local                - Number of unreachable basic blocks removed
+ 2 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 1 loop-vectorize       - Number of loops analyzed for vectorization
+ 1 simple-loop-unswitch - Number of branches unswitched
+ 5 simplifycfg          - Number of blocks simplified
+

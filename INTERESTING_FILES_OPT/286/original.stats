@@ -1,0 +1,34 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+36 aa                   - Number of MayAlias results
+ 7 aa                   - Number of MustAlias results
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 dse                  - Number of stores remaining after DSE
+ 3 early-cse            - Number of instructions simplified or DCE'd
+ 3 function-attrs       - Number of arguments marked nocapture
+ 2 function-attrs       - Number of arguments marked readnone
+ 1 function-attrs       - Number of arguments marked writeonly
+ 1 globalopt            - Number of globals deleted
+ 1 globalopt            - Number of globals marked unnamed_addr
+ 1 gvn                  - Number of equalities propagated
+ 1 gvn                  - Number of instructions deleted
+ 7 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+88 ipt                  - Number of insts scanned while updating ibt
+ 3 ir                   - Number of renumberings across all blocks
+ 1 licm                 - Number of instructions hoisted out of loop
+ 1 licm                 - Number of call insts hoisted or sunk
+ 4 loop-rotate          - Number of instructions cloned into loop preheader
+ 2 loop-rotate          - Number of loops rotated
+ 1 loop-vectorize       - Number of loops analyzed for vectorization
+ 1 memdep               - Number of block queries that were completely cached
+ 2 memdep               - Number of uncached non-local ptr responses
+ 4 scalar-evolution     - Number of loop exits without predictable exit counts
+ 1 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+21 simplifycfg          - Number of blocks simplified
+

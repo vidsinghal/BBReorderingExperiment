@@ -1,0 +1,49 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 17 aa                   - Number of MayAlias results
+ 29 aa                   - Number of MustAlias results
+ 19 aa                   - Number of NoAlias results
+ 42 bitcode-reader       - Number of Metadata records loaded
+  9 capture-tracking     - Number of pointers not captured
+  2 capture-tracking     - Number of pointers not captured before
+  1 count-visits         - Max number of times we visited a function
+  2 dse                  - Number of stores remaining after DSE
+  1 function-attrs       - Number of arguments marked nocapture
+  2 function-attrs       - Number of function returns marked noundef
+  3 globalopt            - Number of globals marked unnamed_addr
+  5 gvn                  - Number of blocks speculated as available in IsValueFullyAvailableInBlock(), max
+  5 gvn                  - Number of instructions deleted
+  1 gvn                  - Number of loads deleted
+  1 gvn                  - Number of instructions simplified
+  3 gvn                  - Number of loads PRE'd
+  1 inline               - Number of functions inlined
+  1 inline-cost          - Number of call sites analyzed
+  1 instcombine          - Number of insts combined
+ 15 instcombine          - Number of functions with one iteration
+  1 instcombine          - Number of functions with two iterations
+ 16 instcombine          - Number of instruction combining iterations performed
+116 ipt                  - Number of insts scanned while updating ibt
+  1 ir                   - Number of renumberings across all blocks
+  6 licm                 - Number of promotion candidates
+  1 local                - Number of PHI's that got CSE'd
+  1 local                - Number of unreachable basic blocks removed
+  2 loop-vectorize       - Number of loops analyzed for vectorization
+  4 memdep               - Number of block queries that were completely cached
+  1 memdep               - Number of fully cached non-local ptr responses
+ 51 memdep               - Number of uncached non-local ptr responses
+  8 scalar-evolution     - Number of loop exits without predictable exit counts
+  6 sccp                 - Number of basic blocks unreachable
+  1 sccp                 - Number of instructions removed
+  9 sccp                 - Number of instructions removed
+  2 simple-loop-unswitch - Number of branches unswitched
+ 22 simplifycfg          - Number of blocks simplified
+  1 sroa                 - Maximum number of partitions per alloca
+  5 sroa                 - Maximum number of uses of a partition
+ 11 sroa                 - Number of alloca partition uses rewritten
+  4 sroa                 - Number of alloca partitions formed
+  5 sroa                 - Number of allocas analyzed for replacement
+ 12 sroa                 - Number of instructions deleted
+  1 sroa                 - Number of new, smaller allocas introduced
+

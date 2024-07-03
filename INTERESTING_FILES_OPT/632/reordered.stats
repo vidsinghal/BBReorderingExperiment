@@ -1,0 +1,32 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+28 aa                   - Number of NoAlias results
+33 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 7 dse                  - Number of stores remaining after DSE
+ 1 early-cse            - Number of instructions CSE'd
+ 2 function-attrs       - Number of functions marked as nofree
+ 2 function-attrs       - Number of functions marked as norecurse
+ 2 function-attrs       - Number of functions marked as nounwind
+ 1 globalopt            - Number of globals deleted
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 2 inline               - Number of functions inlined
+ 2 inline-cost          - Number of call sites analyzed
+ 4 instcombine          - Number of insts combined
+15 instcombine          - Number of functions with one iteration
+ 1 instcombine          - Number of functions with two iterations
+16 instcombine          - Number of instruction combining iterations performed
+97 ipt                  - Number of insts scanned while updating ibt
+ 5 ir                   - Number of renumberings across all blocks
+ 1 jump-threading       - Number of terminators folded
+ 1 jump-threading       - Number of jumps threaded
+ 2 licm                 - Number of instructions hoisted out of loop
+16 licm                 - Number of promotion candidates
+ 4 loop-vectorize       - Number of loops analyzed for vectorization
+ 7 simple-loop-unswitch - Number of branches unswitched
+ 7 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+26 simplifycfg          - Number of blocks simplified
+

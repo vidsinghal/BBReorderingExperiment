@@ -1,0 +1,28 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+10 assume-queries       - Number of Queries into an assume assume bundles
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of arguments marked readnone
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 2 gvn                  - Number of instructions deleted
+ 2 indvars              - Number of loop exit tests replaced
+ 5 instcombine          - Number of insts combined
+ 6 instcombine          - Number of functions with one iteration
+ 2 instcombine          - Number of functions with two iterations
+ 8 instcombine          - Number of instruction combining iterations performed
+71 ipt                  - Number of insts scanned while updating ibt
+ 1 jump-threading       - Number of jumps threaded
+ 2 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+ 6 scalar-evolution     - Number of loop exits with predictable exit counts
+ 3 scalar-evolution     - Number of loop exits without predictable exit counts
+ 2 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+ 1 simple-loop-unswitch - Number of unswitches that are trivial
+28 simplifycfg          - Number of blocks simplified
+

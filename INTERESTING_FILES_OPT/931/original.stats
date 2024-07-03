@@ -1,0 +1,32 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 6 aa                   - Number of MustAlias results
+11 aa                   - Number of NoAlias results
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 1 early-cse            - Number of instructions simplified or DCE'd
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 globalopt            - Number of globals deleted
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 5 gvn                  - Number of blocks speculated as available in IsValueFullyAvailableInBlock(), max
+ 2 gvn                  - Number of equalities propagated
+ 2 gvn                  - Number of instructions deleted
+ 2 gvn                  - Number of loads PRE'd
+ 8 instcombine          - Number of functions with one iteration
+ 8 instcombine          - Number of instruction combining iterations performed
+66 ipt                  - Number of insts scanned while updating ibt
+ 2 ir                   - Number of renumberings across all blocks
+ 2 licm                 - Number of instructions hoisted out of loop
+ 1 local                - Number of PHI's that got CSE'd
+ 3 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 1 loop-simplify        - Number of nested loops split out
+ 3 loop-vectorize       - Number of loops analyzed for vectorization
+ 1 memdep               - Number of block queries that were completely cached
+25 memdep               - Number of uncached non-local ptr responses
+ 8 scalar-evolution     - Number of loop exits without predictable exit counts
+ 1 simple-loop-unswitch - Number of branches unswitched
+21 simplifycfg          - Number of blocks simplified
+

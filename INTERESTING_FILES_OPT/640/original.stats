@@ -1,0 +1,32 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+13 aa               - Number of MustAlias results
+35 aa               - Number of NoAlias results
+ 4 assume-queries   - Number of Queries into an assume assume bundles
+42 bitcode-reader   - Number of Metadata records loaded
+ 1 count-visits     - Max number of times we visited a function
+ 3 dse              - Number of stores remaining after DSE
+ 1 early-cse        - Number of instructions simplified or DCE'd
+ 1 function-attrs   - Number of functions with improved memory attribute
+ 2 function-attrs   - Number of arguments marked nocapture
+ 2 function-attrs   - Number of functions marked as nofree
+ 3 function-attrs   - Number of functions marked as norecurse
+ 1 function-attrs   - Number of functions marked as nosync
+ 1 function-attrs   - Number of function returns marked noundef
+ 3 function-attrs   - Number of functions marked as nounwind
+ 1 function-attrs   - Number of arguments marked readnone
+ 2 function-attrs   - Number of functions marked as willreturn
+ 1 function-attrs   - Number of arguments marked writeonly
+ 3 globalopt        - Number of globals marked unnamed_addr
+ 2 globalsmodref-aa - Number of functions that do not access memory
+ 2 globalsmodref-aa - Number of functions that only read memory
+ 2 inline           - Number of functions inlined
+ 2 inline-cost      - Number of call sites analyzed
+24 instcombine      - Number of functions with one iteration
+24 instcombine      - Number of instruction combining iterations performed
+43 ipt              - Number of insts scanned while updating ibt
+ 8 licm             - Number of promotion candidates
+ 4 simplifycfg      - Number of blocks simplified
+

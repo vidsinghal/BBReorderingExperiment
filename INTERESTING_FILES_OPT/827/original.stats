@@ -1,0 +1,36 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 69 assume-queries       - Number of Queries into an assume assume bundles
+ 42 bitcode-reader       - Number of Metadata records loaded
+  1 count-visits         - Max number of times we visited a function
+  1 function-attrs       - Number of function returns marked noundef
+  2 globalopt            - Number of globals marked unnamed_addr
+ 10 gvn                  - Number of blocks merged
+  6 instcombine          - Number of insts combined
+  2 instcombine          - Number of dead inst eliminated
+  6 instcombine          - Number of functions with one iteration
+  2 instcombine          - Number of instructions sunk
+  2 instcombine          - Number of functions with two iterations
+  8 instcombine          - Number of instruction combining iterations performed
+108 ipt                  - Number of insts scanned while updating ibt
+  8 ir                   - Number of renumberings across all blocks
+  2 licm                 - Number of instructions hoisted out of loop
+  4 local                - Number of unreachable basic blocks removed
+  2 loop-delete          - Number of loops deleted
+  2 loop-peel            - Number of loops peeled
+  1 loop-rotate          - Number of instructions cloned into loop preheader
+  1 loop-rotate          - Number of loops rotated
+  2 loop-vectorize       - Number of loops analyzed for vectorization
+  2 scalar-evolution     - Number of loop exits with predictable exit counts
+  2 scalar-evolution     - Number of loop exits without predictable exit counts
+  2 sccp                 - Number of basic blocks unreachable
+  2 sccp                 - Number of instructions removed
+  4 simple-loop-unswitch - Number of branches unswitched
+  4 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+  2 simplifycfg          - Number of common instructions hoisted up to the begin block
+ 23 simplifycfg          - Number of blocks simplified
+  1 simplifycfg          - Number of common instruction 'blocks' sunk down to the end block
+  1 simplifycfg          - Number of common instructions sunk down to the end block
+

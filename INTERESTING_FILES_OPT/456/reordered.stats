@@ -1,0 +1,41 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+87 aa                           - Number of MayAlias results
+23 aa                           - Number of MustAlias results
+ 9 assume-queries               - Number of Queries into an assume assume bundles
+20 basicaa                      - Number of times a GEP is decomposed
+42 bitcode-reader               - Number of Metadata records loaded
+ 1 correlated-value-propagation - Number of phis propagated
+ 1 count-visits                 - Max number of times we visited a function
+ 9 dse                          - Number iterations check for reads in getDomMemoryDef
+ 6 dse                          - Number of stores remaining after DSE
+ 1 function-attrs               - Number of functions with improved memory attribute
+ 1 function-attrs               - Number of arguments marked nocapture
+ 1 function-attrs               - Number of functions marked as nofree
+ 1 function-attrs               - Number of functions marked as norecurse
+ 1 function-attrs               - Number of functions marked as nosync
+ 2 function-attrs               - Number of function returns marked noundef
+ 1 function-attrs               - Number of functions marked as nounwind
+ 1 function-attrs               - Number of arguments marked readonly
+ 3 globalopt                    - Number of globals marked unnamed_addr
+ 4 gvn                          - Number of blocks merged
+ 1 inline                       - Number of functions inlined
+ 1 inline-cost                  - Number of call sites analyzed
+ 2 instcombine                  - Number of insts combined
+15 instcombine                  - Number of functions with one iteration
+ 1 instcombine                  - Number of functions with two iterations
+16 instcombine                  - Number of instruction combining iterations performed
+83 ipt                          - Number of insts scanned while updating ibt
+ 1 jump-threading               - Number of terminators folded
+ 1 licm                         - Number of instructions hoisted out of loop
+ 1 loop-peel                    - Number of loops peeled
+ 3 loop-vectorize               - Number of loops analyzed for vectorization
+ 3 memdep                       - Number of uncached non-local ptr responses
+14 scalar-evolution             - Number of loop exits without predictable exit counts
+ 1 sccp                         - Number of instructions removed
+ 1 simple-loop-unswitch         - Number of branches unswitched
+ 1 simple-loop-unswitch         - Number of unswitch candidates that had their cost multiplier skipped
+28 simplifycfg                  - Number of blocks simplified
+

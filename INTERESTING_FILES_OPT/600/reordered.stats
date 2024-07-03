@@ -1,0 +1,26 @@
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+ 9 aa                   - Number of NoAlias results
+10 assume-queries       - Number of Queries into an assume assume bundles
+18 basicaa              - Number of times a GEP is decomposed
+42 bitcode-reader       - Number of Metadata records loaded
+ 1 count-visits         - Max number of times we visited a function
+ 2 dse                  - Number of stores remaining after DSE
+ 1 function-attrs       - Number of arguments marked nocapture
+ 1 function-attrs       - Number of function returns marked noundef
+ 1 globalopt            - Number of globals deleted
+ 2 globalopt            - Number of globals marked unnamed_addr
+ 8 instcombine          - Number of functions with one iteration
+ 8 instcombine          - Number of instruction combining iterations performed
+37 ipt                  - Number of insts scanned while updating ibt
+ 2 licm                 - Number of instructions hoisted out of loop
+ 4 loop-rotate          - Number of instructions cloned into loop preheader
+ 1 loop-rotate          - Number of loops rotated
+ 2 loop-vectorize       - Number of loops analyzed for vectorization
+ 7 scalar-evolution     - Number of loop exits without predictable exit counts
+ 2 simple-loop-unswitch - Number of branches unswitched
+ 1 simple-loop-unswitch - Number of unswitch candidates that had their cost multiplier skipped
+14 simplifycfg          - Number of blocks simplified
+
